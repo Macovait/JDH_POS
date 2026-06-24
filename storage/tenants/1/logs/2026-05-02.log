@@ -1,0 +1,17 @@
+[2026-05-02 06:38:43] [ERROR] [User: guest] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$branch_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:47
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(28): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 47
+[2026-05-02 19:44:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:433
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(433): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 433
+[2026-05-02 19:45:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:433
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(433): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 433

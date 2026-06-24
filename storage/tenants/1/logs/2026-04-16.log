@@ -1,0 +1,337 @@
+[2026-04-16 00:30:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:41:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:41:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:44:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:44:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:44:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-16 00:44:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-16 00:45:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-16 00:49:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 00:49:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 01:28:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 01:52:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:367
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(367): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 367
+[2026-04-16 08:07:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.role' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:864
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(864): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(992): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 864
+[2026-04-16 08:12:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:941
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(941): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(996): get_user_statistics()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 941
+[2026-04-16 08:16:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:16:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:19:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:26:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:30:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:30:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:30:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:31:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:31:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:34:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 08:34:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ub.company_id' in 'on clause' in C:\xampp\htdocs\JDH_POS\public\users\users.php:979
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(979): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(997): get_current_user_data()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 979
+[2026-04-16 09:47:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 09:47:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 09:47:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\reports.php:628
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\reports.php on line 628
+[2026-04-16 09:47:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 09:47:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 09:47:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 11:32:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\reports.php:628
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\reports.php on line 628
+[2026-04-16 11:32:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 11:32:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 11:33:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 11:33:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 12:08:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 12:08:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 12:08:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 12:08:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\reports.php:628
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\reports.php on line 628
+[2026-04-16 12:08:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 12:08:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 12:08:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 13:01:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 13:58:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 13:58:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 14:29:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 14:30:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 16:59:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:442
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 442
+[2026-04-16 17:12:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:442
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 442
+[2026-04-16 17:12:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:442
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 442
+[2026-04-16 17:13:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:442
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 442
+[2026-04-16 17:22:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:448
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 448
+[2026-04-16 17:28:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:448
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 448
+[2026-04-16 17:36:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:448
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 448
+[2026-04-16 17:42:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:448
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 448
+[2026-04-16 18:09:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function timeAgo() in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:716
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 716
+[2026-04-16 18:09:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function timeAgo() in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:716
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 716
+[2026-04-16 21:19:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 21:20:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\users.php:498
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\users.php on line 498
+[2026-04-16 21:31:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 21:31:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 21:35:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 21:43:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52
+[2026-04-16 21:44:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 21:44:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 21:44:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\settings.php:469
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\settings.php on line 469
+[2026-04-16 22:15:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52
+[2026-04-16 22:16:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:323
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 323
+[2026-04-16 22:16:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-16 22:39:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52
+[2026-04-16 22:43:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52
+[2026-04-16 22:43:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52
+[2026-04-16 22:43:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.system_health_metrics' doesn't exist in C:\xampp\htdocs\JDH_POS\admin\analytics.php:52
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\analytics.php(52): PDO->query('\n    SELECT * F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\analytics.php on line 52

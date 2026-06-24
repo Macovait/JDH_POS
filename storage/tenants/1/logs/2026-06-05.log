@@ -1,0 +1,6 @@
+[2026-06-05 00:32:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:405
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(405): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(25): get_automated_inventory_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 405

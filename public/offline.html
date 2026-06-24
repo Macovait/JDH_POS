@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - JDH POS</title>
+    <link rel="stylesheet" href="/JDH_POS/assets/css/app.css">
+    <script>
+        // Auto-retry on localhost (dev machines often report offline even though server is reachable)
+        (function() {
+            const host = location.hostname;
+            if (host === 'localhost' || host === '127.0.0.1' || host === '::1') {
+                setTimeout(function() { location.reload(); }, 1500);
+            }
+        })();
+    </script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="text-center p-6">
+        <svg class="w-16 h-16 mx-auto text-gray-400 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636a9 9 0 010 12.728m-.707-.707a8 8 0 01-11.314 0m1.414-1.414a7 7 0 019.9-9.9m.707-.707a6 6 0 01-8.486 8.486M3 12a9 9 0 0112-9V9a9 9 0 019 9v9"></path>
+        </svg>
+        <h1 class="text-xl font-bold text-gray-700">You're Offline</h1>
+        <p class="text-gray-500 mt-2">Please check your internet connection to continue.</p>
+        <button onclick="location.reload()" class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Retry</button>
+        <p id="localhost-hint" class="text-xs text-gray-400 mt-3 hidden">Auto-retrying in 1 second...</p>
+        <script>
+            if (/localhost|127\.0\.0\.1|::1/.test(location.hostname)) {
+                document.getElementById('localhost-hint').classList.remove('hidden');
+            }
+        </script>
+    </div>
+</body>
+</html>

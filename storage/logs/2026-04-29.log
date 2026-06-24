@@ -1,0 +1,38 @@
+[2026-04-29 08:50:31] [ERROR] [User: 9] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS/../../src/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\test_redirect.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_redirect.php on line 58
+[2026-04-29 08:55:19] [ERROR] [User: 9] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS/../../src/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\test_redirect.php:58
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_redirect.php on line 58
+[2026-04-29 09:55:25] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\reset_database.php:197
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\reset_database.php(197): PDO->rollBack()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\reset_database.php on line 197
+[2026-04-29 11:41:24] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\create_companies_table.php:50
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\create_companies_table.php(50): PDO->rollBack()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\create_companies_table.php on line 50
+[2026-04-29 21:40:02] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.company_usage' doesn't exist in C:\xampp\htdocs\JDH_POS\check_constraints.php:37
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\check_constraints.php(37): PDO->query('SHOW INDEX FROM...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\check_constraints.php on line 37
+[2026-04-29 22:12:32] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '\`activity_logs\` LIKE 'tenant_id'' at line 1 in C:\tmp\table_cols.php:8
+Stack trace:
+#0 C:\tmp\table_cols.php(8): PDO->query('SHOW COLUMNS FR...')
+#1 {main}
+  thrown in C:\tmp\table_cols.php on line 8
+[2026-04-29 22:29:36] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\tmp\migrate_db.php:173
+Stack trace:
+#0 C:\tmp\migrate_db.php(173): PDO->rollBack()
+#1 {main}
+  thrown in C:\tmp\migrate_db.php on line 173
+[2026-04-29 22:35:25] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\tmp\migrate_db_complete.php:100
+Stack trace:
+#0 C:\tmp\migrate_db_complete.php(100): PDO->rollBack()
+#1 {main}
+  thrown in C:\tmp\migrate_db_complete.php on line 100

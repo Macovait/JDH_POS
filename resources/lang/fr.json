@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "Systeme de Point de Vente"},
+  "auth": {"login": {"title": "Connexion", "email": "Email", "password": "Mot de passe", "remember": "Se souvenir", "submit": "Se connecter", "success": "Bienvenue, :name!", "failed": "Identifiants invalides.", "logout": "Deconnexion reussie."}, "forgot_password": "Mot de passe oublie?", "reset_password": "Reinitialiser"},
+  "pos": {"title": "Point de Vente", "search_product": "Rechercher...", "barcode": "Scanner", "cart": {"title": "Panier", "empty": "Panier vide", "total": "Total", "checkout": "Payer", "clear": "Vider"}, "product": {"not_found": "Produit introuvable", "out_of_stock": "Rupture", "price": "Prix", "quantity": "Quantite"}, "payment": {"title": "Paiement", "cash": "Espèces", "card": "Carte", "mobile": "Mobile", "amount": "Montant", "change": "Monnaie"}},
+  "sales": {"title": "Ventes", "receipt": {"title": "Recu", "thank_you": "Merci!", "date": "Date", "receipt_number": "Recu #:receipt"}, "refund": {"title": "Remboursement", "reason": "Raison", "success": "Remboursement effectue"}},
+  "inventory": {"title": "Inventaire", "low_stock": "Stock faible", "stock_count": ":count articles", "out_of_stock": "Rupture"},
+  "common": {"save": "Enregistrer", "cancel": "Annuler", "delete": "Supprimer", "edit": "Modifier", "create": "Creer", "search": "Rechercher", "filter": "Filtrer", "export": "Exporter", "print": "Imprimer", "loading": "Chargement...", "success": "Succès", "error": "Erreur", "warning": "Avertissement", "info": "Info", "yes": "Oui", "no": "Non", "confirm": "Êtes-vous sûr?", "required": "Requis", "optional": "Facultatif"},
+  "validation": {"required": "Le champ :field est requis.", "email": "Le champ :field doit être un email valide.", "min": "Minimum :min caracteres.", "max": "Maximum :max caracteres.", "numeric": "Doit être un nombre.", "unique": "Le :field existe déjà."},
+  "errors": {"generic": "Une erreur s'est produite.", "not_found": "Ressource introuvable.", "unauthorized": "Non autorise.", "rate_limited": "Trop de tentatives.", "maintenance": "Maintenance en cours."}
+}

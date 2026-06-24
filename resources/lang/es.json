@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "Sistema de Punto de Venta Empresarial"},
+  "auth": {"login": {"title": "Iniciar sesion", "email": "Correo", "password": "Contrasena", "remember": "Recordarme", "submit": "Entrar", "success": "Bienvenido, :name!", "failed": "Credenciales invalidas.", "logout": "Sesion cerrada."}, "forgot_password": "Olvidaste tu contrasena?", "reset_password": "Restablecer contrasena"},
+  "pos": {"title": "Punto de Venta", "search_product": "Buscar productos...", "barcode": "Escanear codigo", "cart": {"title": "Carrito", "empty": "Carrito vacio", "total": "Total", "checkout": "Pagar", "clear": "Vaciar"}, "product": {"not_found": "Producto no encontrado", "out_of_stock": "Sin stock", "price": "Precio", "quantity": "Cantidad"}, "payment": {"title": "Pago", "cash": "Efectivo", "card": "Tarjeta", "mobile": "Dinero movil", "amount": "Importe", "change": "Cambio"}},
+  "sales": {"title": "Ventas", "receipt": {"title": "Recibo", "thank_you": "Gracias por su compra!", "date": "Fecha", "receipt_number": "Recibo #:receipt"}, "refund": {"title": "Devolucion", "reason": "Motivo", "success": "Devolucion procesada"}},
+  "inventory": {"title": "Inventario", "low_stock": "Stock bajo", "stock_count": ":count articulos", "out_of_stock": "Sin stock"},
+  "common": {"save": "Guardar", "cancel": "Cancelar", "delete": "Eliminar", "edit": "Editar", "create": "Crear", "search": "Buscar", "filter": "Filtrar", "export": "Exportar", "print": "Imprimir", "loading": "Cargando...", "success": "Exito", "error": "Error", "warning": "Advertencia", "info": "Info", "yes": "Si", "no": "No", "confirm": "Estas seguro?", "required": "Obligatorio", "optional": "Opcional"},
+  "validation": {"required": "El campo :field es obligatorio.", "email": "El campo :field debe ser un correo valido.", "min": "Minimo :min caracteres.", "max": "Maximo :max caracteres.", "numeric": "Debe ser un numero.", "unique": "El :field ya existe."},
+  "errors": {"generic": "Ocurrio un error. Intente de nuevo.", "not_found": "Recurso no encontrado.", "unauthorized": "No autorizado.", "rate_limited": "Demasiados intentos.", "maintenance": "Sistema en mantenimiento."}
+}

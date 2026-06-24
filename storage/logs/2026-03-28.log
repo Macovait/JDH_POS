@@ -1,0 +1,72 @@
+[2026-03-28 06:56:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS/src/notifications.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\init.php:51
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\test.php(4): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[2026-03-28 10:53:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:53:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:54:07] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:54:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:54:27] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:54:41] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\debug_login.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_login.php on line 25
+[2026-03-28 10:54:54] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\debug_login.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_login.php on line 25
+[2026-03-28 10:55:27] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 10:58:50] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\force_login.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\force_login.php on line 11
+[2026-03-28 11:04:50] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 11:05:05] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[2026-03-28 16:08:35] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:08:41] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:08:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:11:21] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:11:21] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:11:22] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:13:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:13:52] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:13:52] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:14:35] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:26:46] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:26:48] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:16] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175
+[2026-03-28 16:27:16] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare check_company_limit() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:465) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 175

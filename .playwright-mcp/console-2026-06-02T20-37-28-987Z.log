@@ -1,0 +1,7 @@
+[     769ms] [LOG] [App] Registering SW: http://localhost/JDH_POS/public/sw-enhanced.js?v=14&ts=1780432649754 @ http://localhost/JDH_POS/public/users/users.php:4742
+[     845ms] [LOG] [App] Offline manager loaded @ http://localhost/JDH_POS/public/users/users.php:4854
+[     937ms] [LOG] [OfflineManager] Initialized @ http://localhost/JDH_POS/public/assets/js/offline-manager.js:22
+[    1290ms] [LOG] [App] Service Worker registered: http://localhost/JDH_POS/public/ @ http://localhost/JDH_POS/public/users/users.php:4745
+[    1300ms] [LOG] [SW Cleanup] Legacy service workers unregistered @ http://localhost/JDH_POS/public/users/users.php:4800
+[    1306ms] [LOG] [Cache Cleanup] Deleting stale cache: jdh-pos-static-v14 @ http://localhost/JDH_POS/public/users/users.php:4812
+[    1570ms] [LOG] [App] New service worker available @ http://localhost/JDH_POS/public/users/users.php:4751

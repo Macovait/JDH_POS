@@ -1,0 +1,395 @@
+[2026-06-20 10:11:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-20 10:32:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-20 10:33:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-20 10:38:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-20 10:39:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-20 14:47:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$current_branch_id' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php(73): PDO->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 73
+[2026-06-20 14:51:40] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../layouts/app.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:554
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 554
+[2026-06-20 14:56:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../layouts/app.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:554
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 554
+[2026-06-20 14:58:37] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../layouts/app.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:554
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 554
+[2026-06-20 15:20:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../layouts/app.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:554
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 554
+[2026-06-20 15:20:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../layouts/app.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php:554
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discount_form.php on line 554
+[2026-06-20 15:34:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 15:34:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 15:53:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 15:53:57] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:04:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:04:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:04:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:04:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:05:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:13:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(124): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 28
+[2026-06-20 16:19:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 16:30:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 16:37:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 16:37:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 16:41:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:50:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:50:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:51:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:53:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:57:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:57:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 16:58:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 17:11:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 17:12:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\Security\DataAccessScope.php on line 207
+[2026-06-20 17:15:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(167): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 21:49:15] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function has_permission() in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 7
+[2026-06-20 21:52:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function has_permission() in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 7
+[2026-06-20 21:52:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function has_permission() in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 7
+[2026-06-20 21:54:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function has_permission() in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 7
+[2026-06-20 21:54:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function has_permission() in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:7
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 7
+[2026-06-20 22:42:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 22:42:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 22:42:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 22:42:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 22:42:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:03:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:21:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:21:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:21:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:36:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:37:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:37:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:38:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:38:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:39:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\ajax_notifications.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:39:52] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\companies.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\subscription_history.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:15] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\roles.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:40:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\subscription_history.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:41:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\subscription_history.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:41:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\subscription_history.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:41:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\subscription_history.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:41:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:42:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:42:12] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:42:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:42:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:43:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-20 23:43:18] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29

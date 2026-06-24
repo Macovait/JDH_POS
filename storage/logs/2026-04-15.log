@@ -1,0 +1,12 @@
+[2026-04-15 19:14:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 62
+[2026-04-15 19:14:52] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 62
+[2026-04-15 19:15:58] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:72
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 72

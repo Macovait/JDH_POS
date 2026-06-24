@@ -1,0 +1,30 @@
+[2026-06-22 00:04:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-22 00:04:37] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-22 00:05:32] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-22 00:20:24] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 00:55:02] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(171): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-22 15:22:23] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.pos_landing_blocks' doesn't exist in C:\xampp\htdocs\JDH_POS\scripts\fixes\check_landing_blocks.php:6
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\fixes\check_landing_blocks.php(6): PDO->query('SELECT section,...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\fixes\check_landing_blocks.php on line 6

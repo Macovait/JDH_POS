@@ -1,0 +1,447 @@
+# Jakababa POS - Root htaccess
+# Location: /JDH_POS/.htaccess
+
+RewriteEngine On
+RewriteBase /JDH_POS/
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# ============================================
+# GZIP COMPRESSION (serves smaller files faster)
+# ============================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# ============================================
+# BROWSER CACHING (reduces repeated downloads)
+# ============================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 6 months"
+    ExpiresByType application/font-woff "access plus 6 months"
+    ExpiresByType application/x-font-ttf "access plus 6 months"
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf)$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+</IfModule>
+
+# Disable ServiceWorker for testing routing
+<IfModule mod_headers.c>
+    Header always set Service-Worker-Allowed "/"
+</IfModule>
+
+# ============================================
+# SECURITY HEADERS
+# ============================================
+<IfModule mod_headers.c>
+    # Content Security Policy for modern security
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://cdn.jsdelivr.net; img-src 'self' data: blob: https:; font-src 'self' data: https://cdnjs.cloudflare.com https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://fonts.googleapis.com https://fonts.gstatic.com; worker-src 'self' blob:; frame-ancestors 'self';"
+
+    # Allow framing from same origin only
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Enable XSS protection
+    Header always set X-XSS-Protection "1; mode=block"
+
+    # Prevent MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Referrer policy
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+    # Strict Transport Security (for HTTPS)
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+    # Permissions Policy
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+
+</IfModule>
+
+# ============================================
+# BLOCK ACCESS TO SENSITIVE FILES
+# ============================================
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "(composer\.(json|lock)|package\.json|\.env|\.gitignore|README\.md)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Block access to storage and config directories
+RewriteRule ^(storage|config|src/vendor)/ - [F,L]
+
+# ============================================
+# REMOVE PUBLIC FROM URL
+# ============================================
+# If URL contains /public/, remove it (301 redirect)
+RewriteCond %{THE_REQUEST} \s/+(?:JDH_POS/)?public/([^\s?]*) [NC]
+RewriteRule ^public/(.*)$ /JDH_POS/$1 [R=301,L,NE]
+
+# ============================================
+# STATIC ASSETS - Serve directly from public
+# ============================================
+# CSS, JS, Images, Fonts, etc.
+RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|ico|svg|woff|woff2|ttf|eot|map|json|webmanifest)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ public/$1 [L]
+
+# React build assets
+RewriteCond %{REQUEST_URI} ^/JDH_POS/assets/ [OR]
+RewriteCond %{REQUEST_URI} ^/JDH_POS/dist/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ public/$1 [L]
+
+# ============================================
+# AUTHENTICATION ROUTES
+# ============================================
+# Public routes (no auth required)
+RewriteRule ^$ public/dashboard/home.php [L]
+RewriteRule ^home/?$ public/dashboard/home.php [L]
+RewriteRule ^login/?$ public/auth/login.php [L]
+RewriteRule ^logout/?$ public/logout.php [L]
+RewriteRule ^register/?$ public/auth/signup.php [L]
+RewriteRule ^forgot-password/?$ public/auth/forgot_password.php [L]
+RewriteRule ^reset-password/([a-zA-Z0-9]+)/?$ public/auth/reset_password.php?token=$1 [L,QSA]
+
+# Route virtual paths to public/* (prevents redirect loops)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^auth/(.*)$ public/auth/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^dashboard/(.*)$ public/dashboard/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^layouts/(.*)$ public/layouts/$1 [L]
+
+# Returns specific routes (must be before general pos rule)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^pos/view_return\.php$ public/pos/view_sell_return.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^pos/(.*)$ public/pos/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^inventory/(.*)$ public/inventory/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^customers/(.*)$ public/customers/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^sales/(.*)$ public/sales/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^reports/(.*)$ public/reports/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^settings/(.*)$ public/settings/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ajax/(.*)$ public/ajax/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ public/api/$1 [L]
+
+# ============================================
+# STOREFRONT ROUTES (public — no auth)
+# ============================================
+# Route /store/* directly to public/store/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^store/(.*)$ public/store/$1 [L,QSA]
+
+# Storefront root
+RewriteRule ^store/?$ public/store/index.php [L,QSA]
+
+# ============================================
+# SUBDOMAIN TENANT ROUTING (for production)
+# ============================================
+# When running on a real domain, subdomains like myshop.platform.co.ke
+# are resolved by TenantResolver.php via the pos_domains table.
+# No special rewrite needed here — the PHP API handles host-based resolution.
+# For XAMPP local dev: use ?tenant=ID or X-Tenant-ID header.
+
+# ============================================
+# API ROUTES
+# ============================================
+# API v1 routes
+RewriteRule ^api/v1/(.*)$ public/api/v1/index.php?route=$1 [L,QSA]
+
+# API endpoints
+RewriteRule ^api/products/?$ public/api/products.php [L]
+RewriteRule ^api/products/([0-9]+)/?$ public/api/products.php?id=$1 [L,QSA]
+RewriteRule ^api/branches/?$ public/api/branches.php [L]
+RewriteRule ^api/categories/?$ public/api/categories.php [L]
+RewriteRule ^api/pos/?$ public/api/pos.php [L]
+RewriteRule ^api/sms-webhook/?$ public/api/sms_webhook.php [L]
+
+# ============================================
+# AJAX ENDPOINTS (Direct access)
+# ============================================
+# POS AJAX
+RewriteRule ^ajax/cart-actions/?$ public/ajax/cart_actions.php [L]
+RewriteRule ^ajax/cart-ajax/?$ public/ajax/cart_ajax.php [L]
+RewriteRule ^ajax/process-sale/?$ public/ajax/process_sale.php [L]
+RewriteRule ^ajax/payment-ajax/?$ public/ajax/payment_ajax.php [L]
+RewriteRule ^ajax/hold-sale/?$ public/ajax/hold_sale.php [L]
+RewriteRule ^ajax/offline-sale/?$ public/ajax/offline_sale.php [L]
+
+# Product AJAX
+RewriteRule ^ajax/get-products/?$ public/ajax/get_products.php [L]
+RewriteRule ^ajax/search-products/?$ public/ajax/search_products.php [L]
+RewriteRule ^ajax/get-product-by-barcode/?$ public/ajax/get_product_by_barcode.php [L]
+RewriteRule ^ajax/check-stock/?$ public/ajax/check_stock.php [L]
+RewriteRule ^ajax/get-stock/?$ public/ajax/get_stock.php [L]
+RewriteRule ^ajax/realtime-stock-ajax/?$ public/ajax/realtime_stock_ajax.php [L]
+
+# Customer AJAX
+RewriteRule ^ajax/customers-ajax/?$ public/ajax/customers_ajax.php [L]
+RewriteRule ^ajax/get-customer/?$ public/ajax/get_customer.php [L]
+RewriteRule ^ajax/get-customer-history/?$ public/ajax/get_customer_history.php [L]
+RewriteRule ^ajax/get-customer-loyalty/?$ public/ajax/get_customer_loyalty.php [L]
+
+# Register AJAX
+RewriteRule ^ajax/open-register/?$ public/ajax/open_register.php [L]
+RewriteRule ^ajax/close-register/?$ public/ajax/close_register.php [L]
+RewriteRule ^ajax/check-register/?$ public/ajax/check_register.php [L]
+RewriteRule ^ajax/get-register-summary/?$ public/ajax/get_register_summary.php [L]
+
+# Orders & Sales AJAX
+RewriteRule ^ajax/orders-ajax/?$ public/ajax/orders_ajax.php [L]
+RewriteRule ^ajax/get-today-sales/?$ public/ajax/get_today_sales.php [L]
+
+# Settings AJAX
+RewriteRule ^ajax/get-settings/?$ public/ajax/get_settings.php [L]
+RewriteRule ^ajax/save-settings/?$ public/ajax/save_settings.php [L]
+
+# Dashboard AJAX
+RewriteRule ^ajax/get-dashboard/?$ public/ajax/get_dashboard.php [L]
+RewriteRule ^ajax/get-dashboard-data/?$ public/ajax/get_dashboard_data.php [L]
+RewriteRule ^ajax/dashboard-filters/?$ public/ajax/dashboard_filters.php [L]
+RewriteRule ^ajax/apply-filters/?$ public/ajax/apply_filters.php [L]
+
+# Reports AJAX
+RewriteRule ^ajax/get-report-data/?$ public/ajax/get_report_data.php [L]
+RewriteRule ^ajax/usage-widget/?$ public/ajax/usage_widget.php [L]
+
+# System AJAX
+RewriteRule ^ajax/switch-branch/?$ public/ajax/switch_branch.php [L]
+RewriteRule ^ajax/get-users/?$ public/ajax/get_users.php [L]
+RewriteRule ^ajax/validate-voucher/?$ public/ajax/validate_voucher.php [L]
+RewriteRule ^ajax/get-csrf-token/?$ public/ajax/get_csrf_token.php [L]
+RewriteRule ^ajax/upgrade-plan/?$ public/ajax/upgrade_plan.php [L]
+
+# SMS AJAX
+RewriteRule ^ajax/get-sms-history/?$ public/ajax/get_sms_history.php [L]
+RewriteRule ^ajax/get-sms-analytics/?$ public/ajax/get_sms_analytics.php [L]
+RewriteRule ^ajax/send-sms/?$ public/ajax/send_sms.php [L]
+
+# Activity & Backup AJAX
+RewriteRule ^ajax/get-activity-logs/?$ public/ajax/get_activity_logs.php [L]
+RewriteRule ^ajax/get-log-details/?$ public/ajax/get_log_details.php [L]
+RewriteRule ^ajax/export-activity-logs/?$ public/ajax/export_activity_logs.php [L]
+RewriteRule ^ajax/download-backup/?$ public/ajax/download_backup.php [L]
+RewriteRule ^ajax/clear-old-logs/?$ public/ajax/clear_old_logs.php [L]
+
+# ============================================
+# APPLICATION ROUTES (Protected)
+# ============================================
+# Dashboard
+RewriteRule ^dashboard/?$ public/dashboard/home.php [L]
+RewriteRule ^dashboard/home/?$ public/dashboard/home.php [L]
+RewriteRule ^dashboard/stats/?$ public/dashboard/home.php?view=stats [L,QSA]
+
+# POS Routes
+RewriteRule ^pos/?$ public/pos/pos.php [L]
+RewriteRule ^pos/receipt/([0-9]+)/?$ public/pos/receipt.php?id=$1 [L,QSA]
+
+# Returns Routes - files in pos/returns/ folder
+RewriteRule ^pos/returns/?$ public/pos/returns/list_sell_return.php [L]
+RewriteRule ^pos/returns/list/?$ public/pos/returns/list_sell_return.php [L]
+RewriteRule ^pos/returns/view/?$ public/pos/returns/view_sell_return.php [L,QSA]
+RewriteRule ^pos/returns/create/?$ public/pos/returns/create_sell_return.php [L,QSA]
+RewriteRule ^pos/returns/process/?$ public/pos/returns/process_return.php [L,QSA]
+RewriteRule ^pos/returns/delete/?$ public/pos/returns/delete_sell_return.php [L,QSA]
+RewriteRule ^pos/returns/return-sale/?$ public/pos/returns/return_sale.php [L,QSA]
+
+# Discounts Routes
+RewriteRule ^pos/discounts/?$ public/pos/discounts.php [L]
+RewriteRule ^pos/discounts/form/?$ public/pos/discount_form.php [L,QSA]
+
+# Inventory Routes
+RewriteRule ^inventory/?$ public/inventory/products/products.php [L]
+RewriteRule ^inventory/products/?$ public/inventory/products/products.php [L]
+RewriteRule ^inventory/stock/?$ public/inventory/stock/ [L]
+
+# Sales Routes
+RewriteRule ^sales/?$ public/sales/ [L]
+RewriteRule ^sales/history/?$ public/sales/ [L]
+RewriteRule ^sales/returns/?$ public/sales/returns.php [L]
+
+# Customer Routes
+RewriteRule ^customers/?$ public/customers/ [L]
+RewriteRule ^customers/list/?$ public/customers/ [L]
+RewriteRule ^customers/groups/?$ public/customers/groups.php [L]
+
+# Reports Routes
+RewriteRule ^reports/?$ public/reports/ [L]
+RewriteRule ^reports/sales/?$ public/reports/sales.php [L]
+RewriteRule ^reports/inventory/?$ public/reports/inventory.php [L]
+RewriteRule ^reports/financial/?$ public/reports/financial.php [L]
+
+# Purchases & Suppliers
+RewriteRule ^purchases/?$ public/purchases/ [L]
+RewriteRule ^suppliers/?$ public/suppliers/ [L]
+
+# Quotations
+RewriteRule ^quotations/?$ public/quotations/ [L]
+
+# Shipments
+RewriteRule ^shipments/?$ public/shipments/ [L]
+
+# Expenses
+RewriteRule ^expenses/?$ public/expenses/ [L]
+
+# Vouchers
+RewriteRule ^vouchers/?$ public/vouchers/ [L]
+
+# Discounts (now in POS)
+RewriteRule ^discounts/?$ public/pos/discounts.php [L]
+RewriteRule ^discounts/form($|/) public/pos/discount_form.php [L]
+
+# HR Module
+RewriteRule ^hr/?$ public/hr/ [L]
+RewriteRule ^hr/employees/?$ public/hr/employees.php [L]
+RewriteRule ^hr/attendance/?$ public/hr/attendance.php [L]
+
+# CRM Module
+RewriteRule ^crm/?$ public/crm/ [L]
+RewriteRule ^crm/leads/?$ public/crm/leads.php [L]
+RewriteRule ^crm/deals/?$ public/crm/deals.php [L]
+
+# Settings & Users
+RewriteRule ^settings/?$ public/settings/ [L]
+RewriteRule ^users/?$ public/users/ [L]
+RewriteRule ^branches/?$ public/branches/ [L]
+RewriteRule ^categories/?$ public/categories/ [L]
+
+# Billing & Subscription
+RewriteRule ^billing/?$ public/billing/ [L]
+RewriteRule ^billing/subscription/?$ public/billing/subscription.php [L]
+RewriteRule ^billing/invoices/?$ public/billing/invoices.php [L]
+
+# SMS Marketing
+RewriteRule ^sms/?$ public/sms/ [L]
+RewriteRule ^sms/campaigns/?$ public/sms/campaigns.php [L]
+RewriteRule ^sms/templates/?$ public/sms/templates.php [L]
+
+# Backup & Maintenance
+RewriteRule ^backup/?$ public/backup/ [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^backup/(.*)$ public/backup/$1 [L]
+RewriteRule ^maintenance/?$ public/maintenance.php [L]
+
+# Specific file routes
+RewriteRule ^quotations/list_quotation\.php$ public/quotations/list_quotation.php [L]
+RewriteRule ^quotations/add_quotation\.php$ public/quotations/add_quotation.php [L]
+RewriteRule ^quotations/add_quotation/?$ public/quotations/add_quotation.php [L]
+RewriteRule ^quotations/process_quotation\.php$ public/quotations/process_quotation.php [L]
+RewriteRule ^quotations/quotation_form\.php$ public/quotations/quotation_form.php [L]
+RewriteRule ^quotations/quotation_form/?$ public/quotations/quotation_form.php [L]
+RewriteRule ^vouchers/vouchers\.php$ public/vouchers/vouchers.php [L]
+RewriteRule ^vouchers/vouchers/?$ public/vouchers/vouchers.php [L]
+RewriteRule ^products/products\.php$ public/products/products.php [L]
+RewriteRule ^products/products/?$ public/products/products.php [L]
+RewriteRule ^products/product_form\.php$ public/products/product_form.php [L]
+RewriteRule ^products/product_form/?$ public/products/product_form.php [L]
+RewriteRule ^products/brands\.php$ public/products/brands.php [L]
+RewriteRule ^products/brands/?$ public/products/brands.php [L]
+RewriteRule ^products/brand_form\.php$ public/products/brand_form.php [L]
+RewriteRule ^products/brand_form/?$ public/products/brand_form.php [L]
+RewriteRule ^products/barcode_labels\.php$ public/products/barcode_labels.php [L]
+RewriteRule ^products/barcode_labels/?$ public/products/barcode_labels.php [L]
+RewriteRule ^products/attributes\.php$ public/products/attributes.php [L]
+RewriteRule ^products/attributes/?$ public/products/attributes.php [L]
+RewriteRule ^categories/list_categories\.php$ public/categories/list_categories.php [L]
+RewriteRule ^categories/list_categories/?$ public/categories/list_categories.php [L]
+RewriteRule ^shipments/shipments\.php$ public/shipments/shipments.php [L]
+RewriteRule ^shipments/shipments/?$ public/shipments/shipments.php [L]
+RewriteRule ^purchases/purchase_orders\.php$ public/purchases/purchase_orders.php [L]
+RewriteRule ^purchases/purchase_orders/?$ public/purchases/purchase_orders.php [L]
+RewriteRule ^crm/index\.php$ public/crm/index.php [L]
+RewriteRule ^crm/index/?$ public/crm/index.php [L]
+RewriteRule ^branches/branches\.php$ public/branches/branches.php [L]
+RewriteRule ^users/roles\.php$ public/users/roles.php [L]
+RewriteRule ^users/users\.php$ public/users/users.php [L]
+RewriteRule ^expenses/expenses\.php$ public/expenses/expenses.php [L]
+
+# ============================================
+# REACT ROUTES (Client-side routing support)
+# ============================================
+# SPA fallback for React routes - serve index.html for unknown routes
+# Only applies when no file/directory exists and not an API/AJAX request
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/(api|ajax|assets|dist|uploads)/ [NC]
+RewriteRule ^pos/react/(.*)$ public/pos/react_pos.php [L]
+
+# ============================================
+# DEFAULT FALLBACK - All other requests
+# ============================================
+# If request doesn't map to existing file/directory, route to public/dashboard/home.php (dashboard)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/dashboard/home.php [L,QSA]
+
+# ============================================
+# CACHING FOR STATIC ASSETS
+# ============================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/x-javascript "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/json "access plus 0 seconds"
+</IfModule>
+
+# ============================================
+# COMPRESSION
+# ============================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>

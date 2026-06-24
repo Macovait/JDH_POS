@@ -1,0 +1,172 @@
+[2026-06-11 08:09:12] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare db_has_column() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:52) in C:\xampp\htdocs\JDH_POS\src\MultiTenantFilter.php on line 424
+[2026-06-11 11:25:51] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:34:01] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:39:16] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:39:19] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:42:38] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:01] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php(19): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:02] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\pos\all_sales.php(14): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:04] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\quotations\list_quotation.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:06] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:08] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\settings.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:12] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:12] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php(19): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:13] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:13] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:14] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\support.php(3): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:43:18] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:48:19] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:48:22] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:51:00] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:57:18] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 11:57:20] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 12:00:36] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 12:01:53] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function validate_session_fingerprint() in C:\xampp\htdocs\JDH_POS\src\auth.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(92): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 79
+[2026-06-11 19:23:24] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\auth/../../src/CsrfProtection.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\auth\login.php:37
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 37
+[2026-06-11 19:31:23] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function rate_limit_enforce() in C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php:445
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(113): JDH\POS\Services\AuthService->enforceRateLimit('login')
+#1 C:\xampp\htdocs\JDH_POS\public\auth\login.php(103): JDH\POS\Services\AuthService->authenticate('demo', 'admin', 'admin123', false)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php on line 445

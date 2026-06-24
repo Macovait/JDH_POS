@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "Sistema de Ponto de Venda"},
+  "auth": {"login": {"title": "Entrar", "email": "E-mail", "password": "Senha", "remember": "Lembrar-me", "submit": "Entrar", "success": "Bem-vindo, :name!", "failed": "Credenciais invalidas.", "logout": "Saida efetuada."}, "forgot_password": "Esqueceu a senha?", "reset_password": "Redefinir senha"},
+  "pos": {"title": "Ponto de Venda", "search_product": "Pesquisar...", "barcode": "Escanear", "cart": {"title": "Carrinho", "empty": "Carrinho vazio", "total": "Total", "checkout": "Finalizar", "clear": "Limpar"}, "product": {"not_found": "Produto nao encontrado", "out_of_stock": "Sem estoque", "price": "Preco", "quantity": "Qtd"}, "payment": {"title": "Pagamento", "cash": "Dinheiro", "card": "Cartao", "mobile": "Movel", "amount": "Valor", "change": "Troco"}},
+  "sales": {"title": "Vendas", "receipt": {"title": "Recibo", "thank_you": "Obrigado!", "date": "Data", "receipt_number": "Recibo #:receipt"}, "refund": {"title": "Reembolso", "reason": "Motivo", "success": "Reembolso processado"}},
+  "inventory": {"title": "Estoque", "low_stock": "Estoque baixo", "stock_count": ":count itens", "out_of_stock": "Sem estoque"},
+  "common": {"save": "Salvar", "cancel": "Cancelar", "delete": "Excluir", "edit": "Editar", "create": "Criar", "search": "Pesquisar", "filter": "Filtrar", "export": "Exportar", "print": "Imprimir", "loading": "Carregando...", "success": "Sucesso", "error": "Erro", "warning": "Aviso", "info": "Info", "yes": "Sim", "no": "Nao", "confirm": "Tem certeza?", "required": "Obrigatorio", "optional": "Opcional"},
+  "validation": {"required": "O campo :field e obrigatorio.", "email": "O :field deve ser um e-mail valido.", "min": "Minimo :min caracteres.", "max": "Maximo :max caracteres.", "numeric": "Deve ser um numero.", "unique": "O :field ja existe."},
+  "errors": {"generic": "Ocorreu um erro.", "not_found": "Recurso nao encontrado.", "unauthorized": "Nao autorizado.", "rate_limited": "Muitas tentativas.", "maintenance": "Sistema em manutencao."}
+}

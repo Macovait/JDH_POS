@@ -1,0 +1,12 @@
+[2026-06-23 00:52:37] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught RuntimeException: ENCRYPTION_KEY is required in production mode. Please set it in .env in C:\xampp\htdocs\JDH_POS\config\config.php:199
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(20): require_once()
+#1 C:\xampp\htdocs\JDH_POS\src\paths.php(205): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(239): safe_require('auth.php', 'src', true)
+#3 C:\xampp\htdocs\JDH_POS\public\api\v1\index.php(30): load_core_files()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\config.php on line 199
+[2026-06-23 09:23:17] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function generate_csrf_token() in C:\xampp\htdocs\JDH_POS\public\auth\login.php:491
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 491

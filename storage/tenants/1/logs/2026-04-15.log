@@ -1,0 +1,68 @@
+[2026-04-15 09:47:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(339): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 339
+[2026-04-15 18:35:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list' in C:\xampp\htdocs\JDH_POS\public\mobile_test.php:26
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\mobile_test.php(26): PDO->query('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\mobile_test.php on line 26
+[2026-04-15 18:39:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list' in C:\xampp\htdocs\JDH_POS\public\mobile_test.php:43
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\mobile_test.php(43): PDO->query('SELECT id, user...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\mobile_test.php on line 43
+[2026-04-15 18:50:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_username() in C:\xampp\htdocs\JDH_POS\public\mobile_simple.php:180
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\mobile_simple.php on line 180
+[2026-04-15 19:04:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_username() in C:\xampp\htdocs\JDH_POS\public\mobile_simple.php:180
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\mobile_simple.php on line 180
+[2026-04-15 19:16:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:72
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 72
+[2026-04-15 19:16:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/auth.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:72
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 72
+[2026-04-15 19:16:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\api\mobile/mobile/pos.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\mobile\index.php on line 76
+[2026-04-15 19:35:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 19:39:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 19:59:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\JDH_POS\public\ajax\process_sale.php:468
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\process_sale.php(468): implode(', ', NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\process_sale.php on line 468
+[2026-04-15 20:07:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 20:11:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 20:11:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 21:35:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-15 21:55:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273

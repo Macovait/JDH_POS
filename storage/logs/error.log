@@ -1,0 +1,565 @@
+[28-Mar-2026 00:43:35 Africa/Nairobi] PHP Warning:  require_once(C:\xampp\htdocs\JDH_POS/config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\JDH_POS\src\init.php on line 36
+[28-Mar-2026 00:43:35 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS/config/database.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\init.php:36
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\index.php(3): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\init.php on line 36
+[28-Mar-2026 00:53:54 Africa/Nairobi] PHP Fatal error:  Cannot redeclare format_date() (previously declared in C:\xampp\htdocs\JDH_POS\src\init.php:211) in C:\xampp\htdocs\JDH_POS\src\functions.php on line 109
+[28-Mar-2026 00:55:33 Africa/Nairobi] PHP Fatal error:  Cannot redeclare time_ago() (previously declared in C:\xampp\htdocs\JDH_POS\src\init.php:171) in C:\xampp\htdocs\JDH_POS\src\functions.php on line 129
+[28-Mar-2026 01:02:02 Africa/Nairobi] PHP Fatal error:  Cannot redeclare format_date() (previously declared in C:\xampp\htdocs\JDH_POS\src\init.php:211) in C:\xampp\htdocs\JDH_POS\src\functions.php on line 95
+[28-Mar-2026 01:05:35 Africa/Nairobi] PHP Fatal error:  Cannot redeclare redirect() (previously declared in C:\xampp\htdocs\JDH_POS\src\init.php:427) in C:\xampp\htdocs\JDH_POS\src\paths.php on line 363
+[28-Mar-2026 01:09:10 Africa/Nairobi] PHP Warning:  Constant APP_NAME already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 112
+[28-Mar-2026 01:09:10 Africa/Nairobi] PHP Warning:  Constant CURRENCY already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 117
+[28-Mar-2026 01:09:10 Africa/Nairobi] PHP Warning:  Constant TAX_RATE already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 118
+[28-Mar-2026 01:09:10 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\src\init.php on line 468
+[28-Mar-2026 01:09:10 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\src\init.php on line 469
+[28-Mar-2026 02:21:48 Africa/Nairobi] PHP Warning:  Constant APP_NAME already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 112
+[28-Mar-2026 02:21:48 Africa/Nairobi] PHP Warning:  Constant CURRENCY already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 117
+[28-Mar-2026 02:21:48 Africa/Nairobi] PHP Warning:  Constant TAX_RATE already defined in C:\xampp\htdocs\JDH_POS\src\init.php on line 118
+[28-Mar-2026 02:21:48 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\src\init.php on line 533
+[28-Mar-2026 02:21:48 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\src\init.php on line 534
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\config\config.php on line 114
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\config\config.php on line 115
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\config\config.php on line 114
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  ini_set(): Session ini settings cannot be changed when a session is active in C:\xampp\htdocs\JDH_POS\config\config.php on line 115
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_NAME already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 118
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_VERSION already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 119
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_ENV already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 120
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_DEBUG already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 121
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_URL already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 122
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant CURRENCY already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 123
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant DEFAULT_TAX_RATE already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 124
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant COMPANY_NAME already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 125
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant COMPANY_PHONE already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 126
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant COMPANY_ADDRESS already defined in C:\xampp\htdocs\JDH_POS\config\config.php on line 127
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  Constant APP_NAME already defined in C:\xampp\htdocs\JDH_POS\config\constants.php on line 2
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Warning:  require_once(C:\xampp\htdocs\JDH_POS/src/notifications.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 06:56:11 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS/src/notifications.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\init.php:51
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\test.php(4): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 07:04:53 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:02 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:04 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:06 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:06 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:10 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:11 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:11 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:11 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:12 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:20:13 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/test.php
+[28-Mar-2026 07:23:27 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/index.php
+[28-Mar-2026 07:24:00 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/index.php
+[28-Mar-2026 07:24:01 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/index.php
+[28-Mar-2026 07:34:21 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/index.php
+[28-Mar-2026 07:35:39 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS from script: /JDH_POS/public/index.php
+[28-Mar-2026 07:35:58 Africa/Nairobi] Login database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 07:42:19 Africa/Nairobi] Login database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 07:47:01 Africa/Nairobi] Login database error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 07:51:56 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 07:55:21 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 08:11:43 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 08:22:34 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:30:16 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:34:20 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:41:24 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:42:53 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:43:25 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 09:43:30 Africa/Nairobi] Login error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'subscription_status' in 'field list'
+[28-Mar-2026 10:18:37 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:19:04 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:25:17 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:26:59 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:27:04 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:32:06 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:32:19 Africa/Nairobi] Base URL calculated: http://localhost/JDH_POS/public/auth from script: /JDH_POS/public/auth/login.php
+[28-Mar-2026 10:46:43 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:43 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:44 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:44 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:47 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:47 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:47 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:47 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:48 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:48 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:48 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:48 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:49 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:49 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:49 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:50 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:50 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:50 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:58 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:58 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:58 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:58 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:46:58 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:46:58 Africa/Nairobi] Company validation failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:50:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:50:49 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:50:49 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:50:49 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:06 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:06 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:06 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:06 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:13 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:13 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:13 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:13 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:15 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:15 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:15 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:15 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:15 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:53:30 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:30 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:30 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:53:30 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:53:30 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:54:07 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:07 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:07 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:07 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:07 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:54:09 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:09 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:09 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:09 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:11 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:11 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:11 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:11 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:11 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:54:17 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:17 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:17 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:17 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:27 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:27 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:27 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:27 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:27 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:54:41 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:41 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:41 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:41 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:41 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\debug_login.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_login.php on line 25
+[28-Mar-2026 10:54:54 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:54 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:54 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:54:54 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:54:54 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\debug_login.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_login.php on line 25
+[28-Mar-2026 10:55:23 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:55:23 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:55:23 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:55:23 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:55:27 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:55:27 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:55:27 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:55:27 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:55:27 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 10:57:11 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:57:11 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:57:11 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:57:11 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:58:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:58:50 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:58:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 10:58:50 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 10:58:50 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\force_login.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\force_login.php on line 11
+[28-Mar-2026 11:04:48 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:48 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:04:48 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:48 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:04:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:50 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:04:50 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:50 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:04:50 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 11:04:54 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:54 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:04:54 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:04:54 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:05:05 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:05:05 Africa/Nairobi] Could not initialize global PDO: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:05:05 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:05:05 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:05:05 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\auth\login.php:55
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\login.php on line 55
+[28-Mar-2026 11:05:38 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:05:38 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:05:38 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:05:38 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:05:38 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:06:53 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:06:53 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:53 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:53 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:53 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:06:55 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:06:55 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:55 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:55 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:06:55 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:05 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:05 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:05 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:05 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:05 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\dashboard\test.php(3): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:12 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:12 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:12 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:12 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:12 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\register_company.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:34 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:34 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:34 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:34 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:34 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:36 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:36 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:36 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:36 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:36 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:38 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:38 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:38 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:38 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:38 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\register_company.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:39 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:39 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:39 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:39 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:39 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:40 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:40 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:40 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:40 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:40 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:49 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:49 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:49 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:49 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:49 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:07:53 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:07:53 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:53 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:53 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:07:53 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:08:28 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:08:28 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:28 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:28 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:28 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:08:30 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:08:30 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:30 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:30 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:30 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:08:33 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:08:33 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:33 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:33 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:33 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:08:37 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:08:37 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:37 Africa/Nairobi] PHP Deprecated:  date_default_timezone_set(): Passing null to parameter #1 ($timezoneId) of type string is deprecated in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:37 Africa/Nairobi] PHP Notice:  date_default_timezone_set(): Timezone ID '' is invalid in C:\xampp\htdocs\JDH_POS\src\init.php on line 51
+[28-Mar-2026 11:08:37 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Undefined constant "APP_DEBUG" in C:\xampp\htdocs\JDH_POS\config\constants.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(41): require()
+#1 C:\xampp\htdocs\JDH_POS\vendor\composer\autoload_real.php(45): {closure}('a90825fece39d78...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\vendor\autoload.php(22): ComposerAutoloaderInita5c6e4de1dde25ccfa9b58ac68e0f5a6::getLoader()
+#3 C:\xampp\htdocs\JDH_POS\src\paths.php(212): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\JDH_POS\src\paths.php(240): register_autoloader()
+#5 C:\xampp\htdocs\JDH_POS\src\auth.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\JDH_POS\src\init.php(73): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\JDH_POS\public\auth\login.php(12): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\config\constants.php on line 186
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 125
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 129
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:32 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:32 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 597
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 612
+[28-Mar-2026 11:10:32 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 125
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 129
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:41 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:41 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 597
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 612
+[28-Mar-2026 11:10:41 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 125
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 129
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:43 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:43 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 597
+[28-Mar-2026 11:10:43 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 612
+[28-Mar-2026 11:10:44 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:44 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:44 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 125
+[28-Mar-2026 11:10:44 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 129
+[28-Mar-2026 11:10:44 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:10:45 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:10:45 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:45 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:10:45 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 597
+[28-Mar-2026 11:10:45 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 612
+[28-Mar-2026 11:10:45 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 127
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 133
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:17:08 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:17:08 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 599
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type int in C:\xampp\htdocs\JDH_POS\src\init.php on line 614
+[28-Mar-2026 11:17:08 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\JDH_POS\src\init.php on line 127
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\JDH_POS\src\init.php on line 131
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\JDH_POS\src\init.php on line 133
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\JDH_POS\src\init.php on line 599
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\JDH_POS\src\init.php on line 614
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:17:35 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\config\config.php:89) in C:\xampp\htdocs\JDH_POS\public\index.php on line 18
+[28-Mar-2026 11:22:56 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:22:56 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\config\config.php:185) in C:\xampp\htdocs\JDH_POS\public\index.php on line 18
+[28-Mar-2026 11:23:10 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:23:10 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:23:10 Africa/Nairobi] Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:23:10 Africa/Nairobi] Database connection failed: Database configuration error: Missing database configuration: db_host
+[28-Mar-2026 11:23:10 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:23:27 Africa/Nairobi] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\JDH_POS\config\config.php on line 170
+[28-Mar-2026 11:23:27 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\config\config.php:185) in C:\xampp\htdocs\JDH_POS\public\index.php on line 18
+[28-Mar-2026 11:28:57 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:28:57 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:29:03 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:29:03 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:29:04 Africa/Nairobi] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user 'jdhpos_user        # Replace with your production DB user'@'localhost' (using password: YES)
+[28-Mar-2026 11:29:04 Africa/Nairobi] Database connection failed: Unable to connect to database. Please check your configuration.
+[28-Mar-2026 11:30:42 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\config\config.php:232) in C:\xampp\htdocs\JDH_POS\public\index.php on line 18
+[28-Mar-2026 11:32:51 Africa/Nairobi] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\config\config.php:232) in C:\xampp\htdocs\JDH_POS\public\index.php on line 26

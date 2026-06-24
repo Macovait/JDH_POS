@@ -1,0 +1,5 @@
+[2026-06-19 13:16:43] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\temp_check_tables.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\temp_check_tables.php(7): PDO->prepare('SHOW TABLES LIK...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\temp_check_tables.php on line 7

@@ -1,0 +1,24 @@
+[2026-06-01 00:03:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-01 11:10:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-06-01 14:37:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-01 22:10:18] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

@@ -1,0 +1,63 @@
+[2026-04-28 06:07:21] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function db_execute() in C:\xampp\htdocs\JDH_POS\fix_database.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\fix_database.php on line 26
+[2026-04-28 06:23:04] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\test_credentials.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_credentials.php on line 82
+[2026-04-28 06:23:28] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\debug_session.php:29
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_session.php on line 29
+[2026-04-28 06:24:52] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\debug_detailed.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_detailed.php on line 49
+[2026-04-28 06:26:21] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "catch", expecting end of file in C:\xampp\htdocs\JDH_POS\src\auth.php on line 359
+[2026-04-28 06:36:27] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\debug_detailed.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_detailed.php on line 49
+[2026-04-28 06:37:45] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\test_credentials.php:82
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_credentials.php on line 82
+[2026-04-28 06:38:58] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function init_tenant_user_session() in C:\xampp\htdocs\JDH_POS\debug_detailed.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_detailed.php on line 49
+[2026-04-28 18:51:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:51:38] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:51:40] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:07] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:14] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-28 18:52:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401

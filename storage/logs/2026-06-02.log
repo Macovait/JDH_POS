@@ -1,0 +1,59 @@
+[2026-06-02 11:15:40] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'role' in 'field list' in Standard input code:5
+Stack trace:
+#0 Standard input code(5): PDO->query('SELECT id,usern...')
+#1 {main}
+  thrown in Standard input code on line 5
+[2026-06-02 19:35:50] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:35:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:37:29] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:37:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:37:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:37:31] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:41:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:41:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20
+[2026-06-02 19:44:25] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\src/../../config/config.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\src\auth.php:20
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once()
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(9): safe_require('auth.php', 'src', true)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 20

@@ -1,0 +1,49 @@
+[2026-06-17 00:14:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-17 00:26:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-17 00:42:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-17 00:52:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 00:57:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 01:00:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 01:00:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 01:02:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-17 01:06:37] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 01:12:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 01:17:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-17 01:24:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 01:25:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 01:33:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-17 01:35:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-17 01:35:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 01:35:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 01:35:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 01:35:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 01:44:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 01:44:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 01:46:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-17 01:46:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 02:53:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 02:53:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 02:58:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-17 02:58:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products.php on line 74
+[2026-06-17 03:14:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-17 03:14:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-17 03:18:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-17 03:32:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75

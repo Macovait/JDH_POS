@@ -1,0 +1,134 @@
+[2026-05-18 09:02:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT t.*,\r\n  ...')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.*,\r\n  ...', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\companies.php(226): db_fetch_all('SELECT t.*,\r\n  ...', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.*,\r\n  ...', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\companies.php(226): db_fetch_all('SELECT t.*,\r\n  ...', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 09:03:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT cs.*, c....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(260): db_fetch_all('SELECT cs.*, c....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(260): db_fetch_all('SELECT cs.*, c....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 09:03:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(152): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-05-18 11:43:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.email' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT t.id, t....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.id, t....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\onboarding.php(85): db_fetch_all('SELECT t.id, t....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.id, t....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\onboarding.php(85): db_fetch_all('SELECT t.id, t....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 11:43:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT cs.*, c....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(260): db_fetch_all('SELECT cs.*, c....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(260): db_fetch_all('SELECT cs.*, c....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 11:43:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(180): db_query('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\dunning.php(48): db_fetch_value('SELECT COUNT(*)...')
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(180): db_query('SELECT COUNT(*)...', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\dunning.php(48): db_fetch_value('SELECT COUNT(*)...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 11:43:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(152): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-05-18 11:43:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(180): db_query('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\revenue.php(112): db_fetch_value('SELECT COALESCE...')
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(180): db_query('SELECT COALESCE...', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\revenue.php(112): db_fetch_value('SELECT COALESCE...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 12:39:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT t.*,\r\n  ...')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.*,\r\n  ...', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\companies.php(226): db_fetch_all('SELECT t.*,\r\n  ...', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.*,\r\n  ...', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\companies.php(226): db_fetch_all('SELECT t.*,\r\n  ...', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 12:39:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.email' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT t.id, t....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.id, t....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\onboarding.php(85): db_fetch_all('SELECT t.id, t....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT t.id, t....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\onboarding.php(85): db_fetch_all('SELECT t.id, t....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-18 13:07:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-18 13:08:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-18 14:03:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

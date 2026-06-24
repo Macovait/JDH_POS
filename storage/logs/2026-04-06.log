@@ -1,0 +1,31 @@
+[2026-04-06 08:55:51] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function db_exec() in Command line code:8
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 8
+[2026-04-06 08:56:01] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function db_exec() in Command line code:9
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 9
+[2026-04-06 08:56:07] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'COLUMN FROM users WHERE Field = 'password_hash'' at line 1 in C:\xampp\htdocs\JDH_POS\src\db.php:135
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(135): PDO->prepare('SHOW COLUMN FRO...')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(153): db_query('SHOW COLUMN FRO...', Array)
+#2 Command line code(6): db_fetch_one('SHOW COLUMN FRO...')
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:140
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(153): db_query('SHOW COLUMN FRO...', Array)
+#1 Command line code(6): db_fetch_one('SHOW COLUMN FRO...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 140
+[2026-04-06 18:24:20] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.stock' in 'field list' in Command line code:19
+Stack trace:
+#0 Command line code(19): PDO->prepare('SELECT p.id, p....')
+#1 {main}
+  thrown in Command line code on line 19
+[2026-04-06 20:33:11] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in Standard input code:5
+Stack trace:
+#0 Standard input code(5): PDO->prepare('SHOW COLUMNS FR...')
+#1 {main}
+  thrown in Standard input code on line 5

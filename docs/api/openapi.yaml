@@ -1,0 +1,1420 @@
+openapi: 3.0.3
+info:
+  title: Jakababa POS API
+  description: |
+    # Jakababa POS SaaS API
+    
+    Complete API for the Jakababa Point of Sale system.
+    
+    ## Authentication
+    All API endpoints require authentication using:
+    - **API Key** - Passed in header: `X-API-Key: your_api_key`
+    - **Bearer Token** - Passed in header: `Authorization: Bearer your_jwt_token`
+    
+    ## Rate Limits
+    - Standard tier: 1000 requests/hour
+    - Pro tier: 10000 requests/hour
+    - Enterprise: Unlimited
+    
+    ## Base URL
+    - Production: `https://api.jakababa.com/v1`
+    - Sandbox: `https://sandbox-api.jakababa.com/v1`
+    
+  version: 1.0.0
+  contact:
+    name: Jakababa Support
+    email: api@jakababa.com
+    url: https://jakababa.com/support
+  license:
+    name: Proprietary
+    url: https://jakababa.com/terms
+
+servers:
+  - url: https://api.jakababa.com/v1
+    description: Production server
+  - url: https://sandbox-api.jakababa.com/v1
+    description: Sandbox server
+  - url: http://localhost/JDH_POS/public/api/v1
+    description: Local development
+
+security:
+  - ApiKeyAuth: []
+  - BearerAuth: []
+
+paths:
+  # Authentication
+  /auth/login:
+    post:
+      summary: User Login
+      description: Authenticate user and get access token
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - email
+                - password
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: user@company.com
+                password:
+                  type: string
+                  format: password
+                  example: securePassword123
+                tenant_id:
+                  type: integer
+                  description: Company/Tenant ID (optional for single-tenant)
+                  example: 1
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LoginResponse'
+        '401':
+          description: Invalid credentials
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /auth/logout:
+    post:
+      summary: User Logout
+      description: Invalidate current access token
+      tags:
+        - Authentication
+      responses:
+        '200':
+          description: Logout successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: Logged out successfully
+
+  /auth/refresh:
+    post:
+      summary: Refresh Token
+      description: Get new access token using refresh token
+      tags:
+        - Authentication
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - refresh_token
+              properties:
+                refresh_token:
+                  type: string
+                  example: eyJhbGciOiJIUzI1NiIs...
+      responses:
+        '200':
+          description: Token refreshed successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TokenResponse'
+
+  # Products
+  /products:
+    get:
+      summary: List Products
+      description: Get paginated list of products with optional filters
+      tags:
+        - Products
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+          description: Page number
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+          description: Items per page
+        - name: category_id
+          in: query
+          schema:
+            type: integer
+          description: Filter by category
+        - name: search
+          in: query
+          schema:
+            type: string
+          description: Search by name or SKU
+        - name: branch_id
+          in: query
+          schema:
+            type: integer
+          description: Filter by branch
+        - name: low_stock
+          in: query
+          schema:
+            type: boolean
+            default: false
+          description: Show only low stock items
+      responses:
+        '200':
+          description: Products retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductListResponse'
+
+    post:
+      summary: Create Product
+      description: Add a new product to inventory
+      tags:
+        - Products
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductCreate'
+      responses:
+        '201':
+          description: Product created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        '400':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /products/{id}:
+    get:
+      summary: Get Product
+      description: Retrieve a single product by ID
+      tags:
+        - Products
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+          description: Product ID
+      responses:
+        '200':
+          description: Product retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+        '404':
+          description: Product not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+    put:
+      summary: Update Product
+      description: Update an existing product
+      tags:
+        - Products
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductUpdate'
+      responses:
+        '200':
+          description: Product updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+
+    delete:
+      summary: Delete Product
+      description: Soft delete a product
+      tags:
+        - Products
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Product deleted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: Product deleted successfully
+
+  /products/{id}/stock:
+    post:
+      summary: Adjust Stock
+      description: Add or remove stock for a product
+      tags:
+        - Products
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - quantity
+                - type
+              properties:
+                quantity:
+                  type: number
+                  example: 50
+                  description: Amount to add (positive) or remove (negative)
+                type:
+                  type: string
+                  enum: [add, remove, set]
+                  example: add
+                reason:
+                  type: string
+                  example: New stock received
+                reference:
+                  type: string
+                  example: PO-2024-001
+      responses:
+        '200':
+          description: Stock adjusted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  new_quantity:
+                    type: number
+                  previous_quantity:
+                    type: number
+
+  # Sales
+  /sales:
+    get:
+      summary: List Sales
+      description: Get sales transactions with filters
+      tags:
+        - Sales
+      parameters:
+        - name: start_date
+          in: query
+          schema:
+            type: string
+            format: date
+          description: Filter from date
+        - name: end_date
+          in: query
+          schema:
+            type: string
+            format: date
+          description: Filter to date
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [completed, pending, cancelled, refunded]
+          description: Filter by status
+        - name: payment_method
+          in: query
+          schema:
+            type: string
+            enum: [cash, card, mpesa, bank_transfer, credit]
+          description: Filter by payment method
+        - name: branch_id
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Sales retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SaleListResponse'
+
+    post:
+      summary: Create Sale
+      description: Create a new sale transaction
+      tags:
+        - Sales
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SaleCreate'
+      responses:
+        '201':
+          description: Sale created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Sale'
+
+  /sales/{id}:
+    get:
+      summary: Get Sale
+      description: Retrieve sale details with items
+      tags:
+        - Sales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Sale retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SaleDetail'
+
+    post:
+      summary: Refund Sale
+      description: Process a refund for a sale
+      tags:
+        - Sales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                refund_reason:
+                  type: string
+                  example: Customer request
+                items:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      item_id:
+                        type: integer
+                      quantity:
+                        type: number
+      responses:
+        '200':
+          description: Refund processed successfully
+
+  /sales/{id}/receipt:
+    get:
+      summary: Get Receipt
+      description: Generate receipt for a sale
+      tags:
+        - Sales
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: format
+          in: query
+          schema:
+            type: string
+            enum: [json, pdf, html]
+            default: json
+      responses:
+        '200':
+          description: Receipt generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Receipt'
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+
+  # Categories
+  /categories:
+    get:
+      summary: List Categories
+      description: Get all product categories
+      tags:
+        - Categories
+      responses:
+        '200':
+          description: Categories retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Category'
+
+    post:
+      summary: Create Category
+      description: Add new product category
+      tags:
+        - Categories
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CategoryCreate'
+      responses:
+        '201':
+          description: Category created
+
+  # Customers
+  /customers:
+    get:
+      summary: List Customers
+      description: Get customer list with search
+      tags:
+        - Customers
+      parameters:
+        - name: search
+          in: query
+          schema:
+            type: string
+        - name: loyalty_program
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Customers retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Customer'
+
+    post:
+      summary: Create Customer
+      description: Add new customer
+      tags:
+        - Customers
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomerCreate'
+      responses:
+        '201':
+          description: Customer created
+
+  /customers/{id}/loyalty:
+    get:
+      summary: Get Loyalty Points
+      description: Retrieve customer's loyalty program details
+      tags:
+        - Customers
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Loyalty info retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  points_balance:
+                    type: integer
+                  tier:
+                    type: string
+                  transactions:
+                    type: array
+
+  # Reports
+  /reports/sales:
+    get:
+      summary: Sales Report
+      description: Get aggregated sales data
+      tags:
+        - Reports
+      parameters:
+        - name: period
+          in: query
+          required: true
+          schema:
+            type: string
+            enum: [day, week, month, year, custom]
+        - name: start_date
+          in: query
+          schema:
+            type: string
+            format: date
+        - name: end_date
+          in: query
+          schema:
+            type: string
+            format: date
+        - name: group_by
+          in: query
+          schema:
+            type: string
+            enum: [product, category, payment_method, user, hour]
+      responses:
+        '200':
+          description: Report generated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SalesReport'
+
+  /reports/inventory:
+    get:
+      summary: Inventory Report
+      description: Get inventory valuation and movement
+      tags:
+        - Reports
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+            enum: [valuation, movement, low_stock]
+      responses:
+        '200':
+          description: Report generated
+
+  # POS Operations
+  /pos/held-sales:
+    get:
+      summary: List Held Sales
+      description: Get suspended/held transactions
+      tags:
+        - POS
+      responses:
+        '200':
+          description: Held sales retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/HeldSale'
+
+    post:
+      summary: Hold Sale
+      description: Save transaction for later
+      tags:
+        - POS
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - items
+              properties:
+                items:
+                  type: array
+                  items:
+                    type: object
+                customer_id:
+                  type: integer
+                notes:
+                  type: string
+                reference:
+                  type: string
+      responses:
+        '201':
+          description: Sale held successfully
+
+  /pos/held-sales/{id}:
+    get:
+      summary: Get Held Sale
+      description: Retrieve held sale details
+      tags:
+        - POS
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Held sale retrieved
+
+    delete:
+      summary: Delete Held Sale
+      description: Remove held transaction
+      tags:
+        - POS
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Held sale deleted
+
+  /pos/held-sales/{id}/resume:
+    post:
+      summary: Resume Held Sale
+      description: Convert held sale to active transaction
+      tags:
+        - POS
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Sale resumed
+
+  # Branches
+  /branches:
+    get:
+      summary: List Branches
+      description: Get all branches for tenant
+      tags:
+        - Branches
+      responses:
+        '200':
+          description: Branches retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Branch'
+
+  /branches/{id}/stats:
+    get:
+      summary: Branch Statistics
+      description: Get sales and performance stats for branch
+      tags:
+        - Branches
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+        - name: date
+          in: query
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: Stats retrieved
+
+  # Billing (SaaS)
+  /billing/subscription:
+    get:
+      summary: Get Subscription
+      description: Retrieve current subscription details
+      tags:
+        - Billing
+      responses:
+        '200':
+          description: Subscription retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Subscription'
+
+  /billing/checkout:
+    post:
+      summary: Create Checkout
+      description: Start Stripe/PayPal checkout for plan
+      tags:
+        - Billing
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - plan_id
+              properties:
+                plan_id:
+                  type: string
+                  example: pro
+                billing_cycle:
+                  type: string
+                  enum: [monthly, yearly]
+                  default: monthly
+                gateway:
+                  type: string
+                  enum: [stripe, paypal]
+                  default: stripe
+      responses:
+        '200':
+          description: Checkout session created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  checkout_url:
+                    type: string
+                  session_id:
+                    type: string
+
+  /billing/cancel:
+    post:
+      summary: Cancel Subscription
+      description: Cancel current subscription
+      tags:
+        - Billing
+      responses:
+        '200':
+          description: Subscription cancelled
+
+  /billing/invoices:
+    get:
+      summary: List Invoices
+      description: Get billing history
+      tags:
+        - Billing
+      responses:
+        '200':
+          description: Invoices retrieved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Invoice'
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: API key for authentication
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: JWT token for authentication
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          example: Invalid credentials
+        code:
+          type: string
+          example: AUTH_001
+        details:
+          type: object
+
+    LoginResponse:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+        token:
+          type: string
+          example: eyJhbGciOiJIUzI1NiIs...
+        refresh_token:
+          type: string
+        user:
+          type: object
+          properties:
+            id:
+              type: integer
+            name:
+              type: string
+            email:
+              type: string
+            role:
+              type: string
+        tenant:
+          type: object
+          properties:
+            id:
+              type: integer
+            name:
+              type: string
+            plan:
+              type: string
+
+    TokenResponse:
+      type: object
+      properties:
+        token:
+          type: string
+        expires_in:
+          type: integer
+          example: 3600
+
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        sku:
+          type: string
+        barcode:
+          type: string
+        price:
+          type: number
+          format: decimal
+        cost_price:
+          type: number
+        quantity:
+          type: number
+        min_stock:
+          type: number
+        category_id:
+          type: integer
+        category_name:
+          type: string
+        tax_rate:
+          type: number
+        is_active:
+          type: boolean
+        image_url:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    ProductCreate:
+      type: object
+      required:
+        - name
+        - price
+      properties:
+        name:
+          type: string
+          maxLength: 255
+        description:
+          type: string
+        sku:
+          type: string
+        barcode:
+          type: string
+        price:
+          type: number
+          minimum: 0
+        cost_price:
+          type: number
+          minimum: 0
+        quantity:
+          type: number
+          default: 0
+        min_stock:
+          type: number
+          default: 0
+        category_id:
+          type: integer
+        tax_rate:
+          type: number
+          default: 0
+        image:
+          type: string
+          format: binary
+
+    ProductUpdate:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+        cost_price:
+          type: number
+        quantity:
+          type: number
+        min_stock:
+          type: number
+        category_id:
+          type: integer
+        is_active:
+          type: boolean
+
+    ProductListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Product'
+        meta:
+          type: object
+          properties:
+            current_page:
+              type: integer
+            last_page:
+              type: integer
+            per_page:
+              type: integer
+            total:
+              type: integer
+
+    Sale:
+      type: object
+      properties:
+        id:
+          type: integer
+        receipt_number:
+          type: string
+        customer_id:
+          type: integer
+        customer_name:
+          type: string
+        user_id:
+          type: integer
+        user_name:
+          type: string
+        branch_id:
+          type: integer
+        subtotal:
+          type: number
+        tax_amount:
+          type: number
+        discount_amount:
+          type: number
+        total_amount:
+          type: number
+        payment_method:
+          type: string
+          enum: [cash, card, mpesa, bank_transfer, credit, mixed]
+        status:
+          type: string
+          enum: [completed, pending, cancelled, refunded]
+        created_at:
+          type: string
+          format: date-time
+
+    SaleItem:
+      type: object
+      properties:
+        id:
+          type: integer
+        product_id:
+          type: integer
+        product_name:
+          type: string
+        quantity:
+          type: number
+        unit_price:
+          type: number
+        total_price:
+          type: number
+        discount_amount:
+          type: number
+
+    SaleCreate:
+      type: object
+      required:
+        - items
+        - payment_method
+      properties:
+        items:
+          type: array
+          minItems: 1
+          items:
+            type: object
+            required:
+              - product_id
+              - quantity
+            properties:
+              product_id:
+                type: integer
+              quantity:
+                type: number
+                minimum: 0.01
+              unit_price:
+                type: number
+              discount_percent:
+                type: number
+        customer_id:
+          type: integer
+        branch_id:
+          type: integer
+        payment_method:
+          type: string
+          enum: [cash, card, mpesa, bank_transfer, credit, mixed]
+        discount_amount:
+          type: number
+        tax_amount:
+          type: number
+        notes:
+          type: string
+        reference:
+          type: string
+
+    SaleDetail:
+      allOf:
+        - $ref: '#/components/schemas/Sale'
+        - type: object
+          properties:
+            items:
+              type: array
+              items:
+                $ref: '#/components/schemas/SaleItem'
+            payments:
+              type: array
+              items:
+                type: object
+                properties:
+                  method:
+                    type: string
+                  amount:
+                    type: number
+                  reference:
+                    type: string
+
+    SaleListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Sale'
+        summary:
+          type: object
+          properties:
+            total_sales:
+              type: number
+            total_count:
+              type: integer
+            total_tax:
+              type: number
+            by_payment_method:
+              type: object
+
+    Receipt:
+      type: object
+      properties:
+        receipt_number:
+          type: string
+        date:
+          type: string
+        company:
+          type: object
+          properties:
+            name:
+              type: string
+            address:
+              type: string
+            phone:
+              type: string
+            email:
+              type: string
+        customer:
+          type: object
+          properties:
+            name:
+              type: string
+            phone:
+              type: string
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              name:
+                type: string
+              quantity:
+                type: number
+              price:
+                type: number
+              total:
+                type: number
+        subtotal:
+          type: number
+        tax:
+          type: number
+        discount:
+          type: number
+        total:
+          type: number
+        payment_method:
+          type: string
+        tendered:
+          type: number
+        change:
+          type: number
+
+    Category:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        parent_id:
+          type: integer
+        image_url:
+          type: string
+        product_count:
+          type: integer
+
+    CategoryCreate:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        parent_id:
+          type: integer
+
+    Customer:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+        address:
+          type: string
+        loyalty_points:
+          type: integer
+        total_spent:
+          type: number
+        visit_count:
+          type: integer
+        last_visit:
+          type: string
+          format: date-time
+
+    CustomerCreate:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+        address:
+          type: string
+
+    Branch:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        address:
+          type: string
+        phone:
+          type: string
+        email:
+          type: string
+        is_active:
+          type: boolean
+        manager_name:
+          type: string
+
+    HeldSale:
+      type: object
+      properties:
+        id:
+          type: integer
+        reference:
+          type: string
+        customer_name:
+          type: string
+        items_count:
+          type: integer
+        total_amount:
+          type: number
+        notes:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+
+    SalesReport:
+      type: object
+      properties:
+        period:
+          type: string
+        start_date:
+          type: string
+        end_date:
+          type: string
+        summary:
+          type: object
+          properties:
+            total_sales:
+              type: number
+            total_transactions:
+              type: integer
+            total_items:
+              type: integer
+            average_transaction:
+              type: number
+        daily_breakdown:
+          type: array
+          items:
+            type: object
+            properties:
+              date:
+                type: string
+              sales:
+                type: number
+              transactions:
+                type: integer
+        by_category:
+          type: array
+        by_payment_method:
+          type: array
+        top_products:
+          type: array
+
+    Subscription:
+      type: object
+      properties:
+        id:
+          type: integer
+        plan_id:
+          type: string
+        plan_name:
+          type: string
+        status:
+          type: string
+          enum: [trial, active, past_due, cancelled, expired]
+        billing_cycle:
+          type: string
+          enum: [monthly, yearly]
+        amount:
+          type: number
+        trial_ends_at:
+          type: string
+          format: date-time
+        current_period_ends_at:
+          type: string
+          format: date-time
+        features:
+          type: array
+          items:
+            type: string
+
+    Invoice:
+      type: object
+      properties:
+        id:
+          type: integer
+        invoice_number:
+          type: string
+        amount:
+          type: number
+        status:
+          type: string
+        date:
+          type: string
+          format: date-time
+        due_date:
+          type: string
+          format: date-time
+        paid_at:
+          type: string
+          format: date-time
+        pdf_url:
+          type: string

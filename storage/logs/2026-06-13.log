@@ -1,0 +1,8 @@
+[2026-06-13 23:36:46] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1525): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\auth.php(1592): init_session_security()
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\JDH_POS\_debug_branch.php(7): safe_require('auth.php', 'src', true)
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73

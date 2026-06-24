@@ -1,0 +1,17 @@
+[2026-06-16 08:39:26] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1512): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\auth.php(1579): init_session_security()
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\JDH_POS\check_dashboard_filter.php(7): safe_require('auth.php', 'src', true)
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-16 10:10:28] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Undefined constant "PREG_OFFSET_MATCH" in C:\xampp\htdocs\JDH_POS\src\db.php:319
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\test_auto_scope.php(20): apply_auto_scoping('SELECT * FROM s...', Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 319
+[2026-06-16 21:08:17] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_authenticated() in C:\xampp\htdocs\JDH_POS\public\ajax\get_products_lazy.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_products_lazy.php on line 12

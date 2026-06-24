@@ -1,0 +1,496 @@
+[2026-05-07 00:13:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:28:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:28:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:28:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:28:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:28:37] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:30:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:34:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:37:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 00:45:38] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:45:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:45:40] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:45:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:47:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:47:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:405
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(405): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(25): get_automated_inventory_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 405
+[2026-05-07 00:49:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:49:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 00:50:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:00:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:05:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:05:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:05:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:05:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:07:40] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:07:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:07:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:07:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:11:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:11:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:11:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'final_amount' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:25
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(25): PDO->prepare('\n    SELECT COU...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 25
+[2026-05-07 01:17:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:17:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:17:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:17:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:17:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:19:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:19:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:21:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:21:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:21:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:18] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:18] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:23:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:26:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:26:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:26:38] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:26:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-07 01:28:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php(169): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\quotations\list_quotation.php(208): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\item_expiry.php(96): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\quotations\list_quotation.php(208): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\billing.php(57): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:29:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:30:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:30:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:30:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:30:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\layouts/includes/breadcrumbs.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:728
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(77): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 728
+[2026-05-07 01:35:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\ai\recommendations.php:468
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ai\recommendations.php(468): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\ai\recommendations.php(40): get_recommendation_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ai\recommendations.php on line 468
+[2026-05-07 02:14:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:433
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(433): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 433
+[2026-05-07 08:28:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 08:28:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 08:28:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:00:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:12:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:13:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:17:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:17:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:17:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 09:20:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\src\db.php:619) in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php on line 86
+[2026-05-07 12:15:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\header.php on line 288
+[2026-05-07 12:15:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\header.php on line 288
+[2026-05-07 12:22:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:22:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:27:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:27:11] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:28:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:28:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:28:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:28:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:45:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:45:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:45:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:46:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:47:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:47:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:47:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:48:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:48:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:48:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:51:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:52:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:52:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 12:53:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "FeatureAccess" not found in C:\xampp\htdocs\JDH_POS\src\saas.php:259
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(58): isOnTrial(1)
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(689): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\saas.php on line 259
+[2026-05-07 13:25:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_company_id() in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:48
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(497): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 48
+[2026-05-07 13:25:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_company_id() in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:48
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 48
+[2026-05-07 13:25:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_company_id() in C:\xampp\htdocs\JDH_POS\public\layouts\app.php:48
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(361): include_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 48
+[2026-05-07 13:42:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on int in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:156
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php(66): FeatureAccess->getCompanyFeatures()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php on line 156
+[2026-05-07 13:42:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on int in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:156
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php(66): FeatureAccess->getCompanyFeatures()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php on line 156
+[2026-05-07 13:50:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:50:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:50:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:53:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:53:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:53:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:53:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:54:12] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 13:54:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:02:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:02:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:09:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:09:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:09:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:18:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:19:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:29:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:29:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:33:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:33:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:33:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:36:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:36:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:36:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 14:55:52] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:08:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:31:15] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:39:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:45:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:45:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:46:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:56:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 15:56:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:00:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:00:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:01:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:09:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:13:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:15:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:19:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: DashboardRepository::__construct(): Argument #2 ($ctx) must be of type DashboardContext, null given, called in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 35 and defined in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(35): DashboardRepository->__construct(Object(PDO), NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 28
+[2026-05-07 16:19:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: DashboardRepository::__construct(): Argument #2 ($ctx) must be of type DashboardContext, null given, called in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 35 and defined in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:28
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(35): DashboardRepository->__construct(Object(PDO), NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 28
+[2026-05-07 16:24:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:30:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:30:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:48:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:49:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:50:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 16:50:21] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 17:28:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 17:30:12] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 17:37:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 17:55:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined method DashboardRepository::prepare() in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:377
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(228): DashboardRepository->salesPeriodKPI('CURDATE()', 'CURDATE()', ' AND s.tenant_i...', Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(137): DashboardRepository->buildKPIs()
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(38): DashboardRepository->build()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 377
+[2026-05-07 18:11:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 18:23:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 18:31:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 18:58:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 19:09:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:03:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:04:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:20:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:20:15] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:27:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:27:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:27:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:27:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 22:57:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:10:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:10:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:10:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:10:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:18:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:32:40] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:44:57] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84

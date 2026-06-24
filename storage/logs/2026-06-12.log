@@ -1,0 +1,15 @@
+[2026-06-12 10:47:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, null given in C:\xampp\htdocs\JDH_POS\public\auth\register.php:547
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\auth\register.php(547): htmlspecialchars(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\register.php on line 547
+[2026-06-12 10:56:58] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, null given in C:\xampp\htdocs\JDH_POS\public\auth\register.php:547
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\auth\register.php(547): htmlspecialchars(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\register.php on line 547
+[2026-06-12 12:46:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: htmlspecialchars(): Argument #1 ($string) must be of type string, null given in C:\xampp\htdocs\JDH_POS\public\auth\register.php:547
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\auth\register.php(547): htmlspecialchars(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\auth\register.php on line 547

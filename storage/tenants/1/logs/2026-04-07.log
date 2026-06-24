@@ -1,0 +1,401 @@
+[2026-04-07 01:04:08] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Unmatched '}' in C:\xampp\htdocs\JDH_POS\src\pos_backend.php on line 472
+[2026-04-07 01:15:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:282
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(282): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 282
+[2026-04-07 01:24:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:282
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(282): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 282
+[2026-04-07 01:28:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:25] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:28:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:32:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:296
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(296): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 296
+[2026-04-07 01:41:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-07 01:45:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:45:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:47:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:47:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:48:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:49:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 01:50:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:44:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(339): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 339
+[2026-04-07 02:44:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:48:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:49:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:49:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:50:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:53:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:53:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 02:55:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 08:59:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(339): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 339
+[2026-04-07 08:59:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(339): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 339
+[2026-04-07 10:03:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(339): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 339
+[2026-04-07 10:13:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:13:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:18:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:19:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:19:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:19:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:19:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:20:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:20:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:23:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:23:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:23:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:24:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 10:24:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 11:41:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 11:41:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 11:47:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:856
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(856): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(984): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 856
+[2026-04-07 11:52:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:864
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(864): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(992): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 864
+[2026-04-07 11:52:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:864
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(864): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(992): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 864
+[2026-04-07 11:52:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:864
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(864): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(992): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 864

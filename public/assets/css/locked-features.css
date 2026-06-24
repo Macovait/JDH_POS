@@ -1,0 +1,419 @@
+/* Locked Features UI/UX Styles */
+
+/* Locked menu item */
+.nav-item.locked {
+  position: relative;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.nav-item.locked:hover {
+  opacity: 0.8;
+}
+
+.nav-item.locked .nav-link {
+  pointer-events: none;
+}
+
+/* Lock icon overlay */
+.lock-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #f59e0b;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* Locked feature badge */
+.locked-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-left: 8px;
+  box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);
+}
+
+.locked-badge i {
+  font-size: 8px;
+}
+
+/* Upgrade prompt tooltip */
+.upgrade-tooltip {
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 10px;
+  background: #1f2937;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.upgrade-tooltip::before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 6px solid transparent;
+  border-right-color: #1f2937;
+}
+
+.nav-item.locked:hover .upgrade-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Locked feature card */
+.feature-card.locked {
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card.locked::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.feature-card.locked .lock-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  color: white;
+}
+
+.feature-card.locked .lock-overlay i {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #f59e0b;
+}
+
+.feature-card.locked .lock-overlay p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Upgrade button in locked features */
+.upgrade-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.4);
+}
+
+.upgrade-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.6);
+  color: white;
+}
+
+/* Plan badge styles */
+.plan-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.plan-badge.free {
+  background: #e5e7eb;
+  color: #6b7280;
+}
+
+.plan-badge.starter {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.plan-badge.professional {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.plan-badge.enterprise {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Feature limit warning */
+.limit-warning {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  border-radius: 8px;
+  padding: 12px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.limit-warning i {
+  color: #f59e0b;
+  font-size: 20px;
+}
+
+.limit-warning p {
+  color: #92400e;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* Upgrade modal */
+.upgrade-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.upgrade-modal.active {
+  display: flex;
+}
+
+.upgrade-modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.upgrade-modal-content i {
+  font-size: 48px;
+  color: #f59e0b;
+  margin-bottom: 15px;
+}
+
+.upgrade-modal-content h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.upgrade-modal-content p {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.upgrade-modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.upgrade-modal-actions .btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.upgrade-modal-actions .btn-primary {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  border: none;
+}
+
+.upgrade-modal-actions .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.4);
+}
+
+.upgrade-modal-actions .btn-secondary {
+  background: #e5e7eb;
+  color: #374151;
+  border: none;
+}
+
+.upgrade-modal-actions .btn-secondary:hover {
+  background: #d1d5db;
+}
+
+/* Feature comparison table */
+.feature-comparison {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.feature-comparison th,
+.feature-comparison td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.feature-comparison th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.feature-comparison tr:hover {
+  background: #f9fafb;
+}
+
+.feature-comparison .check {
+  color: #10b981;
+}
+
+.feature-comparison .cross {
+  color: #ef4444;
+}
+
+.feature-comparison .locked-feature {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+/* Pricing cards */
+.pricing-card {
+  background: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  border-color: #f59e0b;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card.popular {
+  border-color: #f59e0b;
+  position: relative;
+}
+
+.pricing-card.popular::before {
+  content: "Most Popular";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  color: white;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.pricing-card .plan-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.pricing-card .plan-price {
+  font-size: 36px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.pricing-card .plan-price span {
+  font-size: 16px;
+  color: #6b7280;
+}
+
+.pricing-card .plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pricing-card .plan-features li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #374151;
+}
+
+.pricing-card .plan-features li i {
+  color: #10b981;
+}
+
+.pricing-card .plan-features li.locked {
+  color: #9ca3af;
+}
+
+.pricing-card .plan-features li.locked i {
+  color: #ef4444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .upgrade-tooltip {
+    left: auto;
+    right: 0;
+    top: 100%;
+    transform: none;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .upgrade-tooltip::before {
+    display: none;
+  }
+
+  .pricing-card {
+    margin-bottom: 20px;
+  }
+}

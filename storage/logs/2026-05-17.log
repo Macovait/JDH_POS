@@ -1,0 +1,114 @@
+[2026-05-17 07:45:15] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'active' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\shop\test_db.php:22
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\test_db.php(22): PDO->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\test_db.php on line 22
+[2026-05-17 09:34:03] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php:30
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\new-index.php(30): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php on line 30
+[2026-05-17 09:34:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php:30
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\new-index.php(30): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php on line 30
+[2026-05-17 09:38:02] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php:30
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\new-index.php(30): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php on line 30
+[2026-05-17 09:38:04] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php:30
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\new-index.php(30): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php on line 30
+[2026-05-17 09:39:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php:30
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\new-index.php(30): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\new-index.php on line 30
+[2026-05-17 09:43:13] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.storefront_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\public\shop\test_new_index.php:37
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\shop\test_new_index.php(37): PDO->prepare('SELECT setting_...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shop\test_new_index.php on line 37
+[2026-05-17 16:00:13] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:00:23] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:01:21] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:02:57] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:03:12] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:08:33] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:08:37] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:08:41] [ERROR] [User: 2] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 16:10:37] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it in C:\xampp\htdocs\JDH_POS\src\Config.php:121
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Config.php(121): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(39): JDH\POS\Config::getPDO()
+#2 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(26): JDH\POS\Services\AuthService->initialize()
+#3 C:\xampp\htdocs\JDH_POS\public\auth\login.php(47): JDH\POS\Services\AuthService->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Config.php on line 121
+[2026-05-17 17:53:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-05-17 17:55:32] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-05-17 23:48:48] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1067 Invalid default value for 'current_period_end' in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subscriptions.php:32
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\fix_pos_subscriptions.php(32): PDO->exec('ALTER TABLE pos...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subscriptions.php on line 32

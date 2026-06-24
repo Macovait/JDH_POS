@@ -1,0 +1,57 @@
+[2026-05-05 16:40:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.slug' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT cs.*, c....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(263): db_fetch_all('SELECT cs.*, c....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(263): db_fetch_all('SELECT cs.*, c....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-05 16:42:27] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.active' in 'where clause' in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\RolesModel.php(21): PDO->prepare('\n              ...')
+#1 C:\xampp\htdocs\JDH_POS\admin\roles.php(132): RolesModel->getRoles()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php on line 21
+[2026-05-05 17:32:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 17:32:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 18:00:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 18:00:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 18:00:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 18:00:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'si.total' in 'field list' in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:33
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(33): PDO->query('SELECT p.name, ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 33
+[2026-05-05 18:20:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Jakababa\Services\PaymentService" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\billing.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\billing.php on line 20
+[2026-05-05 18:31:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Jakababa\Services\PaymentService" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\billing.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\billing.php on line 20

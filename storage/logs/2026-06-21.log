@@ -1,0 +1,24 @@
+[2026-06-21 13:38:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-21 13:39:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-21 15:38:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16
+[2026-06-21 23:51:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16

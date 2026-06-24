@@ -1,0 +1,826 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - complementary [ref=e2]:
+    - link "JAKPOS POS System" [ref=e4] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/dashboard/home.php
+      - generic [ref=e6]:
+        - heading "JAKPOS" [level=1] [ref=e7]
+        - paragraph [ref=e8]: POS System
+    - generic [ref=e9]:
+      - img "Bunde" [ref=e11]
+      - generic [ref=e12]:
+        - heading "Bunde " [level=5] [ref=e13]:
+          - text: Bunde
+          - generic [ref=e14]: 
+        - generic [ref=e15]: Administrator
+    - list [ref=e17]:
+      - listitem [ref=e18]:
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/support.php
+          - generic [ref=e20]: 
+      - listitem [ref=e21]:
+        - link "" [ref=e22] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/docs.php
+          - generic [ref=e23]: 
+      - listitem [ref=e24]:
+        - link "" [ref=e25] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/projects.php
+          - generic [ref=e26]: 
+      - listitem [ref=e27]:
+        - link "" [ref=e28] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e29]: 
+    - navigation [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: Overview
+        - link " Dashboard Hot" [ref=e33] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/home.php
+          - generic [ref=e34]: 
+          - generic [ref=e35]: Dashboard
+          - generic [ref=e36]: Hot
+      - generic [ref=e37]:
+        - generic [ref=e38]: Sales
+        - link " Point of Sale" [ref=e39] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/pos.php
+          - generic [ref=e40]: 
+          - generic [ref=e41]: Point of Sale
+        - link " All Sales" [ref=e42] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/all_sales.php
+          - generic [ref=e43]: 
+          - generic [ref=e44]: All Sales
+        - link " Returns" [ref=e45] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/select_sale_for_return.php
+          - generic [ref=e46]: 
+          - generic [ref=e47]: Returns
+        - link " Quotations" [ref=e48] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/quotations/list_quotation.php
+          - generic [ref=e49]: 
+          - generic [ref=e50]: Quotations
+        - link "% Discounts" [ref=e51] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/discounts/discounts.php
+          - generic [ref=e52]: "%"
+          - generic [ref=e53]: Discounts
+        - link " Vouchers" [ref=e54] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/vouchers/vouchers.php
+          - generic [ref=e55]: 
+          - generic [ref=e56]: Vouchers
+      - generic [ref=e57]:
+        - generic [ref=e58]: Inventory
+        - link " Products" [ref=e59] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/products.php
+          - generic [ref=e60]: 
+          - generic [ref=e61]: Products
+        - link "+ Add Product" [ref=e62] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product_form.php
+          - generic [ref=e63]: +
+          - generic [ref=e64]: Add Product
+        - link " Brands" [ref=e65] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brands.php
+          - generic [ref=e66]: 
+          - generic [ref=e67]: Brands
+        - link "+ Add Brand" [ref=e68] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brand_form.php
+          - generic [ref=e69]: +
+          - generic [ref=e70]: Add Brand
+        - link " Categories" [ref=e71] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/categories/list_categories.php
+          - generic [ref=e72]: 
+          - generic [ref=e73]: Categories
+        - link " Stock" [ref=e74] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/inventory.php
+          - generic [ref=e75]: 
+          - generic [ref=e76]: Stock
+        - link " Item Expiry" [ref=e77] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/item_expiry.php
+          - generic [ref=e78]: 
+          - generic [ref=e79]: Item Expiry
+        - link " Suppliers" [ref=e80] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/suppliers.php
+          - generic [ref=e81]: 
+          - generic [ref=e82]: Suppliers
+        - link " Shipments" [ref=e83] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/shipments/shipments.php
+          - generic [ref=e84]: 
+          - generic [ref=e85]: Shipments
+        - link " Barcode Labels" [ref=e86] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/barcode_labels.php
+          - generic [ref=e87]: 
+          - generic [ref=e88]: Barcode Labels
+        - link " Attributes" [ref=e89] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/attributes.php
+          - generic [ref=e90]: 
+          - generic [ref=e91]: Attributes
+        - link " Product Tags" [ref=e92] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product-tags.php
+          - generic [ref=e93]: 
+          - generic [ref=e94]: Product Tags
+      - generic [ref=e95]:
+        - generic [ref=e96]: Procurement
+        - link " Purchases" [ref=e97] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/purchases/purchase_orders.php
+          - generic [ref=e98]: 
+          - generic [ref=e99]: Purchases
+      - generic [ref=e100]:
+        - generic [ref=e101]: People
+        - link " All Customers" [ref=e102] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/customers.php
+          - generic [ref=e103]: 
+          - generic [ref=e104]: All Customers
+        - link " Add Customer" [ref=e105] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/add_customer.php
+          - generic [ref=e106]: 
+          - generic [ref=e107]: Add Customer
+        - link " Bulk SMS" [ref=e108] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/bulk_sms.php
+          - generic [ref=e109]: 
+          - generic [ref=e110]: Bulk SMS
+        - link " Loyalty Program" [ref=e111] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/loyalty.php
+          - generic [ref=e112]: 
+          - generic [ref=e113]: Loyalty Program
+        - link " CRM" [ref=e114] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/index.php
+          - generic [ref=e115]: 
+          - generic [ref=e116]: CRM
+        - link " CRM Leads" [ref=e117] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/leads.php
+          - generic [ref=e118]: 
+          - generic [ref=e119]: CRM Leads
+        - link " CRM Deals" [ref=e120] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/deals.php
+          - generic [ref=e121]: 
+          - generic [ref=e122]: CRM Deals
+        - link " HR Dashboard" [ref=e123] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/index.php
+          - generic [ref=e124]: 
+          - generic [ref=e125]: HR Dashboard
+        - link " Employees" [ref=e126] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/employees.php
+          - generic [ref=e127]: 
+          - generic [ref=e128]: Employees
+        - link " Leave Requests" [ref=e129] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/leave_requests.php
+          - generic [ref=e130]: 
+          - generic [ref=e131]: Leave Requests
+      - generic [ref=e132]:
+        - generic [ref=e133]: Finance
+        - link " Reports 7" [ref=e134] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/reports/reports.php
+          - generic [ref=e135]: 
+          - generic [ref=e136]: Reports
+          - generic [ref=e137]: "7"
+        - link " Expenses" [ref=e138] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/expenses/expenses.php
+          - generic [ref=e139]: 
+          - generic [ref=e140]: Expenses
+      - generic [ref=e141]:
+        - generic [ref=e142]: Billing
+        - link " Subscription" [ref=e143] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/billing.php
+          - generic [ref=e144]: 
+          - generic [ref=e145]: Subscription
+        - link " M-Pesa Settings" [ref=e146] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/mpesa_settings.php
+          - generic [ref=e147]: 
+          - generic [ref=e148]: M-Pesa Settings
+        - link " SMS Settings" [ref=e149] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/sms_settings.php
+          - generic [ref=e150]: 
+          - generic [ref=e151]: SMS Settings
+        - link " Payment History" [ref=e152] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/payment_history.php
+          - generic [ref=e153]: 
+          - generic [ref=e154]: Payment History
+      - generic [ref=e155]:
+        - generic [ref=e156]: System
+        - link " Branches" [ref=e157] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/branches/branches.php
+          - generic [ref=e158]: 
+          - generic [ref=e159]: Branches
+        - link " Users" [ref=e160] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/users.php
+          - generic [ref=e161]: 
+          - generic [ref=e162]: Users
+        - link " Roles & Permissions" [ref=e163] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/roles/roles.php
+          - generic [ref=e164]: 
+          - generic [ref=e165]: Roles & Permissions
+        - link " Backup" [ref=e166] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/backup/backup.php
+          - generic [ref=e167]: 
+          - generic [ref=e168]: Backup
+        - link " Activity Log" [ref=e169] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/activity_logs.php
+          - generic [ref=e170]: 
+          - generic [ref=e171]: Activity Log
+        - link " Settings" [ref=e172] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e173]: 
+          - generic [ref=e174]: Settings
+    - link " Sign Out" [ref=e176] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/auth/logout.php
+      - generic [ref=e177]: 
+      - generic [ref=e178]: Sign Out
+  - generic [ref=e179]:
+    - banner [ref=e180]:
+      - generic [ref=e182]:
+        - generic [ref=e184]:
+          - generic [ref=e185]: 
+          - generic [ref=e186]: Kisumu
+        - generic [ref=e189]:
+          - generic [ref=e190]: 
+          - textbox "Search products, customers, sales..." [ref=e191]
+          - text: 
+          - generic [ref=e192]: Ctrl K
+        - generic [ref=e193]:
+          - button "" [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]: 
+          - link " POS" [ref=e196] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/pos/pos.php
+            - generic [ref=e197]: 
+            - generic [ref=e198]: POS
+          - button "" [ref=e200] [cursor=pointer]:
+            - generic [ref=e201]: 
+          - button "EN" [ref=e203] [cursor=pointer]
+          - button "Bunde Bunde Administrator " [ref=e205] [cursor=pointer]:
+            - img "Bunde" [ref=e207]
+            - generic [ref=e208]:
+              - generic [ref=e209]: Bunde
+              - generic [ref=e210]: Administrator
+            - generic [ref=e211]: 
+    - text:              
+    - navigation "Breadcrumb" [ref=e212]:
+      - list [ref=e213]:
+        - listitem [ref=e214]:
+          - link " Dashboard" [ref=e215] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/dashboard/home.php
+            - generic [ref=e216]: 
+            - generic [ref=e217]: Dashboard
+          - generic [ref=e218]: 
+        - listitem [ref=e219]:
+          - link " Pos" [ref=e220] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/pos
+            - generic [ref=e221]: 
+            - generic [ref=e222]: Pos
+          - generic [ref=e223]: 
+        - listitem [ref=e224]:
+          - generic [ref=e225]: 
+          - generic [ref=e226]: All Sales
+    - main [ref=e227]:
+      - paragraph [ref=e228]
+      - generic [ref=e229]:
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - generic [ref=e232]: Transactions
+            - heading "Sales" [level=1] [ref=e233]
+          - generic [ref=e234]:
+            - link " Export CSV" [ref=e235] [cursor=pointer]:
+              - /url: export_sales.php?sort=newest&page=1&format=csv
+              - generic [ref=e236]: 
+              - text: Export CSV
+            - link "+ New Sale" [ref=e237] [cursor=pointer]:
+              - /url: add_sales.php
+              - generic [ref=e238]: +
+              - text: New Sale
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - generic [ref=e241]: Total Revenue
+            - generic [ref=e242]: KSh 118,469
+            - generic [ref=e243]: 51 completed
+          - generic [ref=e244]:
+            - generic [ref=e245]: Cash
+            - generic [ref=e246]: KSh 89,003
+          - generic [ref=e247]:
+            - generic [ref=e248]: Card
+            - generic [ref=e249]: KSh 6,264
+          - generic [ref=e250]:
+            - generic [ref=e251]: M-Pesa
+            - generic [ref=e252]: KSh 4,737
+          - generic [ref=e253]:
+            - generic [ref=e254]: Credit
+            - generic [ref=e255]: KSh 8,325
+        - generic [ref=e256]:
+          - link "All" [ref=e257] [cursor=pointer]:
+            - /url: "?sort=newest&page=1&status="
+          - link "Completed (51)" [ref=e258] [cursor=pointer]:
+            - /url: "?sort=newest&page=1&status=completed"
+          - link "Pending (0)" [ref=e259] [cursor=pointer]:
+            - /url: "?sort=newest&page=1&status=pending"
+          - link "Draft (0)" [ref=e260] [cursor=pointer]:
+            - /url: "?sort=newest&page=1&status=draft"
+          - link "Cancelled (0)" [ref=e261] [cursor=pointer]:
+            - /url: "?sort=newest&page=1&status=cancelled"
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - searchbox "Search invoice, customer, phone..." [ref=e264]
+            - combobox [ref=e265]:
+              - option "All Payments" [selected]
+              - option "Cash"
+              - option "Card"
+              - option "M-Pesa"
+              - option "Bank Transfer"
+              - option "Credit"
+            - combobox [ref=e266]:
+              - option "Newest First" [selected]
+              - option "Oldest First"
+              - option "Highest Amount"
+              - option "Lowest Amount"
+            - textbox [ref=e267]
+            - textbox [ref=e268]
+          - combobox [ref=e270]:
+            - option "All Branches" [selected]
+            - option "Kisumu"
+          - generic [ref=e271]:
+            - link "Clear" [ref=e272] [cursor=pointer]:
+              - /url: all_sales.php
+            - button "Apply Filters" [ref=e273] [cursor=pointer]
+        - table [ref=e276]:
+          - rowgroup [ref=e277]:
+            - row "Invoice Date Customer Cashier Branch Payment Total Status Actions" [ref=e278]:
+              - columnheader "Invoice" [ref=e279]
+              - columnheader "Date" [ref=e280]
+              - columnheader "Customer" [ref=e281]
+              - columnheader "Cashier" [ref=e282]
+              - columnheader "Branch" [ref=e283]
+              - columnheader "Payment" [ref=e284]
+              - columnheader "Total" [ref=e285]
+              - columnheader "Status" [ref=e286]
+              - columnheader "Actions" [ref=e287]
+          - rowgroup [ref=e288]:
+            - row "INV-202606-0001 Jun 01, 2026 17:41 Walk-in Customer Bunde Kisumu Cash KSh 1,740 Completed View Print Return" [ref=e289]:
+              - cell "INV-202606-0001" [ref=e290]:
+                - generic [ref=e291]: INV-202606-0001
+              - cell "Jun 01, 2026 17:41" [ref=e292]:
+                - generic [ref=e293]: Jun 01, 2026
+                - generic [ref=e294]: 17:41
+              - cell "Walk-in Customer" [ref=e295]:
+                - generic [ref=e296]: Walk-in Customer
+              - cell "Bunde" [ref=e297]
+              - cell "Kisumu" [ref=e298]
+              - cell "Cash" [ref=e299]:
+                - generic [ref=e300]: Cash
+              - cell "KSh 1,740" [ref=e301]
+              - cell "Completed" [ref=e302]:
+                - generic [ref=e303]: Completed
+              - cell "View Print Return" [ref=e304]:
+                - generic [ref=e305]:
+                  - link "View" [ref=e306] [cursor=pointer]:
+                    - /url: view_sale.php?id=53
+                  - link "Print" [ref=e307] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=53
+                  - link "Return" [ref=e308] [cursor=pointer]:
+                    - /url: return_sale.php?id=53
+            - row "INV-202605-0001 May 31, 2026 19:42 Walk-in Customer Bunde Kisumu Cash KSh 4,408 Completed View Print Return" [ref=e309]:
+              - cell "INV-202605-0001" [ref=e310]:
+                - generic [ref=e311]: INV-202605-0001
+              - cell "May 31, 2026 19:42" [ref=e312]:
+                - generic [ref=e313]: May 31, 2026
+                - generic [ref=e314]: 19:42
+              - cell "Walk-in Customer" [ref=e315]:
+                - generic [ref=e316]: Walk-in Customer
+              - cell "Bunde" [ref=e317]
+              - cell "Kisumu" [ref=e318]
+              - cell "Cash" [ref=e319]:
+                - generic [ref=e320]: Cash
+              - cell "KSh 4,408" [ref=e321]
+              - cell "Completed" [ref=e322]:
+                - generic [ref=e323]: Completed
+              - cell "View Print Return" [ref=e324]:
+                - generic [ref=e325]:
+                  - link "View" [ref=e326] [cursor=pointer]:
+                    - /url: view_sale.php?id=52
+                  - link "Print" [ref=e327] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=52
+                  - link "Return" [ref=e328] [cursor=pointer]:
+                    - /url: return_sale.php?id=52
+            - row "INV-202605-0001 May 29, 2026 20:16 Walk-in Customer Bunde Kisumu Stripe KSh 1,740 Completed View Print Return" [ref=e329]:
+              - cell "INV-202605-0001" [ref=e330]:
+                - generic [ref=e331]: INV-202605-0001
+              - cell "May 29, 2026 20:16" [ref=e332]:
+                - generic [ref=e333]: May 29, 2026
+                - generic [ref=e334]: 20:16
+              - cell "Walk-in Customer" [ref=e335]:
+                - generic [ref=e336]: Walk-in Customer
+              - cell "Bunde" [ref=e337]
+              - cell "Kisumu" [ref=e338]
+              - cell "Stripe" [ref=e339]:
+                - generic [ref=e340]: Stripe
+              - cell "KSh 1,740" [ref=e341]
+              - cell "Completed" [ref=e342]:
+                - generic [ref=e343]: Completed
+              - cell "View Print Return" [ref=e344]:
+                - generic [ref=e345]:
+                  - link "View" [ref=e346] [cursor=pointer]:
+                    - /url: view_sale.php?id=51
+                  - link "Print" [ref=e347] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=51
+                  - link "Return" [ref=e348] [cursor=pointer]:
+                    - /url: return_sale.php?id=51
+            - row "INV-202605-0001 May 29, 2026 19:29 Walk-in Customer Bunde Kisumu Cash KSh 116 Completed View Print Return" [ref=e349]:
+              - cell "INV-202605-0001" [ref=e350]:
+                - generic [ref=e351]: INV-202605-0001
+              - cell "May 29, 2026 19:29" [ref=e352]:
+                - generic [ref=e353]: May 29, 2026
+                - generic [ref=e354]: 19:29
+              - cell "Walk-in Customer" [ref=e355]:
+                - generic [ref=e356]: Walk-in Customer
+              - cell "Bunde" [ref=e357]
+              - cell "Kisumu" [ref=e358]
+              - cell "Cash" [ref=e359]:
+                - generic [ref=e360]: Cash
+              - cell "KSh 116" [ref=e361]
+              - cell "Completed" [ref=e362]:
+                - generic [ref=e363]: Completed
+              - cell "View Print Return" [ref=e364]:
+                - generic [ref=e365]:
+                  - link "View" [ref=e366] [cursor=pointer]:
+                    - /url: view_sale.php?id=50
+                  - link "Print" [ref=e367] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=50
+                  - link "Return" [ref=e368] [cursor=pointer]:
+                    - /url: return_sale.php?id=50
+            - row "INV-202605-0001 May 29, 2026 01:08 Walk-in Customer Bunde Kisumu Cash KSh 116 Completed View Print Return" [ref=e369]:
+              - cell "INV-202605-0001" [ref=e370]:
+                - generic [ref=e371]: INV-202605-0001
+              - cell "May 29, 2026 01:08" [ref=e372]:
+                - generic [ref=e373]: May 29, 2026
+                - generic [ref=e374]: 01:08
+              - cell "Walk-in Customer" [ref=e375]:
+                - generic [ref=e376]: Walk-in Customer
+              - cell "Bunde" [ref=e377]
+              - cell "Kisumu" [ref=e378]
+              - cell "Cash" [ref=e379]:
+                - generic [ref=e380]: Cash
+              - cell "KSh 116" [ref=e381]
+              - cell "Completed" [ref=e382]:
+                - generic [ref=e383]: Completed
+              - cell "View Print Return" [ref=e384]:
+                - generic [ref=e385]:
+                  - link "View" [ref=e386] [cursor=pointer]:
+                    - /url: view_sale.php?id=49
+                  - link "Print" [ref=e387] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=49
+                  - link "Return" [ref=e388] [cursor=pointer]:
+                    - /url: return_sale.php?id=49
+            - row "INV-202605-0001 May 28, 2026 21:08 Walk-in Customer Bunde Kisumu Flutterwave KSh 1,740 Completed View Print Return" [ref=e389]:
+              - cell "INV-202605-0001" [ref=e390]:
+                - generic [ref=e391]: INV-202605-0001
+              - cell "May 28, 2026 21:08" [ref=e392]:
+                - generic [ref=e393]: May 28, 2026
+                - generic [ref=e394]: 21:08
+              - cell "Walk-in Customer" [ref=e395]:
+                - generic [ref=e396]: Walk-in Customer
+              - cell "Bunde" [ref=e397]
+              - cell "Kisumu" [ref=e398]
+              - cell "Flutterwave" [ref=e399]:
+                - generic [ref=e400]: Flutterwave
+              - cell "KSh 1,740" [ref=e401]
+              - cell "Completed" [ref=e402]:
+                - generic [ref=e403]: Completed
+              - cell "View Print Return" [ref=e404]:
+                - generic [ref=e405]:
+                  - link "View" [ref=e406] [cursor=pointer]:
+                    - /url: view_sale.php?id=48
+                  - link "Print" [ref=e407] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=48
+                  - link "Return" [ref=e408] [cursor=pointer]:
+                    - /url: return_sale.php?id=48
+            - row "INV-202605-0001 May 28, 2026 20:41 Walk-in Customer Bunde Kisumu Cash KSh 928 Completed View Print Return" [ref=e409]:
+              - cell "INV-202605-0001" [ref=e410]:
+                - generic [ref=e411]: INV-202605-0001
+              - cell "May 28, 2026 20:41" [ref=e412]:
+                - generic [ref=e413]: May 28, 2026
+                - generic [ref=e414]: 20:41
+              - cell "Walk-in Customer" [ref=e415]:
+                - generic [ref=e416]: Walk-in Customer
+              - cell "Bunde" [ref=e417]
+              - cell "Kisumu" [ref=e418]
+              - cell "Cash" [ref=e419]:
+                - generic [ref=e420]: Cash
+              - cell "KSh 928" [ref=e421]
+              - cell "Completed" [ref=e422]:
+                - generic [ref=e423]: Completed
+              - cell "View Print Return" [ref=e424]:
+                - generic [ref=e425]:
+                  - link "View" [ref=e426] [cursor=pointer]:
+                    - /url: view_sale.php?id=47
+                  - link "Print" [ref=e427] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=47
+                  - link "Return" [ref=e428] [cursor=pointer]:
+                    - /url: return_sale.php?id=47
+            - row "INV-202605-0001 May 28, 2026 18:52 Walk-in Customer Bunde Kisumu Cash KSh 812 Completed View Print Return" [ref=e429]:
+              - cell "INV-202605-0001" [ref=e430]:
+                - generic [ref=e431]: INV-202605-0001
+              - cell "May 28, 2026 18:52" [ref=e432]:
+                - generic [ref=e433]: May 28, 2026
+                - generic [ref=e434]: 18:52
+              - cell "Walk-in Customer" [ref=e435]:
+                - generic [ref=e436]: Walk-in Customer
+              - cell "Bunde" [ref=e437]
+              - cell "Kisumu" [ref=e438]
+              - cell "Cash" [ref=e439]:
+                - generic [ref=e440]: Cash
+              - cell "KSh 812" [ref=e441]
+              - cell "Completed" [ref=e442]:
+                - generic [ref=e443]: Completed
+              - cell "View Print Return" [ref=e444]:
+                - generic [ref=e445]:
+                  - link "View" [ref=e446] [cursor=pointer]:
+                    - /url: view_sale.php?id=45
+                  - link "Print" [ref=e447] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=45
+                  - link "Return" [ref=e448] [cursor=pointer]:
+                    - /url: return_sale.php?id=45
+            - row "INV-202605-0001 May 28, 2026 18:50 Walk-in Customer Bunde Kisumu Cash KSh 4,408 Completed View Print Return" [ref=e449]:
+              - cell "INV-202605-0001" [ref=e450]:
+                - generic [ref=e451]: INV-202605-0001
+              - cell "May 28, 2026 18:50" [ref=e452]:
+                - generic [ref=e453]: May 28, 2026
+                - generic [ref=e454]: 18:50
+              - cell "Walk-in Customer" [ref=e455]:
+                - generic [ref=e456]: Walk-in Customer
+              - cell "Bunde" [ref=e457]
+              - cell "Kisumu" [ref=e458]
+              - cell "Cash" [ref=e459]:
+                - generic [ref=e460]: Cash
+              - cell "KSh 4,408" [ref=e461]
+              - cell "Completed" [ref=e462]:
+                - generic [ref=e463]: Completed
+              - cell "View Print Return" [ref=e464]:
+                - generic [ref=e465]:
+                  - link "View" [ref=e466] [cursor=pointer]:
+                    - /url: view_sale.php?id=44
+                  - link "Print" [ref=e467] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=44
+                  - link "Return" [ref=e468] [cursor=pointer]:
+                    - /url: return_sale.php?id=44
+            - row "INV-202605-0001 May 28, 2026 16:39 Walk-in Customer Bunde Kisumu Cash KSh 5,452 Completed View Print Return" [ref=e469]:
+              - cell "INV-202605-0001" [ref=e470]:
+                - generic [ref=e471]: INV-202605-0001
+              - cell "May 28, 2026 16:39" [ref=e472]:
+                - generic [ref=e473]: May 28, 2026
+                - generic [ref=e474]: 16:39
+              - cell "Walk-in Customer" [ref=e475]:
+                - generic [ref=e476]: Walk-in Customer
+              - cell "Bunde" [ref=e477]
+              - cell "Kisumu" [ref=e478]
+              - cell "Cash" [ref=e479]:
+                - generic [ref=e480]: Cash
+              - cell "KSh 5,452" [ref=e481]
+              - cell "Completed" [ref=e482]:
+                - generic [ref=e483]: Completed
+              - cell "View Print Return" [ref=e484]:
+                - generic [ref=e485]:
+                  - link "View" [ref=e486] [cursor=pointer]:
+                    - /url: view_sale.php?id=43
+                  - link "Print" [ref=e487] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=43
+                  - link "Return" [ref=e488] [cursor=pointer]:
+                    - /url: return_sale.php?id=43
+            - row "INV-202605-0001 May 28, 2026 13:39 Walk-in Customer Bunde Kisumu Cash KSh 2,552 Completed View Print Return" [ref=e489]:
+              - cell "INV-202605-0001" [ref=e490]:
+                - generic [ref=e491]: INV-202605-0001
+              - cell "May 28, 2026 13:39" [ref=e492]:
+                - generic [ref=e493]: May 28, 2026
+                - generic [ref=e494]: 13:39
+              - cell "Walk-in Customer" [ref=e495]:
+                - generic [ref=e496]: Walk-in Customer
+              - cell "Bunde" [ref=e497]
+              - cell "Kisumu" [ref=e498]
+              - cell "Cash" [ref=e499]:
+                - generic [ref=e500]: Cash
+              - cell "KSh 2,552" [ref=e501]
+              - cell "Completed" [ref=e502]:
+                - generic [ref=e503]: Completed
+              - cell "View Print Return" [ref=e504]:
+                - generic [ref=e505]:
+                  - link "View" [ref=e506] [cursor=pointer]:
+                    - /url: view_sale.php?id=46
+                  - link "Print" [ref=e507] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=46
+                  - link "Return" [ref=e508] [cursor=pointer]:
+                    - /url: return_sale.php?id=46
+            - row "INV-202605-0001 May 28, 2026 10:05 Walk-in Customer Bunde Kisumu Cash KSh 6,264 Completed View Print Return" [ref=e509]:
+              - cell "INV-202605-0001" [ref=e510]:
+                - generic [ref=e511]: INV-202605-0001
+              - cell "May 28, 2026 10:05" [ref=e512]:
+                - generic [ref=e513]: May 28, 2026
+                - generic [ref=e514]: 10:05
+              - cell "Walk-in Customer" [ref=e515]:
+                - generic [ref=e516]: Walk-in Customer
+              - cell "Bunde" [ref=e517]
+              - cell "Kisumu" [ref=e518]
+              - cell "Cash" [ref=e519]:
+                - generic [ref=e520]: Cash
+              - cell "KSh 6,264" [ref=e521]
+              - cell "Completed" [ref=e522]:
+                - generic [ref=e523]: Completed
+              - cell "View Print Return" [ref=e524]:
+                - generic [ref=e525]:
+                  - link "View" [ref=e526] [cursor=pointer]:
+                    - /url: view_sale.php?id=42
+                  - link "Print" [ref=e527] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=42
+                  - link "Return" [ref=e528] [cursor=pointer]:
+                    - /url: return_sale.php?id=42
+            - row "INV-202605-0001 May 27, 2026 18:20 Walk-in Customer Bunde Kisumu Cash KSh 1,856 Completed View Print Return" [ref=e529]:
+              - cell "INV-202605-0001" [ref=e530]:
+                - generic [ref=e531]: INV-202605-0001
+              - cell "May 27, 2026 18:20" [ref=e532]:
+                - generic [ref=e533]: May 27, 2026
+                - generic [ref=e534]: 18:20
+              - cell "Walk-in Customer" [ref=e535]:
+                - generic [ref=e536]: Walk-in Customer
+              - cell "Bunde" [ref=e537]
+              - cell "Kisumu" [ref=e538]
+              - cell "Cash" [ref=e539]:
+                - generic [ref=e540]: Cash
+              - cell "KSh 1,856" [ref=e541]
+              - cell "Completed" [ref=e542]:
+                - generic [ref=e543]: Completed
+              - cell "View Print Return" [ref=e544]:
+                - generic [ref=e545]:
+                  - link "View" [ref=e546] [cursor=pointer]:
+                    - /url: view_sale.php?id=41
+                  - link "Print" [ref=e547] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=41
+                  - link "Return" [ref=e548] [cursor=pointer]:
+                    - /url: return_sale.php?id=41
+            - row "INV-202605-0001 May 27, 2026 02:08 Walk-in Customer Bunde Kisumu Cash KSh 1,740 Completed View Print Return" [ref=e549]:
+              - cell "INV-202605-0001" [ref=e550]:
+                - generic [ref=e551]: INV-202605-0001
+              - cell "May 27, 2026 02:08" [ref=e552]:
+                - generic [ref=e553]: May 27, 2026
+                - generic [ref=e554]: 02:08
+              - cell "Walk-in Customer" [ref=e555]:
+                - generic [ref=e556]: Walk-in Customer
+              - cell "Bunde" [ref=e557]
+              - cell "Kisumu" [ref=e558]
+              - cell "Cash" [ref=e559]:
+                - generic [ref=e560]: Cash
+              - cell "KSh 1,740" [ref=e561]
+              - cell "Completed" [ref=e562]:
+                - generic [ref=e563]: Completed
+              - cell "View Print Return" [ref=e564]:
+                - generic [ref=e565]:
+                  - link "View" [ref=e566] [cursor=pointer]:
+                    - /url: view_sale.php?id=40
+                  - link "Print" [ref=e567] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=40
+                  - link "Return" [ref=e568] [cursor=pointer]:
+                    - /url: return_sale.php?id=40
+            - row "INV-202605-0001 May 26, 2026 17:50 Walk-in Customer Bunde Kisumu Cash KSh 3,480 Completed View Print Return" [ref=e569]:
+              - cell "INV-202605-0001" [ref=e570]:
+                - generic [ref=e571]: INV-202605-0001
+              - cell "May 26, 2026 17:50" [ref=e572]:
+                - generic [ref=e573]: May 26, 2026
+                - generic [ref=e574]: 17:50
+              - cell "Walk-in Customer" [ref=e575]:
+                - generic [ref=e576]: Walk-in Customer
+              - cell "Bunde" [ref=e577]
+              - cell "Kisumu" [ref=e578]
+              - cell "Cash" [ref=e579]:
+                - generic [ref=e580]: Cash
+              - cell "KSh 3,480" [ref=e581]
+              - cell "Completed" [ref=e582]:
+                - generic [ref=e583]: Completed
+              - cell "View Print Return" [ref=e584]:
+                - generic [ref=e585]:
+                  - link "View" [ref=e586] [cursor=pointer]:
+                    - /url: view_sale.php?id=39
+                  - link "Print" [ref=e587] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=39
+                  - link "Return" [ref=e588] [cursor=pointer]:
+                    - /url: return_sale.php?id=39
+            - row "INV-202605-0001 May 25, 2026 01:12 Walk-in Customer Bunde Kisumu Mpesa KSh 1,740 Completed View Print Return" [ref=e589]:
+              - cell "INV-202605-0001" [ref=e590]:
+                - generic [ref=e591]: INV-202605-0001
+              - cell "May 25, 2026 01:12" [ref=e592]:
+                - generic [ref=e593]: May 25, 2026
+                - generic [ref=e594]: 01:12
+              - cell "Walk-in Customer" [ref=e595]:
+                - generic [ref=e596]: Walk-in Customer
+              - cell "Bunde" [ref=e597]
+              - cell "Kisumu" [ref=e598]
+              - cell "Mpesa" [ref=e599]:
+                - generic [ref=e600]: Mpesa
+              - cell "KSh 1,740" [ref=e601]
+              - cell "Completed" [ref=e602]:
+                - generic [ref=e603]: Completed
+              - cell "View Print Return" [ref=e604]:
+                - generic [ref=e605]:
+                  - link "View" [ref=e606] [cursor=pointer]:
+                    - /url: view_sale.php?id=38
+                  - link "Print" [ref=e607] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=38
+                  - link "Return" [ref=e608] [cursor=pointer]:
+                    - /url: return_sale.php?id=38
+            - row "INV-202605-0001 May 25, 2026 00:54 Walk-in Customer Bunde Kisumu Card KSh 6,264 Completed View Print Return" [ref=e609]:
+              - cell "INV-202605-0001" [ref=e610]:
+                - generic [ref=e611]: INV-202605-0001
+              - cell "May 25, 2026 00:54" [ref=e612]:
+                - generic [ref=e613]: May 25, 2026
+                - generic [ref=e614]: 00:54
+              - cell "Walk-in Customer" [ref=e615]:
+                - generic [ref=e616]: Walk-in Customer
+              - cell "Bunde" [ref=e617]
+              - cell "Kisumu" [ref=e618]
+              - cell "Card" [ref=e619]:
+                - generic [ref=e620]: Card
+              - cell "KSh 6,264" [ref=e621]
+              - cell "Completed" [ref=e622]:
+                - generic [ref=e623]: Completed
+              - cell "View Print Return" [ref=e624]:
+                - generic [ref=e625]:
+                  - link "View" [ref=e626] [cursor=pointer]:
+                    - /url: view_sale.php?id=37
+                  - link "Print" [ref=e627] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=37
+                  - link "Return" [ref=e628] [cursor=pointer]:
+                    - /url: return_sale.php?id=37
+            - row "INV-202605-0001 May 23, 2026 07:58 Walk-in Customer Bunde Kisumu Cash KSh 1,740 Completed View Print Return" [ref=e629]:
+              - cell "INV-202605-0001" [ref=e630]:
+                - generic [ref=e631]: INV-202605-0001
+              - cell "May 23, 2026 07:58" [ref=e632]:
+                - generic [ref=e633]: May 23, 2026
+                - generic [ref=e634]: 07:58
+              - cell "Walk-in Customer" [ref=e635]:
+                - generic [ref=e636]: Walk-in Customer
+              - cell "Bunde" [ref=e637]
+              - cell "Kisumu" [ref=e638]
+              - cell "Cash" [ref=e639]:
+                - generic [ref=e640]: Cash
+              - cell "KSh 1,740" [ref=e641]
+              - cell "Completed" [ref=e642]:
+                - generic [ref=e643]: Completed
+              - cell "View Print Return" [ref=e644]:
+                - generic [ref=e645]:
+                  - link "View" [ref=e646] [cursor=pointer]:
+                    - /url: view_sale.php?id=36
+                  - link "Print" [ref=e647] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=36
+                  - link "Return" [ref=e648] [cursor=pointer]:
+                    - /url: return_sale.php?id=36
+            - row "INV-202605-0001 May 18, 2026 19:01 Walk-in Customer Bunde Kisumu Cash KSh 3,441 Completed View Print Return" [ref=e649]:
+              - cell "INV-202605-0001" [ref=e650]:
+                - generic [ref=e651]: INV-202605-0001
+              - cell "May 18, 2026 19:01" [ref=e652]:
+                - generic [ref=e653]: May 18, 2026
+                - generic [ref=e654]: 19:01
+              - cell "Walk-in Customer" [ref=e655]:
+                - generic [ref=e656]: Walk-in Customer
+              - cell "Bunde" [ref=e657]
+              - cell "Kisumu" [ref=e658]
+              - cell "Cash" [ref=e659]:
+                - generic [ref=e660]: Cash
+              - cell "KSh 3,441" [ref=e661]
+              - cell "Completed" [ref=e662]:
+                - generic [ref=e663]: Completed
+              - cell "View Print Return" [ref=e664]:
+                - generic [ref=e665]:
+                  - link "View" [ref=e666] [cursor=pointer]:
+                    - /url: view_sale.php?id=35
+                  - link "Print" [ref=e667] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=35
+                  - link "Return" [ref=e668] [cursor=pointer]:
+                    - /url: return_sale.php?id=35
+            - row "INV-202605-0001 May 17, 2026 00:36 Walk-in Customer Bunde Kisumu Flutterwave KSh 1,665 Completed View Print Return" [ref=e669]:
+              - cell "INV-202605-0001" [ref=e670]:
+                - generic [ref=e671]: INV-202605-0001
+              - cell "May 17, 2026 00:36" [ref=e672]:
+                - generic [ref=e673]: May 17, 2026
+                - generic [ref=e674]: 00:36
+              - cell "Walk-in Customer" [ref=e675]:
+                - generic [ref=e676]: Walk-in Customer
+              - cell "Bunde" [ref=e677]
+              - cell "Kisumu" [ref=e678]
+              - cell "Flutterwave" [ref=e679]:
+                - generic [ref=e680]: Flutterwave
+              - cell "KSh 1,665" [ref=e681]
+              - cell "Completed" [ref=e682]:
+                - generic [ref=e683]: Completed
+              - cell "View Print Return" [ref=e684]:
+                - generic [ref=e685]:
+                  - link "View" [ref=e686] [cursor=pointer]:
+                    - /url: view_sale.php?id=34
+                  - link "Print" [ref=e687] [cursor=pointer]:
+                    - /url: receipts/print_invoice.php?id=34
+                  - link "Return" [ref=e688] [cursor=pointer]:
+                    - /url: return_sale.php?id=34
+        - generic [ref=e689]:
+          - generic [ref=e690]: Showing 1–20 of 53
+          - generic [ref=e691]:
+            - link "Prev":
+              - /url: "?sort=newest&page=1"
+            - link "1" [ref=e692] [cursor=pointer]:
+              - /url: "?sort=newest&page=1"
+            - link "2" [ref=e693] [cursor=pointer]:
+              - /url: "?sort=newest&page=2"
+            - link "3" [ref=e694] [cursor=pointer]:
+              - /url: "?sort=newest&page=3"
+            - link "Next" [ref=e695] [cursor=pointer]:
+              - /url: "?sort=newest&page=2"
+  - generic [ref=e697]:
+    - generic [ref=e698]: Offline Mode
+    - generic [ref=e699]: (0 pending)
+    - text: 

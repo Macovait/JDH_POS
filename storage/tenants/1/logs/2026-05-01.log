@@ -1,0 +1,44 @@
+[2026-05-01 13:35:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 75
+[2026-05-01 13:35:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 75
+[2026-05-01 15:28:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(247): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:15:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(247): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:17:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(247): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:17:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(247): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:17:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(247): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:29:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(249): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83
+[2026-05-01 16:29:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught ValueError: str_repeat(): Argument #2 ($times) must be greater than or equal to 0 in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php:83
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php(83): str_repeat('?,', -1)
+#1 C:\xampp\htdocs\JDH_POS\public\products\product_form.php(249): ProductModel->updateInventory(1, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\ProductModel.php on line 83

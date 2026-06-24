@@ -1,0 +1,444 @@
+/**
+ * POS Calculator Styles
+ * Enhanced payment panel, keypad, calculator modal, and price override
+ */
+
+/* Define the exact colors used in the POS theme */
+:root {
+    --calc-bg-dark: #0F172A;
+    --calc-bg-card: #1F2937;
+    --calc-border: #374151;
+    --calc-text: #F9FAFB;
+    --calc-text-muted: #9CA3AF;
+    --calc-accent: #FBBF24;
+    --calc-primary: #3B82F6;
+    --calc-success: #10B981;
+    --calc-danger: #EF4444;
+    /* Base font sizes for POS - 14px standard, larger for emphasis */
+    --font-base: 14px;
+    --font-sm: 12.5px;
+    --font-lg: 16px;
+    --font-xl: 18px;
+    --font-2xl: 22px;
+    --price-display: 20px;
+    --total-display: 24px;
+}
+
+/* ============ QUICK CASH BUTTONS ============ */
+
+.quick-cash-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.quick-cash-btn {
+    padding: 8px 6px;
+    background: linear-gradient(180deg, #1F2937 0%, #111827 100%);
+    border: 1px solid #4B5563;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-size: var(--font-sm);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.quick-cash-btn:hover {
+    background: #3B82F6;
+    border-color: #3B82F6;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.quick-cash-btn:active {
+    transform: translateY(0);
+}
+
+/* ============ NUMERIC KEYPAD ============ */
+
+.keypad-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.keypad-btn {
+    padding: 12px;
+    background: linear-gradient(180deg, #1F2937 0%, #111827 100%);
+    border: 1px solid #4B5563;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    touch-action: manipulation;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.keypad-btn:hover {
+    background: #374151;
+    border-color: #4B5563;
+}
+
+.keypad-btn:active {
+    transform: scale(0.96);
+    background: #3B82F6;
+}
+
+.keypad-btn-clear {
+    background: rgba(239, 68, 68, 0.2);
+    border-color: rgba(239, 68, 68, 0.3);
+    color: #EF4444;
+}
+
+.keypad-btn-clear:hover {
+    background: #EF4444;
+    color: white;
+    border-color: #EF4444;
+}
+
+.keypad-btn-decimal {
+    background: rgba(59, 130, 246, 0.15);
+    color: #3B82F6;
+}
+
+/* ============ CALCULATOR MODAL ============ */
+
+.calculator-modal {
+    max-width: 300px !important;
+    width: 90% !important;
+}
+
+.calc-display {
+    background: #0F172A;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 12px;
+    text-align: right;
+    font-size: var(--total-display);
+    font-weight: 700;
+    color: #F9FAFB;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+
+.calc-btn {
+    padding: 12px;
+    background: linear-gradient(180deg, #1F2937 0%, #111827 100%);
+    border: 1px solid #4B5563;
+    border-radius: 6px;
+    color: #E5E7EB;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    min-height: 44px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.calc-btn:hover {
+    background: #374151;
+}
+
+.calc-btn:active {
+    transform: scale(0.96);
+}
+
+.calc-btn-operator {
+    background: rgba(59, 130, 246, 0.2);
+    color: #3B82F6;
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.calc-btn-operator:hover {
+    background: #3B82F6;
+    color: white;
+}
+
+.calc-btn-clear {
+    background: rgba(239, 68, 68, 0.2);
+    color: #EF4444;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.calc-btn-clear:hover {
+    background: #EF4444;
+    color: white;
+}
+
+.calc-btn-equals {
+    background: #10B981;
+    color: white;
+    border-color: #10B981;
+}
+
+.calc-btn-equals:hover {
+    background: #059669;
+}
+
+.calc-btn-zero {
+    grid-column: span 2;
+}
+
+/* ============ PRICE OVERRIDE MODAL ============ */
+
+.price-override-modal {
+    max-width: 360px !important;
+    width: 95% !important;
+}
+
+.price-override-info {
+    background: #0F172A;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #374151;
+}
+
+.price-override-info p {
+    margin: 4px 0;
+    color: #9CA3AF;
+    font-size: 0.85rem;
+}
+
+.price-override-info strong {
+    color: #F9FAFB;
+}
+
+.override-price-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.override-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+.override-keypad-btn {
+    padding: 12px;
+    background: #0F172A;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    color: #F9FAFB;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    min-height: 40px;
+}
+
+.override-keypad-btn:hover {
+    background: #374151;
+}
+
+.override-keypad-btn:active {
+    transform: scale(0.96);
+    background: #3B82F6;
+}
+
+.override-keypad-clear {
+    background: rgba(239, 68, 68, 0.2);
+    color: #EF4444;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.override-keypad-clear:hover {
+    background: #EF4444;
+    color: white;
+}
+
+.override-price-input {
+    padding: 12px;
+    background: #0F172A;
+    border: 2px solid #3B82F6;
+    border-radius: 6px;
+    color: #FBBF24;
+    font-size: var(--price-display);
+    font-weight: 700;
+    text-align: center;
+}
+
+.override-price-input:focus {
+    outline: none;
+    border-color: #FBBF24;
+    box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.2);
+}
+
+.override-warning {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    border-radius: 6px;
+    color: #FBBF24;
+    font-size: 0.8rem;
+    margin-top: 12px;
+}
+
+.override-warning i {
+    flex-shrink: 0;
+}
+
+/* ============ PAYMENT CHANGE INDICATOR ============ */
+
+.payment-change-indicator {
+    margin-left: 8px;
+    font-size: 0.9rem;
+    display: inline-block;
+}
+
+.payment-change-indicator.sufficient {
+    color: #10B981;
+}
+
+.payment-change-indicator.insufficient {
+    color: #EF4444;
+}
+
+/* ============ CART ITEM OVERRIDE BUTTON ============ */
+
+.cart-item-override {
+    background: none;
+    border: none;
+    color: #9CA3AF;
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    margin-right: 2px;
+    font-size: var(--font-sm, 12.5px);
+}
+
+.cart-item-override:hover {
+    color: #3B82F6;
+    background: rgba(59, 130, 246, 0.15);
+}
+
+/* ============ ENHANCED INPUT STYLES ============ */
+
+#amountReceived {
+    font-size: var(--font-lg, 16px);
+    font-weight: 700;
+    padding: 10px 12px;
+    background: #0F172A;
+    border: 1px solid #374151;
+    color: #F9FAFB;
+    border-radius: 6px;
+}
+
+#amountReceived:focus {
+    border-color: #FBBF24;
+    box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.2);
+    outline: none;
+}
+
+/* ============ MODAL ENHANCEMENTS ============ */
+
+.modal .form-group label {
+    color: #9CA3AF;
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.modal .form-group input {
+    background: #0F172A;
+    border: 1px solid #374151;
+    color: #F9FAFB;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+.modal .form-group input:focus {
+    border-color: #3B82F6;
+    outline: none;
+}
+
+/* ============ RESPONSIVE ============ */
+
+@media (max-width: 480px) {
+    .quick-cash-buttons {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 4px;
+    }
+    
+    .quick-cash-btn {
+        padding: 6px 4px;
+        font-size: var(--font-sm);
+    }
+    
+    .keypad-grid {
+        gap: 4px;
+    }
+    
+    .keypad-btn {
+        padding: 10px;
+        min-height: 40px;
+        font-size: var(--font-sm);
+    }
+    
+    .calculator-modal {
+        max-width: 280px !important;
+    }
+    
+    .calc-display {
+        font-size: var(--font-xl);
+        padding: 12px;
+    }
+    
+    .calc-btn {
+        padding: 10px;
+        min-height: 38px;
+        font-size: var(--font-sm);
+    }
+}
+
+/* ============ ANIMATIONS ============ */
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
+}
+
+/* ============ TOUCH OPTIMIZATION ============ */
+
+@media (hover: none) {
+    .keypad-btn,
+    .calc-btn,
+    .override-keypad-btn,
+    .quick-cash-btn,
+    .cart-item-override {
+        -webkit-tap-highlight-color: transparent;
+    }
+}

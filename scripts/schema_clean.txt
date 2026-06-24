@@ -1,0 +1,760 @@
+﻿===============================================
+JDH_POS Database Schema Check Report
+Database: jdh_pos
+Total Tables Found: 346
+===============================================
+
+--- EXPECTED TABLES STATUS ---
+[OK]   sales
+[OK]   sale_items
+[OK]   sale_payments
+[MISS] sell_returns
+[MISS] sell_return_items
+[OK]   products
+[MISS] product_variations
+[OK]   product_attributes
+[OK]   categories
+[OK]   brands
+[OK]   units
+[OK]   inventory
+[MISS] stock_adjustments
+[OK]   stock_transfers
+[OK]   customers
+[OK]   customer_groups
+[OK]   suppliers
+[OK]   companies
+[OK]   branches
+[OK]   business_types
+[OK]   settings
+[OK]   taxes
+[OK]   payment_methods
+[OK]   currencies
+[OK]   exchange_rates
+[OK]   users
+[OK]   roles
+[MISS] role_user
+[OK]   permissions
+[MISS] model_has_permissions
+[MISS] model_has_roles
+[OK]   shifts
+[MISS] cash_drawer
+[MISS] saved_carts
+[OK]   pos_tabs
+[OK]   pos_tab_items
+[OK]   pos_kot_jobs
+[OK]   restaurant_tables
+[OK]   reservations
+[OK]   kitchen_orders
+[MISS] kitchen_notes
+[OK]   loyalty_transactions
+[OK]   marketing_campaigns
+[OK]   campaign_messages
+[OK]   payment_transactions
+[OK]   payment_gateways
+[OK]   mpesa_transactions
+[OK]   offline_transactions
+[OK]   offline_products
+[OK]   offline_customers
+[OK]   offline_settings
+[OK]   sync_queue
+[OK]   job_queue
+[OK]   activity_logs
+[OK]   audit_logs
+[MISS] user_logs
+[OK]   support_access_logs
+[OK]   support_access_sessions
+[OK]   tenant_configs
+[OK]   tenant_settings
+[MISS] tenant_features
+[OK]   custom_reports
+[OK]   expenses
+[OK]   expense_categories
+[MISS] purchases
+[OK]   purchase_items
+[OK]   prescriptions
+[OK]   sms_templates
+[OK]   email_templates
+[OK]   driver_locations
+[OK]   user_notes
+[OK]   company_verticals
+[OK]   label_templates
+[OK]   rate_limit_blocks
+[OK]   conflict_log
+[OK]   product_sync_log
+[OK]   online_orders
+[OK]   cart_items
+[OK]   subscriptions
+[MISS] subscription_items
+[OK]   invoices
+[OK]   plans
+[OK]   plan_features
+[MISS] feature_flags
+[OK]   api_keys
+[OK]   webhook_endpoints
+[OK]   webhook_deliveries
+
+--- UNEXPECTED TABLES (not in expected list) ---
+[EXTRA] abandoned_carts
+[EXTRA] accounting_periods
+[EXTRA] admin_notifications
+[EXTRA] admin_roles
+[EXTRA] admins
+[EXTRA] api_rate_limit_violations
+[EXTRA] api_request_logs
+[EXTRA] api_tokens
+[EXTRA] api_usage_stats
+[EXTRA] appointments
+[EXTRA] attribute_groups
+[EXTRA] attribute_values
+[EXTRA] attributes
+[EXTRA] background_jobs
+[EXTRA] backups
+[EXTRA] bank_reconciliations
+[EXTRA] bill_of_materials
+[EXTRA] bom_components
+[EXTRA] branch_hours
+[EXTRA] cancellation_reasons
+[EXTRA] carts
+[EXTRA] cash_drawers
+[EXTRA] cash_movements
+[EXTRA] category_templates
+[EXTRA] chart_of_accounts
+[EXTRA] company_permissions
+[EXTRA] company_subscriptions
+[EXTRA] company_usage
+[EXTRA] consignment_agreements
+[EXTRA] consignment_inventory
+[EXTRA] contacts
+[EXTRA] context_rules
+[EXTRA] coupon_usage
+[EXTRA] coupons
+[EXTRA] credit_notes
+[EXTRA] credits
+[EXTRA] crm_deals
+[EXTRA] crm_leads
+[EXTRA] customer_addresses
+[EXTRA] customer_behavior
+[EXTRA] customer_credit_transactions
+[EXTRA] customer_credits
+[EXTRA] customer_labels
+[EXTRA] customer_loyalty
+[EXTRA] customer_payment_methods
+[EXTRA] customer_payment_schedules
+[EXTRA] customer_saved_payment_methods
+[EXTRA] customer_segments
+[EXTRA] customer_subscription_plans
+[EXTRA] customer_subscriptions
+[EXTRA] data_export_logs
+[EXTRA] deferred_revenue
+[EXTRA] delivery_areas
+[EXTRA] delivery_riders
+[EXTRA] delivery_routes
+[EXTRA] delivery_tracking
+[EXTRA] delivery_zones
+[EXTRA] discount_usage
+[EXTRA] discounts
+[EXTRA] dunning_campaigns
+[EXTRA] dynamic_pricing
+[EXTRA] email_logs
+[EXTRA] employee_performance_kpis
+[EXTRA] failed_jobs
+[EXTRA] feature_usage
+[EXTRA] featured_products
+[EXTRA] features
+[EXTRA] features_catalog
+[EXTRA] gift_cards
+[EXTRA] held_sales
+[EXTRA] hr_employees
+[EXTRA] hr_leave_requests
+[EXTRA] inventory_adjustments
+[EXTRA] inventory_counts
+[EXTRA] inventory_logs
+[EXTRA] inventory_reservations
+[EXTRA] invoice_items
+[EXTRA] invoice_line_items
+[EXTRA] invoice_sequences
+[EXTRA] journal_entries
+[EXTRA] journal_entry_lines
+[EXTRA] kitchen_order_items
+[EXTRA] kitchen_stations
+[EXTRA] known_devices
+[EXTRA] known_locations
+[EXTRA] label_print_logs
+[EXTRA] login_attempts
+[EXTRA] login_history
+[EXTRA] login_rate_limits
+[EXTRA] loyalty_points_log
+[EXTRA] loyalty_redemptions
+[EXTRA] loyalty_rewards
+[EXTRA] loyalty_rules
+[EXTRA] loyalty_tier_rules
+[EXTRA] loyalty_tiers
+[EXTRA] mfa_methods
+[EXTRA] migrations
+[EXTRA] mobile_devices
+[EXTRA] notification_queue
+[EXTRA] notifications
+[EXTRA] offline_sync_queue
+[EXTRA] online_customer_accounts
+[EXTRA] online_order_items
+[EXTRA] order_status_history
+[EXTRA] override_requests
+[EXTRA] owner_audit_logs
+[EXTRA] password_history
+[EXTRA] password_reset_tokens
+[EXTRA] password_resets
+[EXTRA] payment_attempts
+[EXTRA] payment_methods_stored
+[EXTRA] payments
+[EXTRA] permission_groups
+[EXTRA] platform_features
+[EXTRA] platform_payments
+[EXTRA] points_expiry_rules
+[EXTRA] pos_api_keys
+[EXTRA] pos_api_rate_limits
+[EXTRA] pos_business_features
+[EXTRA] pos_business_types
+[EXTRA] pos_features
+[EXTRA] pos_invoices
+[EXTRA] pos_migrations
+[EXTRA] pos_order_types
+[EXTRA] pos_payment_methods
+[EXTRA] pos_plan_features
+[EXTRA] pos_plans
+[EXTRA] pos_settings
+[EXTRA] pos_subscriptions
+[EXTRA] pos_tenants
+[EXTRA] pos_webhook_deliveries
+[EXTRA] pos_webhooks
+[EXTRA] processed_stripe_events
+[EXTRA] product_affinity
+[EXTRA] product_attribute_values
+[EXTRA] product_batches
+[EXTRA] product_categories
+[EXTRA] product_expiry
+[EXTRA] product_images
+[EXTRA] product_labels
+[EXTRA] product_linked_products
+[EXTRA] product_modifier_group_assignments
+[EXTRA] product_modifiers
+[EXTRA] product_price_history
+[EXTRA] product_reviews
+[EXTRA] product_serials
+[EXTRA] product_suppliers
+[EXTRA] product_tag_relations
+[EXTRA] product_tags
+[EXTRA] product_variants
+[EXTRA] product_view_stats
+[EXTRA] production_consumption
+[EXTRA] production_orders
+[EXTRA] promotions
+[EXTRA] prorations
+[EXTRA] purchase_order_items
+[EXTRA] purchase_orders
+[EXTRA] purchase_returns
+[EXTRA] quotation_items
+[EXTRA] quotations
+[EXTRA] rate_limit_attempts
+[EXTRA] rate_limit_violations
+[EXTRA] rate_limits
+[EXTRA] recipe_modifier_groups
+[EXTRA] recipe_modifier_options
+[EXTRA] recurring_invoices
+[EXTRA] referral_programs
+[EXTRA] refunds
+[EXTRA] register_sessions
+[EXTRA] remember_tokens
+[EXTRA] reminders
+[EXTRA] return_alerts
+[EXTRA] return_audit_trail
+[EXTRA] return_items
+[EXTRA] return_predictions
+[EXTRA] returns
+[EXTRA] rider_location_history
+[EXTRA] role_permissions
+[EXTRA] saas_invoices
+[EXTRA] sale_item_modifiers
+[EXTRA] sales_velocity
+[EXTRA] saved_filters
+[EXTRA] schema_migrations
+[EXTRA] security_audit_log
+[EXTRA] security_logs
+[EXTRA] seo_slugs
+[EXTRA] session_security
+[EXTRA] sessions
+[EXTRA] shipment_items
+[EXTRA] shipments
+[EXTRA] shipping_rates
+[EXTRA] shipping_zones
+[EXTRA] shop_orders
+[EXTRA] shop_products
+[EXTRA] shop_settings
+[EXTRA] smart_alerts
+[EXTRA] smart_recommendations
+[EXTRA] sms_campaigns
+[EXTRA] sms_credits
+[EXTRA] sms_customer_consent
+[EXTRA] sms_dnd_list
+[EXTRA] sms_logs
+[EXTRA] sms_provider_settings
+[EXTRA] staff_commissions
+[EXTRA] stock_alerts
+[EXTRA] stock_batches
+[EXTRA] stock_events
+[EXTRA] stock_movement_log
+[EXTRA] stock_movements
+[EXTRA] stock_sync_log
+[EXTRA] storefront_banners
+[EXTRA] storefront_settings
+[EXTRA] storefront_themes
+[EXTRA] subscription_features
+[EXTRA] subscription_history
+[EXTRA] subscription_invoices
+[EXTRA] subscription_payments
+[EXTRA] subscription_plans
+[EXTRA] supplier_products
+[EXTRA] support_access_actions
+[EXTRA] support_tickets
+[EXTRA] suspicious_activity_logs
+[EXTRA] system_alerts
+[EXTRA] system_analytics
+[EXTRA] system_health_checks
+[EXTRA] system_health_metrics
+[EXTRA] system_settings
+[EXTRA] tax_rates
+[EXTRA] tenant_add_ons
+[EXTRA] tenant_api_keys
+[EXTRA] tenant_branding
+[EXTRA] tenant_entitlements
+[EXTRA] tenant_metadata
+[EXTRA] tenant_notes
+[EXTRA] tenant_sessions
+[EXTRA] tenant_subscriptions
+[EXTRA] tenant_tags
+[EXTRA] tenants
+[EXTRA] terminal_devices
+[EXTRA] terminal_sessions
+[EXTRA] time_clock
+[EXTRA] time_clock_entries
+[EXTRA] tracking_history
+[EXTRA] two_factor_tokens
+[EXTRA] ui_heatmap
+[EXTRA] unit_conversions
+[EXTRA] units_of_measure
+[EXTRA] usage_metering
+[EXTRA] usage_metering_aggregates
+[EXTRA] usage_metering_events
+[EXTRA] usage_metering_types
+[EXTRA] user_branches
+[EXTRA] user_efficiency
+[EXTRA] user_password_history
+[EXTRA] user_permissions
+[EXTRA] user_roles
+[EXTRA] user_sessions
+[EXTRA] user_tokens
+[EXTRA] v_tenant_low_stock
+[EXTRA] v_tenant_product_performance
+[EXTRA] v_tenant_sales_summary
+[EXTRA] vendor_payouts
+[EXTRA] void_reasons
+[EXTRA] voucher_redemptions
+[EXTRA] vouchers
+[EXTRA] waiting_list
+[EXTRA] warranties
+[EXTRA] webhook_failures
+[EXTRA] webhook_logs
+[EXTRA] webhook_retries
+[EXTRA] webhook_subscriptions
+[EXTRA] webhooks
+[EXTRA] wishlist_items
+[EXTRA] wishlists
+
+--- MISSING TABLES SUMMARY ---
+Missing count: 15
+  - sell_returns
+  - sell_return_items
+  - product_variations
+  - stock_adjustments
+  - role_user
+  - model_has_permissions
+  - model_has_roles
+  - cash_drawer
+  - saved_carts
+  - kitchen_notes
+  - user_logs
+  - tenant_features
+  - purchases
+  - subscription_items
+  - feature_flags
+
+--- ALL TABLES WITH COLUMN COUNTS ---
+abandoned_carts                          (15 cols)
+accounting_periods                       (12 cols)
+activity_logs                            (16 cols)
+admin_notifications                      (10 cols)
+admin_roles                              (10 cols)
+admins                                   (17 cols)
+api_keys                                 (14 cols)
+api_rate_limit_violations                (10 cols)
+api_request_logs                         (14 cols)
+api_tokens                               (10 cols)
+api_usage_stats                          (10 cols)
+appointments                             (14 cols)
+attribute_groups                         (8 cols)
+attribute_values                         (8 cols)
+attributes                               (17 cols)
+audit_logs                               (13 cols)
+background_jobs                          (17 cols)
+backups                                  (5 cols)
+bank_reconciliations                     (13 cols)
+bill_of_materials                        (17 cols)
+bom_components                           (12 cols)
+branch_hours                             (8 cols)
+branches                                 (18 cols)
+brands                                   (9 cols)
+business_types                           (14 cols)
+campaign_messages                        (9 cols)
+cancellation_reasons                     (8 cols)
+cart_items                               (15 cols)
+carts                                    (18 cols)
+cash_drawers                             (13 cols)
+cash_movements                           (10 cols)
+categories                               (22 cols)
+category_templates                       (12 cols)
+chart_of_accounts                        (18 cols)
+companies                                (17 cols)
+company_permissions                      (6 cols)
+company_subscriptions                    (13 cols)
+company_usage                            (7 cols)
+company_verticals                        (6 cols)
+conflict_log                             (9 cols)
+consignment_agreements                   (19 cols)
+consignment_inventory                    (13 cols)
+contacts                                 (7 cols)
+context_rules                            (10 cols)
+coupon_usage                             (7 cols)
+coupons                                  (21 cols)
+credit_notes                             (11 cols)
+credits                                  (10 cols)
+crm_deals                                (11 cols)
+crm_leads                                (12 cols)
+currencies                               (6 cols)
+custom_reports                           (11 cols)
+customer_addresses                       (20 cols)
+customer_behavior                        (11 cols)
+customer_credit_transactions             (12 cols)
+customer_credits                         (8 cols)
+customer_groups                          (9 cols)
+customer_labels                          (7 cols)
+customer_loyalty                         (10 cols)
+customer_payment_methods                 (16 cols)
+customer_payment_schedules               (13 cols)
+customer_saved_payment_methods           (16 cols)
+customer_segments                        (9 cols)
+customer_subscription_plans              (15 cols)
+customer_subscriptions                   (18 cols)
+customers                                (34 cols)
+data_export_logs                         (18 cols)
+deferred_revenue                         (12 cols)
+delivery_areas                           (10 cols)
+delivery_riders                          (25 cols)
+delivery_routes                          (12 cols)
+delivery_tracking                        (21 cols)
+delivery_zones                           (18 cols)
+discount_usage                           (6 cols)
+discounts                                (21 cols)
+driver_locations                         (7 cols)
+dunning_campaigns                        (11 cols)
+dynamic_pricing                          (14 cols)
+email_logs                               (14 cols)
+email_templates                          (11 cols)
+employee_performance_kpis                (18 cols)
+exchange_rates                           (8 cols)
+expense_categories                       (7 cols)
+expenses                                 (14 cols)
+failed_jobs                              (6 cols)
+feature_usage                            (7 cols)
+featured_products                        (10 cols)
+features                                 (9 cols)
+features_catalog                         (9 cols)
+gift_cards                               (16 cols)
+held_sales                               (11 cols)
+hr_employees                             (15 cols)
+hr_leave_requests                        (11 cols)
+inventory                                (13 cols)
+inventory_adjustments                    (12 cols)
+inventory_counts                         (12 cols)
+inventory_logs                           (10 cols)
+inventory_reservations                   (10 cols)
+invoice_items                            (12 cols)
+invoice_line_items                       (14 cols)
+invoice_sequences                        (8 cols)
+invoices                                 (17 cols)
+job_queue                                (12 cols)
+journal_entries                          (17 cols)
+journal_entry_lines                      (9 cols)
+kitchen_order_items                      (21 cols)
+kitchen_orders                           (11 cols)
+kitchen_stations                         (16 cols)
+known_devices                            (10 cols)
+known_locations                          (8 cols)
+label_print_logs                         (9 cols)
+label_templates                          (11 cols)
+login_attempts                           (13 cols)
+login_history                            (7 cols)
+login_rate_limits                        (7 cols)
+loyalty_points_log                       (7 cols)
+loyalty_redemptions                      (9 cols)
+loyalty_rewards                          (15 cols)
+loyalty_rules                            (14 cols)
+loyalty_tier_rules                       (17 cols)
+loyalty_tiers                            (12 cols)
+loyalty_transactions                     (9 cols)
+marketing_campaigns                      (14 cols)
+mfa_methods                              (7 cols)
+migrations                               (4 cols)
+mobile_devices                           (11 cols)
+mpesa_transactions                       (18 cols)
+notification_queue                       (11 cols)
+notifications                            (7 cols)
+offline_customers                        (5 cols)
+offline_products                         (6 cols)
+offline_settings                         (5 cols)
+offline_sync_queue                       (12 cols)
+offline_transactions                     (10 cols)
+online_customer_accounts                 (13 cols)
+online_order_items                       (7 cols)
+online_orders                            (14 cols)
+order_status_history                     (10 cols)
+override_requests                        (17 cols)
+owner_audit_logs                         (10 cols)
+password_history                         (7 cols)
+password_reset_tokens                    (8 cols)
+password_resets                          (5 cols)
+payment_attempts                         (13 cols)
+payment_gateways                         (10 cols)
+payment_methods                          (9 cols)
+payment_methods_stored                   (16 cols)
+payment_transactions                     (13 cols)
+payments                                 (7 cols)
+permission_groups                        (6 cols)
+permissions                              (7 cols)
+plan_features                            (9 cols)
+plans                                    (17 cols)
+platform_features                        (10 cols)
+platform_payments                        (9 cols)
+points_expiry_rules                      (11 cols)
+pos_api_keys                             (11 cols)
+pos_api_rate_limits                      (4 cols)
+pos_business_features                    (7 cols)
+pos_business_types                       (10 cols)
+pos_features                             (7 cols)
+pos_invoices                             (18 cols)
+pos_kot_jobs                             (10 cols)
+pos_migrations                           (4 cols)
+pos_order_types                          (9 cols)
+pos_payment_methods                      (14 cols)
+pos_plan_features                        (5 cols)
+pos_plans                                (18 cols)
+pos_settings                             (17 cols)
+pos_subscriptions                        (19 cols)
+pos_tab_items                            (12 cols)
+pos_tabs                                 (12 cols)
+pos_tenants                              (14 cols)
+pos_webhook_deliveries                   (9 cols)
+pos_webhooks                             (9 cols)
+prescriptions                            (10 cols)
+processed_stripe_events                  (5 cols)
+product_affinity                         (7 cols)
+product_attribute_values                 (6 cols)
+product_attributes                       (10 cols)
+product_batches                          (12 cols)
+product_categories                       (6 cols)
+product_expiry                           (10 cols)
+product_images                           (4 cols)
+product_labels                           (6 cols)
+product_linked_products                  (6 cols)
+product_modifier_group_assignments       (6 cols)
+product_modifiers                        (10 cols)
+product_price_history                    (9 cols)
+product_reviews                          (22 cols)
+product_serials                          (10 cols)
+product_suppliers                        (11 cols)
+product_sync_log                         (8 cols)
+product_tag_relations                    (5 cols)
+product_tags                             (15 cols)
+product_variants                         (10 cols)
+product_view_stats                       (10 cols)
+production_consumption                   (11 cols)
+production_orders                        (24 cols)
+products                                 (49 cols)
+promotions                               (26 cols)
+prorations                               (13 cols)
+purchase_items                           (12 cols)
+purchase_order_items                     (7 cols)
+purchase_orders                          (14 cols)
+purchase_returns                         (13 cols)
+quotation_items                          (7 cols)
+quotations                               (14 cols)
+rate_limit_attempts                      (7 cols)
+rate_limit_blocks                        (6 cols)
+rate_limit_violations                    (8 cols)
+rate_limits                              (6 cols)
+recipe_modifier_groups                   (11 cols)
+recipe_modifier_options                  (13 cols)
+recurring_invoices                       (13 cols)
+referral_programs                        (16 cols)
+refunds                                  (12 cols)
+register_sessions                        (17 cols)
+remember_tokens                          (10 cols)
+reminders                                (13 cols)
+reservations                             (15 cols)
+restaurant_tables                        (12 cols)
+return_alerts                            (8 cols)
+return_audit_trail                       (10 cols)
+return_items                             (12 cols)
+return_predictions                       (8 cols)
+returns                                  (22 cols)
+rider_location_history                   (9 cols)
+role_permissions                         (3 cols)
+roles                                    (6 cols)
+saas_invoices                            (16 cols)
+sale_item_modifiers                      (7 cols)
+sale_items                               (20 cols)
+sale_payments                            (9 cols)
+sales                                    (59 cols)
+sales_velocity                           (12 cols)
+saved_filters                            (8 cols)
+schema_migrations                        (8 cols)
+security_audit_log                       (6 cols)
+security_logs                            (10 cols)
+seo_slugs                                (15 cols)
+session_security                         (7 cols)
+sessions                                 (12 cols)
+settings                                 (11 cols)
+shifts                                   (12 cols)
+shipment_items                           (5 cols)
+shipments                                (24 cols)
+shipping_rates                           (14 cols)
+shipping_zones                           (12 cols)
+shop_orders                              (19 cols)
+shop_products                            (14 cols)
+shop_settings                            (15 cols)
+smart_alerts                             (12 cols)
+smart_recommendations                    (8 cols)
+sms_campaigns                            (15 cols)
+sms_credits                              (6 cols)
+sms_customer_consent                     (10 cols)
+sms_dnd_list                             (6 cols)
+sms_logs                                 (10 cols)
+sms_provider_settings                    (11 cols)
+sms_templates                            (9 cols)
+staff_commissions                        (13 cols)
+stock_alerts                             (11 cols)
+stock_batches                            (14 cols)
+stock_events                             (8 cols)
+stock_movement_log                       (11 cols)
+stock_movements                          (15 cols)
+stock_sync_log                           (13 cols)
+stock_transfers                          (13 cols)
+storefront_banners                       (17 cols)
+storefront_settings                      (9 cols)
+storefront_themes                        (15 cols)
+subscription_features                    (10 cols)
+subscription_history                     (13 cols)
+subscription_invoices                    (14 cols)
+subscription_payments                    (12 cols)
+subscription_plans                       (20 cols)
+subscriptions                            (18 cols)
+supplier_products                        (11 cols)
+suppliers                                (19 cols)
+support_access_actions                   (5 cols)
+support_access_logs                      (7 cols)
+support_access_sessions                  (8 cols)
+support_tickets                          (14 cols)
+suspicious_activity_logs                 (10 cols)
+sync_queue                               (10 cols)
+system_alerts                            (10 cols)
+system_analytics                         (11 cols)
+system_health_checks                     (9 cols)
+system_health_metrics                    (6 cols)
+system_settings                          (14 cols)
+tax_rates                                (10 cols)
+taxes                                    (10 cols)
+tenant_add_ons                           (11 cols)
+tenant_api_keys                          (15 cols)
+tenant_branding                          (15 cols)
+tenant_configs                           (6 cols)
+tenant_entitlements                      (15 cols)
+tenant_metadata                          (20 cols)
+tenant_notes                             (8 cols)
+tenant_sessions                          (9 cols)
+tenant_settings                          (5 cols)
+tenant_subscriptions                     (17 cols)
+tenant_tags                              (5 cols)
+tenants                                  (34 cols)
+terminal_devices                         (13 cols)
+terminal_sessions                        (12 cols)
+time_clock                               (13 cols)
+time_clock_entries                       (21 cols)
+tracking_history                         (7 cols)
+two_factor_tokens                        (8 cols)
+ui_heatmap                               (8 cols)
+unit_conversions                         (8 cols)
+units                                    (8 cols)
+units_of_measure                         (6 cols)
+usage_metering                           (11 cols)
+usage_metering_aggregates                (9 cols)
+usage_metering_events                    (6 cols)
+usage_metering_types                     (8 cols)
+user_branches                            (5 cols)
+user_efficiency                          (11 cols)
+user_notes                               (6 cols)
+user_password_history                    (4 cols)
+user_permissions                         (7 cols)
+user_roles                               (4 cols)
+user_sessions                            (10 cols)
+user_tokens                              (7 cols)
+users                                    (33 cols)
+v_tenant_low_stock                       (9 cols)
+v_tenant_product_performance             (8 cols)
+v_tenant_sales_summary                   (7 cols)
+vendor_payouts                           (19 cols)
+void_reasons                             (11 cols)
+voucher_redemptions                      (5 cols)
+vouchers                                 (14 cols)
+waiting_list                             (10 cols)
+warranties                               (13 cols)
+webhook_deliveries                       (13 cols)
+webhook_endpoints                        (8 cols)
+webhook_failures                         (12 cols)
+webhook_logs                             (9 cols)
+webhook_retries                          (11 cols)
+webhook_subscriptions                    (11 cols)
+webhooks                                 (9 cols)
+wishlist_items                           (6 cols)
+wishlists                                (8 cols)
+
+--- CRITICAL TABLE COLUMNS ---
+
+[sales] columns:
+  id, invoice_number, branch_id, register_session_id, user_id, customer_id, subtotal, total, due_amount, due_date, return_amount, notes, discount, tip_amount, deposit_amount, balance_due, discount_type, discount_amount, tax_rate, tax_exempt, tax_amount, tax, payment_method, reference, created_at, pos_transaction, status, voided, voided_by, voided_at, void_reason, age_verified, updated_at, order_type, business_type, business_type_id, tenant_id, age_verify_id, staff_id, batch_number, weight_kg, amount_received, change_given, appointment_id, room_number, guest_name, table_number, kitchen_notes, serial_number, warranty_months, prescription_enabled, prescription_ref, prescription_doctor, prescription_notes, loyalty_points_redeemed, loyalty_discount, bt_id, weight, weight_unit
+
+[sale_items] columns:
+  id, tenant_id, sale_id, product_id, product_name, product_sku, quantity, weight, unit, price, original_price, price_override_reason, kitchen_notes, overridden_by, subtotal, weight_kg, batch_number, expiry_date, serial_number, deleted_at
+
+[products] columns:
+  id, business_type, business_type_id, category_id, brand_id, name, sku, global_unique_id, barcode, price, sale_price, sale_price_dates_from, sale_price_dates_to, selling_price, cost_price, active, image, description, external_url, button_text, created_by, updated_by, created_at, updated_at, status, tax_rate_id, branch_id, deleted_at, deleted_by, unit, tax_rate, reorder_level, stock_status, manage_stock, backorders, low_stock_amount, sold_individually, weight, length, width, height, shipping_class, purchase_note, menu_order, enable_reviews, product_type, virtual, downloadable, tenant_id
+
+[customers] columns:
+  id, name, phone, email, address, city, postal_code, tax_id, loyalty_points, active, created_at, updated_at, status, deleted_at, deleted_by, credit_limit, notes, created_by, branch_id, loyalty_tier, group_id, total_spent, last_purchase, points_expired, tenant_id, current_balance, total_credit_used, total_payments, last_payment_date, payment_terms_days, credit_status, credit_notes, requires_approval, tenant_name
+
+[branches] columns:
+  id, name, code, address, phone, email, manager, active, created_at, location, tax_rate, updated_at, opening_time, closing_time, business_type_id, deleted_at, tenant_id, is_active
+
+[users] columns:
+  id, name, email, username, role_id, password_hash, pin, pin_hash, branch_id, status, created_at, phone, address, avatar, updated_at, last_login, password_reset_token, password_reset_expires, login_attempts, locked_until, two_factor_secret, two_factor_enabled, last_login_ip, last_password_change, require_password_change, api_token, api_token_expires, deleted_at, failed_login_attempts, customer_group, tenant_id, business_type, is_active
+
+===============================================
+End of Report
+===============================================

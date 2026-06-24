@@ -1,0 +1,2 @@
+[2026-04-07 01:01:36] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "catch", expecting end of file in C:\xampp\htdocs\JDH_POS\src\pos_backend.php on line 461
+[2026-04-07 01:03:51] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Unmatched '}' in C:\xampp\htdocs\JDH_POS\src\pos_backend.php on line 472

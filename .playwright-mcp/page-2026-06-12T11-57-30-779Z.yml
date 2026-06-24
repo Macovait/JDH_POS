@@ -1,0 +1,284 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic "Hide panel" [ref=e4] [cursor=pointer]: ←
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "phpMyAdmin" [ref=e8] [cursor=pointer]:
+          - /url: index.php?lang=en
+          - img "phpMyAdmin" [ref=e9]
+        - generic [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: index.php?route=/&lang=en
+            - img "Home" [ref=e12]
+          - link "Empty session data" [ref=e13] [cursor=pointer]:
+            - /url: index.php?route=/logout&lang=en
+            - img "Empty session data" [ref=e14]
+          - link "phpMyAdmin documentation" [ref=e15] [cursor=pointer]:
+            - /url: ./doc/html/index.html
+            - img "phpMyAdmin documentation" [ref=e16]
+          - link "MariaDB Documentation" [ref=e17] [cursor=pointer]:
+            - /url: ./url.php?url=https%3A%2F%2Fmariadb.com%2Fkb%2Fen%2Fdocumentation%2F
+            - img "MariaDB Documentation" [ref=e18]
+          - link "Navigation panel settings" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+            - img "Navigation panel settings" [ref=e20]
+          - link "Reload navigation panel" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+            - img "Reload navigation panel" [ref=e22]
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - button "Recent" [ref=e26] [cursor=pointer]
+          - button "Favorites" [ref=e28] [cursor=pointer]
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - generic [ref=e31]:
+              - link "Collapse all" [ref=e32] [cursor=pointer]:
+                - /url: "#"
+                - img "Collapse all" [ref=e33]
+              - link "Unlink from main panel" [ref=e34] [cursor=pointer]:
+                - /url: "#"
+                - img "Unlink from main panel" [ref=e35]
+        - list [ref=e37]:
+          - listitem [ref=e38]:
+            - link "New" [ref=e42] [cursor=pointer]:
+              - /url: index.php?route=/server/databases&lang=en
+              - img "New" [ref=e43]
+            - link "New" [ref=e44] [cursor=pointer]:
+              - /url: index.php?route=/server/databases&lang=en
+          - listitem [ref=e45]:
+            - link "Expand/Collapse" [ref=e49] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e50]
+            - link "Database operations" [ref=e52] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=information_schema&lang=en
+              - img "Database operations" [ref=e53]
+            - link "information_schema" [ref=e54] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=information_schema&lang=en
+          - listitem [ref=e55]:
+            - link "Expand/Collapse" [ref=e59] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e60]
+            - link "Database operations" [ref=e62] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=jdh_pos&lang=en
+              - img "Database operations" [ref=e63]
+            - link "jdh_pos" [ref=e64] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=jdh_pos&lang=en
+          - listitem [ref=e65]:
+            - link "Expand/Collapse" [ref=e69] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e70]
+            - link "Database operations" [ref=e72] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=mysql&lang=en
+              - img "Database operations" [ref=e73]
+            - link "mysql" [ref=e74] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=mysql&lang=en
+          - listitem [ref=e75]:
+            - link "Expand/Collapse" [ref=e79] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e80]
+            - link "Database operations" [ref=e82] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=performance_schema&lang=en
+              - img "Database operations" [ref=e83]
+            - link "performance_schema" [ref=e84] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=performance_schema&lang=en
+          - listitem [ref=e85]:
+            - link "Expand/Collapse" [ref=e89] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e90]
+            - link "Database operations" [ref=e92] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=phpmyadmin&lang=en
+              - img "Database operations" [ref=e93]
+            - link "phpmyadmin" [ref=e94] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=phpmyadmin&lang=en
+          - listitem [ref=e95]:
+            - link "Expand/Collapse" [ref=e99] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e100]
+            - link "Database operations" [ref=e102] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=react_pos&lang=en
+              - img "Database operations" [ref=e103]
+            - link "react_pos" [ref=e104] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=react_pos&lang=en
+          - listitem [ref=e105]:
+            - link "Expand/Collapse" [ref=e108] [cursor=pointer]:
+              - /url: "#"
+              - img "Expand/Collapse" [ref=e109]
+            - link "Database operations" [ref=e111] [cursor=pointer]:
+              - /url: index.php?route=/database/operations&db=test&lang=en
+              - img "Database operations" [ref=e112]
+            - link "test" [ref=e113] [cursor=pointer]:
+              - /url: index.php?route=/database/structure&db=test&lang=en
+  - generic [ref=e114]:
+    - navigation "breadcrumb" [ref=e115]:
+      - list [ref=e116]:
+        - listitem [ref=e117]:
+          - 'link "Server: 127.0.0.1" [ref=e118] [cursor=pointer]':
+            - /url: index.php?route=/&lang=en
+        - listitem [ref=e119]:
+          - text: »
+          - 'link "Database: jdh_pos" [ref=e120] [cursor=pointer]':
+            - /url: index.php?route=/database/structure&db=jdh_pos&lang=en
+    - navigation [ref=e122]:
+      - list [ref=e124]:
+        - listitem [ref=e125]:
+          - link "Structure Structure" [ref=e126] [cursor=pointer]:
+            - /url: index.php?route=/database/structure&db=jdh_pos&lang=en
+            - img "Structure" [ref=e127]
+            - text: Structure
+        - listitem [ref=e128]:
+          - link "SQL SQL (current)" [ref=e129] [cursor=pointer]:
+            - /url: index.php?route=/database/sql&db=jdh_pos&lang=en
+            - img "SQL" [ref=e130]
+            - text: SQL
+            - generic [ref=e131]: (current)
+        - listitem [ref=e132]:
+          - link "Search Search" [ref=e133] [cursor=pointer]:
+            - /url: index.php?route=/database/search&db=jdh_pos&lang=en
+            - img "Search" [ref=e134]
+            - text: Search
+        - listitem [ref=e135]:
+          - link "Query Query" [ref=e136] [cursor=pointer]:
+            - /url: index.php?route=/database/multi-table-query&db=jdh_pos&lang=en
+            - img "Query" [ref=e137]
+            - text: Query
+        - listitem [ref=e138]:
+          - link "Export Export" [ref=e139] [cursor=pointer]:
+            - /url: index.php?route=/database/export&db=jdh_pos&lang=en
+            - img "Export" [ref=e140]
+            - text: Export
+        - listitem [ref=e141]:
+          - link "Import Import" [ref=e142] [cursor=pointer]:
+            - /url: index.php?route=/database/import&db=jdh_pos&lang=en
+            - img "Import" [ref=e143]
+            - text: Import
+        - listitem [ref=e144]:
+          - link "Operations Operations" [ref=e145] [cursor=pointer]:
+            - /url: index.php?route=/database/operations&db=jdh_pos&lang=en
+            - img "Operations" [ref=e146]
+            - text: Operations
+        - listitem [ref=e147]:
+          - link "Privileges Privileges" [ref=e148] [cursor=pointer]:
+            - /url: index.php?route=/server/privileges&db=jdh_pos&checkprivsdb=jdh_pos&viewing_mode=db&lang=en
+            - img "Privileges" [ref=e149]
+            - text: Privileges
+        - listitem [ref=e150]:
+          - link "Routines Routines" [ref=e151] [cursor=pointer]:
+            - /url: index.php?route=/database/routines&db=jdh_pos&lang=en
+            - img "Routines" [ref=e152]
+            - text: Routines
+        - listitem [ref=e153]:
+          - button "More" [ref=e154] [cursor=pointer]
+  - generic [ref=e155]:
+    - img "Page-related settings" [ref=e157] [cursor=pointer]
+    - link "Click on the bar to scroll to top of page" [ref=e158] [cursor=pointer]:
+      - /url: "#"
+      - img "Click on the bar to scroll to top of page" [ref=e159]
+  - generic [ref=e160]:
+    - generic [ref=e162] [cursor=pointer]:
+      - img "SQL Query Console" [ref=e163]
+      - text: Console
+    - generic [ref=e164]:
+      - generic [ref=e166]: Press Ctrl+Enter to execute query
+      - generic: ">"
+    - generic [ref=e168]:
+      - generic [ref=e169] [cursor=pointer]: ascending
+      - generic [ref=e170] [cursor=pointer]: descending
+      - generic [ref=e171]: "Order:"
+      - generic [ref=e172] [cursor=pointer]: Debug SQL
+      - generic [ref=e173] [cursor=pointer]: Count
+      - generic [ref=e174] [cursor=pointer]: Execution order
+      - generic [ref=e175] [cursor=pointer]: Time taken
+      - generic [ref=e176]: "Order by:"
+      - generic [ref=e177] [cursor=pointer]: Group queries
+      - generic [ref=e178] [cursor=pointer]: Ungroup queries
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183] [cursor=pointer]: Bookmarks
+        - generic [ref=e184] [cursor=pointer]: Refresh
+        - generic [ref=e185] [cursor=pointer]: Add
+      - generic [ref=e187]: No bookmarks
+      - generic [ref=e188]:
+        - generic [ref=e190] [cursor=pointer]: Add bookmark
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - text: "Label:"
+              - textbox "Label:" [ref=e194]
+            - generic [ref=e195]:
+              - text: "Target database:"
+              - textbox "Target database:" [ref=e196]
+            - generic [ref=e197]:
+              - checkbox "Share this bookmark" [ref=e198]
+              - text: Share this bookmark
+            - button "OK" [ref=e199] [cursor=pointer]
+          - generic: ">"
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - generic [ref=e202] [cursor=pointer]: Options
+        - generic [ref=e203] [cursor=pointer]: Set default
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - checkbox "Always expand query messages" [ref=e206]
+          - text: Always expand query messages
+        - generic [ref=e207]:
+          - checkbox "Show query history at start" [ref=e208]
+          - text: Show query history at start
+        - generic [ref=e209]:
+          - checkbox "Show current browsing query" [ref=e210]
+          - text: Show current browsing query
+        - generic [ref=e211]:
+          - checkbox "Execute queries on Enter and insert new line with Shift+Enter. To make this permanent, view settings." [ref=e212]
+          - text: Execute queries on Enter and insert new line with Shift+Enter. To make this permanent, view settings.
+        - generic [ref=e213]:
+          - checkbox "Switch to dark theme" [ref=e214]
+          - text: Switch to dark theme
+  - generic [ref=e217]:
+    - generic [ref=e218]:
+      - text: Run SQL query/queries on database
+      - link "jdh_pos" [ref=e219] [cursor=pointer]:
+        - /url: index.php?route=/database/structure&lang=en&db=jdh_pos&lang=en
+      - text: ":"
+      - link "Documentation" [ref=e220] [cursor=pointer]:
+        - /url: ./url.php?url=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.0%2Fen%2Fselect.html
+        - img "Documentation" [ref=e221]
+    - generic [ref=e222]:
+      - generic [ref=e225]:
+        - generic [ref=e227]:
+          - textbox [active] [ref=e228]
+          - generic [ref=e233]: "1"
+        - toolbar [ref=e239]:
+          - group [ref=e240]:
+            - button "Clear" [ref=e241] [cursor=pointer]
+            - button "Format" [ref=e242] [cursor=pointer]
+          - button "Get auto-saved query" [ref=e243] [cursor=pointer]
+        - generic [ref=e245]:
+          - checkbox "Bind parameters Documentation" [ref=e246]
+          - generic [ref=e247]:
+            - text: Bind parameters
+            - link "Documentation" [ref=e248] [cursor=pointer]:
+              - /url: ./doc/html/faq.html#faq6-40
+              - img "Documentation" [ref=e249]
+      - generic [ref=e250]:
+        - generic [ref=e252]: "Bookmark this SQL query:"
+        - textbox "Bookmark this SQL query:" [ref=e254]
+    - generic [ref=e256]:
+      - generic [ref=e258]:
+        - generic [ref=e259]: Delimiter
+        - generic [ref=e260]: Delimiter
+        - textbox "Delimiter" [ref=e261]: ;
+      - generic [ref=e263]:
+        - checkbox "Show this query here again" [ref=e264]
+        - generic [ref=e265]: Show this query here again
+      - generic [ref=e267]:
+        - checkbox "Retain query box" [ref=e268]
+        - generic [ref=e269]: Retain query box
+      - generic [ref=e271]:
+        - checkbox "Rollback when finished" [ref=e272]
+        - generic [ref=e273]: Rollback when finished
+      - generic [ref=e275]:
+        - checkbox "Enable foreign key checks" [checked] [ref=e276]
+        - generic [ref=e277]: Enable foreign key checks
+      - button "Go" [ref=e279] [cursor=pointer]
+  - link "Open new phpMyAdmin window" [ref=e281] [cursor=pointer]:
+    - /url: index.php?route=%2Fdatabase%2Fsql&db=jdh_pos&server=1&lang=en
+    - img "Open new phpMyAdmin window" [ref=e282]

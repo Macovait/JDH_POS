@@ -1,0 +1,12 @@
+[2026-04-16 20:37:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function get_current_company_id() in C:\xampp\htdocs\JDH_POS\src\paths.php:314
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(465): base_url('')
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(13): admin_url('dashboard.php')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 314
+[2026-04-16 21:16:48] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function get_current_company_id() in C:\xampp\htdocs\JDH_POS\src\paths.php:314
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\paths.php(465): base_url('')
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(13): admin_url('dashboard.php')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 314

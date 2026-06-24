@@ -1,0 +1,47 @@
+[2026-05-24 21:01:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(236): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 21:31:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(236): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 21:32:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-24 21:49:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(236): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 22:07:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(236): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 22:09:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(236): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 22:21:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(248): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 22:29:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "Dompdf\Options" not found in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php:21
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(280): JDH\POS\Barcode\PdfLabelGenerator->generatePdf(Array, 'barcode-labels-...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\PdfLabelGenerator.php on line 21
+[2026-05-24 23:06:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

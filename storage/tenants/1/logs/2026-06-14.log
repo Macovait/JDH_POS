@@ -1,0 +1,8 @@
+[2026-06-14 22:18:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function resolve_branch_id() in C:\xampp\htdocs\JDH_POS\public\ajax\get_recent_returns.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_recent_returns.php on line 18
+[2026-06-14 22:18:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function resolve_branch_id() in C:\xampp\htdocs\JDH_POS\public\ajax\search_sales_for_return.php:18
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\search_sales_for_return.php on line 18

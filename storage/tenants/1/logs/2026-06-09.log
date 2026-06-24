@@ -1,0 +1,156 @@
+[2026-06-09 11:13:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 11:14:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 11:26:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 11:48:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 12:56:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 13:29:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 13:55:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 13:55:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:37] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 14:34:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 15:08:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 15:28:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 15:29:32] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 16:32:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 16:32:10] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 16:32:11] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 16:59:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 16:59:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 17:00:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 17:17:03] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-09 17:44:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_hydrate_session_from_user() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(70): admin_start_session()
+#1 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29

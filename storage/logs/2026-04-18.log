@@ -1,0 +1,62 @@
+[2026-04-18 11:32:47] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 12:45:53] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\tests\POSTest.php(38): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:27:13] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 13:27:18] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 13:49:15] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\tempCodeRunnerFile.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 13:51:19] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\tempCodeRunnerFile.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 13:52:52] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 13:55:03] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:116
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\tempCodeRunnerFile.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 116
+[2026-04-18 14:49:16] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught SecurityException: Invalid tenant context: Missing required session data for regular user. Context: Company=null, User=null, Branch=null in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:118
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(21): SecureTenantContext->validateContext()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(28): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(19): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 118
+[2026-04-18 15:24:45] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:53:13] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:53:49] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188

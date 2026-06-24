@@ -1,0 +1,50 @@
+[2026-04-14 01:36:29] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:36:38] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:36:54] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:37:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:38:23] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:38:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:38:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:38:38] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:39:17] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:39:28] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 Command line code(1): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 05:46:11] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function get_db_connection() in Command line code:3
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 3
+[2026-04-14 08:07:34] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught ValueError: PDO::exec(): Argument #1 ($statement) cannot be empty in Command line code:7
+Stack trace:
+#0 Command line code(7): PDO->exec('')
+#1 {main}
+  thrown in Command line code on line 7

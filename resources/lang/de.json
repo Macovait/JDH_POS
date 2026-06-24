@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "Enterprise Point-of-Sale-System"},
+  "auth": {"login": {"title": "Anmelden", "email": "E-Mail", "password": "Passwort", "remember": "Angemeldet bleiben", "submit": "Einloggen", "success": "Willkommen, :name!", "failed": "Ungültige Anmeldedaten.", "logout": "Abgemeldet."}, "forgot_password": "Passwort vergessen?", "reset_password": "Passwort zurücksetzen"},
+  "pos": {"title": "Kasse", "search_product": "Produkte suchen...", "barcode": "Barcode scannen", "cart": {"title": "Warenkorb", "empty": "Warenkorb leer", "total": "Gesamt", "checkout": "Bezahlen", "clear": "Leeren"}, "product": {"not_found": "Produkt nicht gefunden", "out_of_stock": "Nicht verfügbar", "price": "Preis", "quantity": "Menge"}, "payment": {"title": "Zahlung", "cash": "Bar", "card": "Karte", "mobile": "Mobiles Zahlen", "amount": "Betrag", "change": "Wechselgeld"}},
+  "sales": {"title": "Verkäufe", "receipt": {"title": "Beleg", "thank_you": "Danke!", "date": "Datum", "receipt_number": "Beleg #:receipt"}, "refund": {"title": "Rückerstattung", "reason": "Grund", "success": "Erstattung erfolgt"}},
+  "inventory": {"title": "Inventar", "low_stock": "Geringer Bestand", "stock_count": ":count Artikel", "out_of_stock": "Nicht verfügbar"},
+  "common": {"save": "Speichern", "cancel": "Abbrechen", "delete": "Löschen", "edit": "Bearbeiten", "create": "Erstellen", "search": "Suchen", "filter": "Filtern", "export": "Exportieren", "print": "Drucken", "loading": "Laden...", "success": "Erfolg", "error": "Fehler", "warning": "Warnung", "info": "Info", "yes": "Ja", "no": "Nein", "confirm": "Sind Sie sicher?", "required": "Erforderlich", "optional": "Optional"},
+  "validation": {"required": "Feld :field ist erforderlich.", "email": "Feld :field muss eine gültige E-Mail sein.", "min": "Mindestens :min Zeichen.", "max": "Höchstens :max Zeichen.", "numeric": "Muss eine Zahl sein.", "unique": "Der :field ist bereits vergeben."},
+  "errors": {"generic": "Ein Fehler ist aufgetreten.", "not_found": "Ressource nicht gefunden.", "unauthorized": "Nicht autorisiert.", "rate_limited": "Zu viele Versuche.", "maintenance": "Wartungsarbeiten."}
+}

@@ -1,0 +1,10 @@
+[2026-06-08 22:47:57] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.deleted_at' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\products\brands.php:128
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\brands.php(128): PDO->prepare('SELECT b.id, b....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\brands.php on line 128
+[2026-06-08 22:50:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.deleted_at' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\products\brands.php:128
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\brands.php(128): PDO->prepare('SELECT b.id, b....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\brands.php on line 128

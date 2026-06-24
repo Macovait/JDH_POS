@@ -1,0 +1,115 @@
+[2026-04-03 06:35:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 06:56:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:305
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(305): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 305
+[2026-04-03 07:11:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:13:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:14:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:14:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:16:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:16:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:16:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 07:17:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 22:08:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.loyalty_points_log' doesn't exist in C:\xampp\htdocs\JDH_POS\public\customers\customers.php:446
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\customers\customers.php(446): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\customers\customers.php on line 446
+[2026-04-03 23:26:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:26:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:30:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:30:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:36:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:36:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:361
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(361): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 361
+[2026-04-03 23:47:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414
+[2026-04-03 23:47:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414
+[2026-04-03 23:51:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414
+[2026-04-03 23:51:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414
+[2026-04-03 23:51:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414
+[2026-04-03 23:54:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:414
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(414): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 414

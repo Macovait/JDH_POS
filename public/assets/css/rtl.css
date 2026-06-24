@@ -1,0 +1,23 @@
+/* RTL Support Styles */
+[dir="rtl"] body { direction: rtl; text-align: right; }
+[dir="rtl"] .sidebar { left: auto; right: 0; transform: translateX(100%); }
+[dir="rtl"] .sidebar.open { transform: translateX(0); }
+[dir="rtl"] .main-content { margin-left: 0; margin-right: 0; }
+[dir="rtl"] .ml-auto { margin-left: 0 !important; margin-right: auto !important; }
+[dir="rtl"] .mr-auto { margin-right: 0 !important; margin-left: auto !important; }
+[dir="rtl"] .ml-1, [dir="rtl"] .ml-2, [dir="rtl"] .ml-3, [dir="rtl"] .ml-4 { margin-left: 0 !important; }
+[dir="rtl"] .mr-1, [dir="rtl"] .mr-2, [dir="rtl"] .mr-3, [dir="rtl"] .mr-4 { margin-right: 0 !important; }
+[dir="rtl"] .pl-1, [dir="rtl"] .pl-2, [dir="rtl"] .pl-3, [dir="rtl"] .pl-4 { padding-left: 0 !important; }
+[dir="rtl"] .pr-1, [dir="rtl"] .pr-2, [dir="rtl"] .pr-3, [dir="rtl"] .pr-4 { padding-right: 0 !important; }
+[dir="rtl"] .text-left { text-align: right !important; }
+[dir="rtl"] .text-right { text-align: left !important; }
+[dir="rtl"] .fa-arrow-left::before { content: "\f061"; }
+[dir="rtl"] .fa-arrow-right::before { content: "\f060"; }
+[dir="rtl"] .dropdown-menu { left: auto; right: 0; }
+[dir="rtl"] .modal-header .close { margin: -1rem auto -1rem -1rem; }
+[dir="rtl"] input, [dir="rtl"] textarea, [dir="rtl"] select { direction: rtl; }
+[dir="rtl"] .navbar-brand { margin-right: 0; margin-left: 1rem; }
+[dir="rtl"] .form-check-input { margin-left: 0; margin-right: -1.25em; }
+[dir="rtl"] .form-check-label { padding-left: 0; padding-right: 1.25em; }
+[dir="rtl"] table { direction: rtl; }
+[dir="rtl"] th, [dir="rtl"] td { text-align: right; }

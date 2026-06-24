@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jakababa POS - Next-Gen Feature Roadmap</title>
+    <link rel="stylesheet" href="/JDH_POS/assets/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: { DEFAULT: '#1E3A8A', light: '#2563EB', dark: '#1E3A8A' },
+                        accent: { DEFAULT: '#FBBF24', light: '#FDE68A', dark: '#F59E0B' },
+                    },
+                    boxShadow: {
+                        glass: '0 8px 32px rgba(0, 0, 0, 0.12)',
+                        'glass-lg': '0 16px 48px rgba(0, 0, 0, 0.15)',
+                        glow: '0 0 40px rgba(251, 191, 36, 0.15)',
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .tier-core { --tier-color: #10B981; --tier-bg: rgba(16, 185, 129, 0.08); --tier-border: rgba(16, 185, 129, 0.2); }
+        .tier-advanced { --tier-color: #8B5CF6; --tier-bg: rgba(139, 92, 246, 0.08); --tier-border: rgba(139, 92, 246, 0.2); }
+        .tier-premium { --tier-color: #F59E0B; --tier-bg: rgba(245, 158, 11, 0.08); --tier-border: rgba(245, 158, 11, 0.2); }
+
+        .tier-card {
+            background: linear-gradient(165deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+            border: 1px solid var(--tier-border);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .tier-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3), 0 0 40px var(--tier-bg);
+            border-color: var(--tier-color);
+        }
+
+        .tier-icon-wrapper {
+            background: var(--tier-bg);
+            border: 1px solid var(--tier-border);
+        }
+
+        .feature-dot {
+            background: var(--tier-color);
+            box-shadow: 0 0 8px var(--tier-bg);
+        }
+
+        .tier-badge {
+            background: var(--tier-bg);
+            border: 1px solid var(--tier-border);
+            color: var(--tier-color);
+        }
+
+        .tier-btn-primary {
+            background: linear-gradient(135deg, var(--tier-color), var(--tier-color));
+            box-shadow: 0 4px 15px var(--tier-bg);
+        }
+        .tier-btn-primary:hover {
+            box-shadow: 0 6px 20px var(--tier-bg);
+            filter: brightness(1.1);
+        }
+
+        .popular-ribbon {
+            background: linear-gradient(135deg, #F59E0B, #D97706);
+        }
+
+        .bg-grid {
+            background-image:
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+
+        .bg-radial {
+            background: radial-gradient(ellipse at 50% 0%, rgba(30,58,138,0.3) 0%, transparent 60%);
+        }
+
+        .floating-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.12;
+            pointer-events: none;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        .animate-float-delayed { animation: float 6s ease-in-out 2s infinite; }
+        .animate-float-delayed-2 { animation: float 6s ease-in-out 4s infinite; }
+
+        @keyframes fade-up {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-up { animation: fade-up 0.7s ease-out forwards; }
+        .delay-100 { animation-delay: 0.1s; }
+        .delay-200 { animation-delay: 0.2s; }
+        .delay-300 { animation-delay: 0.3s; }
+        .delay-400 { animation-delay: 0.4s; }
+    </style>
+</head>
+
+<body class="bg-[#0B1120] text-white min-h-screen overflow-x-hidden">
+
+    <!-- ============================================================ -->
+    <!-- SECTION: Next-Gen Feature Roadmap -->
+    <!-- ============================================================ -->
+    <section class="relative py-20 md:py-28 lg:py-32 bg-grid">
+
+        <!-- Background Effects -->
+        <div class="floating-orb w-[500px] h-[500px] bg-brand top-0 left-1/4"></div>
+        <div class="floating-orb w-[400px] h-[400px] bg-accent bottom-0 right-1/4"></div>
+        <div class="absolute inset-0 bg-radial"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <!-- Section Header -->
+            <div class="text-center max-w-3xl mx-auto mb-16 md:mb-20">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium mb-6">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    Roadmap 2026
+                </div>
+
+                <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-[3.4rem] font-extrabold tracking-tight leading-tight mb-5">
+                    Next-Gen
+                    <span class="bg-gradient-to-r from-accent via-amber-300 to-accent bg-clip-text text-transparent"> Feature Roadmap</span>
+                </h2>
+
+                <p class="text-slate-400 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
+                    From powerful point-of-sale essentials to enterprise-grade integrations — scale your business with the tools built for growth.
+                </p>
+            </div>
+
+            <!-- ============================================================ -->
+            <!-- TIER CARDS GRID -->
+            <!-- ============================================================ -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+
+                <!-- ============================================ -->
+                <!-- CORE TIER -->
+                <!-- ============================================ -->
+                <div class="tier-card tier-core rounded-2xl p-6 lg:p-8 flex flex-col animate-fade-up delay-100 opacity-0">
+                    <!-- Icon + Badge -->
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="tier-icon-wrapper w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
+                            🛒
+                        </div>
+                        <span class="tier-badge px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+                            Essentials
+                        </span>
+                    </div>
+
+                    <!-- Title + Tagline -->
+                    <h3 class="text-xl font-bold text-white mb-2">Core Features</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Everything you need to sell, stock, and succeed — right out of the box.
+                    </p>
+
+                    <!-- Feature List -->
+                    <ul class="space-y-3 mb-8 flex-1">
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Fast checkout: cash, card, M-Pesa</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Multi-branch inventory &amp; stock tracking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Product variants &amp; categories</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Customer management &amp; loyalty points</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Purchases &amp; supplier management</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Sales history, reports &amp; analytics</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Backup &amp; restore</span>
+                        </li>
+                    </ul>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col gap-3 pt-4 border-t border-white/5">
+                        <button class="tier-btn-primary w-full py-2.5 rounded-xl text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.02]">
+                            Start Free Trial
+                        </button>
+                        <button class="w-full py-2.5 rounded-xl text-sm font-medium text-slate-400 border border-white/10 hover:border-white/20 hover:text-white transition-all duration-300">
+                            View Pricing
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ============================================ -->
+                <!-- ADVANCED TIER (Popular) -->
+                <!-- ============================================ -->
+                <div class="tier-card tier-advanced rounded-2xl p-6 lg:p-8 flex flex-col relative animate-fade-up delay-200 opacity-0">
+                    <!-- Popular Ribbon -->
+                    <div class="popular-ribbon absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider text-white shadow-lg">
+                        Most Popular
+                    </div>
+
+                    <!-- Icon + Badge -->
+                    <div class="flex items-start justify-between mb-6 mt-2">
+                        <div class="tier-icon-wrapper w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
+                            📊
+                        </div>
+                        <span class="tier-badge px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+                            Growth
+                        </span>
+                    </div>
+
+                    <!-- Title + Tagline -->
+                    <h3 class="text-xl font-bold text-white mb-2">Advanced Features</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Unlock deeper insights, automation, and the flexibility to run your business your way.
+                    </p>
+
+                    <!-- Feature List -->
+                    <ul class="space-y-3 mb-8 flex-1">
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Customer segmentation &amp; automated campaigns</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Sales trends &amp; inventory forecasting</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Employee scheduling &amp; commission tracking</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Enhanced payment options: QR codes, partial payments</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Customizable receipts &amp; digital invoices</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Full offline mode with auto-sync</span>
+                        </li>
+                    </ul>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col gap-3 pt-4 border-t border-white/5">
+                        <button class="tier-btn-primary w-full py-2.5 rounded-xl text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.02]">
+                            Start Free Trial
+                        </button>
+                        <button class="w-full py-2.5 rounded-xl text-sm font-medium text-slate-400 border border-white/10 hover:border-white/20 hover:text-white transition-all duration-300">
+                            View Pricing
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ============================================ -->
+                <!-- PREMIUM TIER -->
+                <!-- ============================================ -->
+                <div class="tier-card tier-premium rounded-2xl p-6 lg:p-8 flex flex-col animate-fade-up delay-300 opacity-0">
+                    <!-- Icon + Badge -->
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="tier-icon-wrapper w-14 h-14 rounded-xl flex items-center justify-center text-2xl">
+                            🚀
+                        </div>
+                        <span class="tier-badge px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+                            Enterprise
+                        </span>
+                    </div>
+
+                    <!-- Title + Tagline -->
+                    <h3 class="text-xl font-bold text-white mb-2">Premium Features</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Enterprise-grade power, integrations, and dedicated support for businesses that demand more.
+                    </p>
+
+                    <!-- Feature List -->
+                    <ul class="space-y-3 mb-8 flex-1">
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">E-commerce &amp; API integrations</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Advanced promotions: BOGO, flash sales, seasonal campaigns</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Security: 2FA, encrypted backups, compliance</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Hardware integration: printers, KDS, barcode scanners</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Dedicated support &amp; SLA</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="feature-dot w-1.5 h-1.5 rounded-full mt-2 flex-shrink-0"></span>
+                            <span class="text-slate-300 text-sm leading-snug">Custom integrations &amp; consulting</span>
+                        </li>
+                    </ul>
+
+                    <!-- CTAs -->
+                    <div class="flex flex-col gap-3 pt-4 border-t border-white/5">
+                        <button class="tier-btn-primary w-full py-2.5 rounded-xl text-sm font-semibold text-white transition-all duration-300 hover:scale-[1.02]">
+                            Start Free Trial
+                        </button>
+                        <button class="w-full py-2.5 rounded-xl text-sm font-medium text-slate-400 border border-white/10 hover:border-white/20 hover:text-white transition-all duration-300">
+                            View Pricing
+                        </button>
+                    </div>
+                </div>
+
+            </div><!-- /tier cards grid -->
+
+            <!-- Bottom Trust Line -->
+            <div class="text-center mt-14 animate-fade-up delay-400 opacity-0">
+                <p class="text-slate-500 text-sm">
+                    Trusted by <span class="text-slate-300 font-semibold">2,000+</span> businesses across East Africa
+                </p>
+                <div class="flex items-center justify-center gap-6 mt-4 opacity-40">
+                    <span class="text-xs uppercase tracking-widest text-slate-500">Supermarkets</span>
+                    <span class="w-1 h-1 bg-slate-600 rounded-full"></span>
+                    <span class="text-xs uppercase tracking-widest text-slate-500">Restaurants</span>
+                    <span class="w-1 h-1 bg-slate-600 rounded-full"></span>
+                    <span class="text-xs uppercase tracking-widest text-slate-500">Pharmacies</span>
+                    <span class="w-1 h-1 bg-slate-600 rounded-full"></span>
+                    <span class="text-xs uppercase tracking-widest text-slate-500">Retail</span>
+                </div>
+            </div>
+
+        </div><!-- /container -->
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+    "name": "jakababa/jdh-pos",
+    "description": "Lightweight PHP point-of-sale prototype for Jakababa branches.",
+    "type": "project",
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "dompdf/dompdf": "^3.1",
+        "endroid/qr-code": "^6.0",
+        "mike42/escpos-php": "^2.2",
+        "mpdf/mpdf": "*",
+        "phpmailer/phpmailer": "^6.8",
+        "picqer/php-barcode-generator": "^3.2",
+        "stripe/stripe-php": "^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jakababa\\": "src/"
+        },
+        "files": [
+            "config/constants.php"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "@php -r \"is_dir('uploads/product_images') || mkdir('uploads/product_images', 0777, true);\""
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,329 @@
+/* public/assets/css/dashboard.css */
+:root {
+    --primary: #1E3A8A;
+    --primary-dark: #0F2B5E;
+    --accent: #FBBF24;
+    --accent-dark: #F59E0B;
+    --warning: #EF4444;
+    --success: #10B981;
+    --info: #3B82F6;
+    --purple: #8B5CF6;
+    --card-bg: #1F2937;
+    --card-border: #374151;
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --text-muted: #6B7280;
+
+    /* Neumorphic Shadows */
+    --shadow-raised: 8px 8px 16px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(255, 255, 255, 0.05);
+    --shadow-inset: inset 4px 4px 8px rgba(0, 0, 0, 0.4), inset -2px -2px 4px rgba(255, 255, 255, 0.05);
+    --shadow-hover: 12px 12px 24px rgba(0, 0, 0, 0.5), -6px -6px 12px rgba(255, 255, 255, 0.08);
+    --shadow-sm: 4px 4px 8px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.03);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111827;
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, .logo-text, .nav-item span {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--card-border);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-dark);
+}
+
+/* Neumorphic Card Styles */
+.stat-card {
+    background: var(--card-bg);
+    border: none;
+    border-radius: 24px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-raised);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.glass-card {
+    background: var(--card-bg);
+    border: none;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-raised);
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
+
+/* Quick Action Buttons - Neumorphic */
+.quick-action {
+    background: var(--card-bg);
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.quick-action:hover {
+    transform: translateY(-3px);
+    background: rgba(251, 191, 36, 0.05);
+    box-shadow: var(--shadow-raised);
+}
+
+.quick-action:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-inset);
+}
+
+/* Sidebar - Neumorphic */
+.sidebar {
+    background: var(--primary);
+    border-right: none;
+    box-shadow: 4px 0 12px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.sidebar.collapsed {
+    transform: translateX(-100%);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        transform: translateX(-100%);
+    }
+    .sidebar.mobile-open {
+        transform: translateX(0);
+    }
+}
+
+.nav-item {
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.nav-item:hover {
+    background: rgba(251, 191, 36, 0.15);
+    transform: translateX(5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.nav-item.active {
+    background: rgba(251, 191, 36, 0.2);
+    border-left: 3px solid var(--accent);
+}
+
+.dropdown-content a {
+    transition: all 0.2s;
+}
+
+.dropdown-content a:hover {
+    background: rgba(251, 191, 36, 0.1);
+    color: var(--accent);
+    transform: translateX(5px);
+}
+
+/* Tables - Neumorphic */
+.data-table th {
+    background: rgba(31, 41, 55, 0.8);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.data-table td {
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--card-border);
+}
+
+.data-table tr:hover {
+    background: rgba(251, 191, 36, 0.05);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Mobile Menu */
+.mobile-menu-btn {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1100;
+    background: var(--primary);
+    border: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+}
+
+@media (min-width: 769px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 998;
+    display: none;
+}
+
+.sidebar-overlay.show {
+    display: block;
+}
+
+/* MAIN LAYOUT FIX */
+.app-wrapper {
+    margin-left: 260px;
+    transition: margin-left 0.3s ease;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    max-width: calc(100% - 260px);
+}
+
+.app-wrapper.full-width {
+    margin-left: 0;
+    max-width: 100%;
+}
+
+.main-content {
+    flex: 1;
+    padding-top: 70px;
+}
+
+.content-inner {
+    padding: 1rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .app-wrapper {
+        margin-left: 0;
+    }
+    .main-content {
+        padding-top: 70px;
+    }
+    .content-inner {
+        padding: 1rem;
+    }
+}
+
+/* Button Styles - Neumorphic */
+.btn-primary {
+    background: var(--accent);
+    color: var(--primary-dark);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    border: none;
+    box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+    background: var(--accent-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-raised);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-inset);
+}
+
+/* Welcome banner - Neumorphic */
+.welcome-banner {
+    background: var(--card-bg);
+    border: none;
+    border-radius: 24px;
+    box-shadow: var(--shadow-raised);
+}
+
+/* Chart Placeholder - Neumorphic */
+.chart-placeholder {
+    background: linear-gradient(135deg, var(--card-bg) 0%, var(--primary-dark) 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow-inset);
+}
+
+.chart-bars {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.chart-bar {
+    width: 60px;
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent-dark) 100%);
+    border-radius: 8px 8px 0 0;
+    transition: height 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.chart-bar:hover {
+    transform: scaleX(1.05);
+    box-shadow: var(--shadow-raised);
+}

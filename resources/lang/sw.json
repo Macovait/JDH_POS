@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "Mfumo wa Kuuza"},
+  "auth": {"login": {"title": "Ingia", "email": "Barua pepe", "password": "Neno la siri", "remember": "Nikumbuke", "submit": "Ingia", "success": "Karibu, :name!", "failed": "Taarifa sio sahihi.", "logout": "Umetoka."}, "forgot_password": "Umesahau neno la siri?", "reset_password": "Weka upya neno la siri"},
+  "pos": {"title": "Kuuza", "search_product": "Tafuta bidhaa...", "barcode": "Scan", "cart": {"title": "Kikapu", "empty": "Kikapu kiko tupu", "total": "Jumla", "checkout": "Lipa", "clear": "Futa"}, "product": {"not_found": "Haijapatikana", "out_of_stock": "Imekwisha", "price": "Bei", "quantity": "Kiasi"}, "payment": {"title": "Malipo", "cash": "Pesa taslimu", "card": "Kadi", "mobile": "Simu", "amount": "Kiasi", "change": "Chenji"}},
+  "sales": {"title": "Mauzo", "receipt": {"title": "Risiti", "thank_you": "Asante!", "date": "Tarehe", "receipt_number": "Risiti #:receipt"}, "refund": {"title": "Rejesha", "reason": "Sababu", "success": "Imefanikiwa"}},
+  "inventory": {"title": "Malighafi", "low_stock": "Chache", "stock_count": "Vitu :count", "out_of_stock": "Hakuna"},
+  "common": {"save": "Hifadhi", "cancel": "Ghairi", "delete": "Futa", "edit": "Hariri", "create": "Tengeneza", "search": "Tafuta", "filter": "Chuja", "export": "Hamisha", "print": "Chapisha", "loading": "Inapakia...", "success": "Mafanikio", "error": "Kosa", "warning": "Onyo", "info": "Habari", "yes": "Ndiyo", "no": "Hapana", "confirm": "Una uhakika?", "required": "Lazima", "optional": "Si lazima"},
+  "validation": {"required": "Nafasi ya :field inahitajika.", "email": ":field lazima iwe barua pepe sahihi.", "min": "Angalau :min herufi.", "max": "Sio zaidi ya :max herufi.", "numeric": "Lazima iwe namba.", "unique": ":field tayari ipo."},
+  "errors": {"generic": "Kosa limetokea.", "not_found": "Haijapatikana.", "unauthorized": "Huna ruhusa.", "rate_limited": "Majaribio mengi.", "maintenance": "Mfumo unarekebishwa."}
+}

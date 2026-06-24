@@ -1,0 +1,455 @@
+[2026-05-13 08:22:03] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:18] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:46] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:49] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:57] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:59] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:23:59] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:24:12] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:25:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:26:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:29:05] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:33:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:33:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:35:01] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:35:18] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:39:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:39:53] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(86): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:41:04] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:38] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:44:48] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:46:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:51:43] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:52:18] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:53:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(89): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:55:04] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(91): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:56:27] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(93): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 08:58:59] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:31] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:32] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:34] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:34] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:34] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:00:35] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(95): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:26] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:29] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:43] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:46] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:46] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:03:48] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(90): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-13 09:06:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(87): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46

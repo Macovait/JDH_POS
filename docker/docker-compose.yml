@@ -1,0 +1,144 @@
+version: '3.8'
+
+services:
+  # Main PHP application
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: jdh_pos_app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./storage:/var/www/html/storage
+    environment:
+      - APP_ENV=production
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_NAME=jakababa_pos
+      - DB_USER=jakababa_user
+      - DB_PASS=${DB_PASSWORD}
+      - REDIS_HOST=cache
+      - CACHE_ENABLED=true
+    depends_on:
+      - db
+      - cache
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # MySQL database
+  db:
+    image: mysql:8.0
+    container_name: jdh_pos_db
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+      - MYSQL_DATABASE=jakababa_pos
+      - MYSQL_USER=jakababa_user
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./docker/mysql.cnf:/etc/mysql/conf.d/custom.cnf
+    ports:
+      - "3306:3306"
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --max-connections=500
+      - --innodb-buffer-pool-size=256M
+
+  # Redis cache
+  cache:
+    image: redis:7-alpine
+    container_name: jdh_pos_cache
+    command: redis-server --maxmemory 128mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: jdh_pos_nginx
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - .:/var/www/html:ro
+      - ./storage:/var/www/html/storage:ro
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - app
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+
+  # Queue worker (for background jobs)
+  worker:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: jdh_pos_worker
+    command: php /var/www/html/artisan queue:work
+    volumes:
+      - .:/var/www/html
+      - ./storage:/var/www/html/storage
+    environment:
+      - APP_ENV=production
+      - DB_HOST=db
+      - DB_NAME=jakababa_pos
+      - DB_USER=jakababa_user
+      - DB_PASS=${DB_PASSWORD}
+      - REDIS_HOST=cache
+    depends_on:
+      - db
+      - cache
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+
+  # Scheduler (cron jobs)
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: jdh_pos_scheduler
+    command: php /var/www/html/artisan schedule:run
+    volumes:
+      - .:/var/www/html
+    environment:
+      - APP_ENV=production
+      - DB_HOST=db
+      - DB_NAME=jakababa_pos
+      - DB_USER=jakababa_user
+      - DB_PASS=${DB_PASSWORD}
+    depends_on:
+      - db
+      - cache
+    networks:
+      - jdh_pos_network
+    restart: unless-stopped
+
+networks:
+  jdh_pos_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  redis_data:
+
+# Scale horizontally with more workers:
+# docker-compose up -d --scale worker=3

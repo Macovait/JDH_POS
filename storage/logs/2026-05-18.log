@@ -1,0 +1,31 @@
+[2026-05-18 00:06:25] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1067 Invalid default value for 'current_period_end' in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php(6): PDO->exec('ALTER TABLE pos...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php on line 6
+[2026-05-18 00:07:39] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1067 Invalid default value for 'current_period_end' in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php:6
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php(6): PDO->exec('ALTER TABLE pos...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\fix_pos_subs.php on line 6
+[2026-05-18 08:27:02] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[HY000]: General error: 1005 Can't create table `jdh_pos`.`tenant_entitlements` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php:92
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(92): PDO->exec('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(23): EntitlementsAndFeaturesMigration->createTenantEntitlements()
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(142): EntitlementsAndFeaturesMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php on line 92
+[2026-05-18 08:27:19] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[HY000]: General error: 1005 Can't create table `jdh_pos`.`tenant_entitlements` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php:92
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(92): PDO->exec('CREATE TABLE IF...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(23): EntitlementsAndFeaturesMigration->createTenantEntitlements()
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php(142): EntitlementsAndFeaturesMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\010_entitlements_and_features.php on line 92
+[2026-05-18 09:01:18] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stripe_invoice_id' in 'pos_subscriptions' in C:\xampp\htdocs\JDH_POS\database\migrations\017_stripe_webhook_tables.php:48
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\017_stripe_webhook_tables.php(48): PDO->exec('ALTER TABLE pos...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\017_stripe_webhook_tables.php(19): StripeWebhookTablesMigration->addStripeColumns()
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\017_stripe_webhook_tables.php(59): StripeWebhookTablesMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\017_stripe_webhook_tables.php on line 48

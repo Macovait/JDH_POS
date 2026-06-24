@@ -1,0 +1,16 @@
+/* pos-stock.css — stock status styles, loaded after Tailwind CDN */
+
+/* Out-of-stock card - no click interaction */
+.oos-card { pointer-events: none; cursor: not-allowed; }
+.oos-card .card-img-area { filter: blur(2px) grayscale(1); opacity: .4; }
+.oos-card .card-info-bar { opacity: .5; }
+
+/* Pulse animation for low stock indicator (custom since CDN has animate-pulse) */
+@keyframes sDotPulse {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.6); opacity: .55; }
+}
+
+.s-dot-amber {
+    animation: sDotPulse 1.2s ease-in-out infinite;
+}

@@ -1,0 +1,4 @@
+[2026-04-17 19:54:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\categories\list_categories.php:912
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\categories\list_categories.php on line 912

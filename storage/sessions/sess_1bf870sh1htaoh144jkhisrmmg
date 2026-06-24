@@ -1,0 +1,1 @@
+user_id|i:1;company_id|i:1;branch_id|i:1;business_type|s:11:"supermarket";permissions|a:4:{i:0;s:8:"pos.view";i:1;s:12:"pos.checkout";i:2;s:13:"branches.view";i:3;s:15:"branches.manage";}role|s:5:"admin";business_type_1|s:11:"supermarket";

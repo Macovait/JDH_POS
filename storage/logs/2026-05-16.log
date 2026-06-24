@@ -1,0 +1,43 @@
+[2026-05-16 18:17:47] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46
+[2026-05-16 18:23:31] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46
+[2026-05-16 18:25:17] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46
+[2026-05-16 18:26:11] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46
+[2026-05-16 18:39:05] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46
+[2026-05-16 18:43:08] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(46): PDO->prepare('SHOW COLUMNS FR...')
+#1 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(33): AddSubscriptionColumnsMigration->columnExists('pos_subscriptio...', 'billing_cycle')
+#2 C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php(54): AddSubscriptionColumnsMigration->up()
+#3 Command line code(1): include('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\database\migrations\008_add_subscription_columns.php on line 46

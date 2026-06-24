@@ -1,0 +1,6 @@
+[2026-05-08 13:07:43] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "JDH\POS\Config" not found in C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php:41
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php(28): JDH\POS\Services\AuthService->initialize()
+#1 C:\xampp\htdocs\JDH_POS\test_login_final.php(76): JDH\POS\Services\AuthService->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Services\AuthService.php on line 41

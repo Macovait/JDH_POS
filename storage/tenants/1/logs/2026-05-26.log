@@ -1,0 +1,5 @@
+[2026-05-26 16:34:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\JDH_POS\public\api\stock-events.php:67
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\api\stock-events.php(67): PDO->prepare('SELECT id, prod...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\stock-events.php on line 67

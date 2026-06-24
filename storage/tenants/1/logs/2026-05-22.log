@@ -1,0 +1,12 @@
+[2026-05-22 12:10:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-22 20:12:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

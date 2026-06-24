@@ -1,0 +1,60 @@
+[2026-04-02 00:44:42] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 00:47:20] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 00:58:00] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 00:58:02] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 00:58:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:00:06] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:00:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:00:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:00:10] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:00:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:01:44] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:02:11] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:02:25] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:02:59] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:03:30] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:03:46] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:04:45] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:05:04] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:05:24] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:05:35] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:845) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:09:17] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:846) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 01:09:35] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare hasFeature() (previously declared in C:\xampp\htdocs\JDH_POS\src\FeatureAccess.php:846) in C:\xampp\htdocs\JDH_POS\src\saas.php on line 110
+[2026-04-02 07:26:15] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Call to undefined function preg_all() in Command line code:9
+Stack trace:
+#0 {main}
+  thrown in Command line code on line 9
+[2026-04-02 07:28:20] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 1 in Command line code:13
+Stack trace:
+#0 Command line code(13): PDO->prepare('SHOW COLUMNS FR...')
+#1 {main}
+  thrown in Command line code on line 13
+[2026-04-02 09:18:37] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare asset_url() (previously declared in C:\xampp\htdocs\JDH_POS\src\paths.php:301) in C:\xampp\htdocs\JDH_POS\admin\_bootstrap.php on line 68
+[2026-04-02 09:18:41] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare asset_url() (previously declared in C:\xampp\htdocs\JDH_POS\src\paths.php:301) in C:\xampp\htdocs\JDH_POS\admin\_bootstrap.php on line 68
+[2026-04-02 20:55:48] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 20:55:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 20:55:55] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 21:41:42] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\scripts\migrate.php:178
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(178): PDO->rollBack()
+#1 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(255): MigrationRunner->runMigration(Array, false)
+#2 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(417): MigrationRunner->up(0, false)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\migrate.php on line 178
+[2026-04-02 22:05:30] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute. in Command line code:1
+Stack trace:
+#0 Command line code(1): PDO->exec('SET FOREIGN_KEY...')
+#1 {main}
+  thrown in Command line code on line 1

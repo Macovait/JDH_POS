@@ -1,0 +1,125 @@
+[2026-05-14 07:25:49] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot redeclare get_db_connection() (previously declared in C:\xampp\htdocs\JDH_POS\public\test_layout.php:43) in C:\xampp\htdocs\JDH_POS\src\db.php on line 117
+[2026-05-14 07:27:20] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot redeclare get_db_connection() (previously declared in C:\xampp\htdocs\JDH_POS\public\layout_test2.php:38) in C:\xampp\htdocs\JDH_POS\src\db.php on line 117
+[2026-05-14 08:00:57] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal.php(15): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:01:15] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal.php(15): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:01:52] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal2.php(14): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:02:13] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal2.php(14): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:02:51] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal2.php(14): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:03:06] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal2.php(14): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:04:39] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_layout_minimal2.php(14): include_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:30:42] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_app_only.php(14): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 08:34:35] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught Error: Call to undefined function getallheaders() in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php:278
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(520): Request->__construct()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(103): require_login()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\test_app_debug.php(38): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\TenantGuard.php on line 278
+[2026-05-14 11:29:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-14 11:31:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-14 11:31:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-14 15:34:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receipt_number' in 'field list' in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php:63
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(63): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(21): perform_global_search(Object(PDO), 1, 'ro', 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php on line 63
+[2026-05-14 15:34:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receipt_number' in 'field list' in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php:63
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(63): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(21): perform_global_search(Object(PDO), 1, 'rom', 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php on line 63
+[2026-05-14 15:34:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receipt_number' in 'field list' in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php:63
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(63): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(21): perform_global_search(Object(PDO), 1, 'romp', 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php on line 63
+[2026-05-14 15:34:13] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receipt_number' in 'field list' in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php:63
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(63): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(21): perform_global_search(Object(PDO), 1, 'romper', 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php on line 63
+[2026-05-14 22:26:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-14 22:27:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-14 23:40:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

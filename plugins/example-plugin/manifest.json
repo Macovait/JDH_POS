@@ -1,0 +1,26 @@
+{
+  "name": "Example POS Plugin",
+  "version": "1.0.0",
+  "description": "Demonstrates the JDH POS plugin system with hooks, panels, and settings.",
+  "author": "JDH POS Team",
+  "class": "JDH\\POS\\Plugins\\ExamplePlugin\\ExamplePlugin",
+  "requires": [],
+  "features": ["pos-panel", "checkout-hook", "admin-menu"],
+  "hooks": ["pos.before_cart", "pos.after_sale", "pos.checkout_render"],
+  "assets": {
+    "css": ["assets/example.css"],
+    "js": ["assets/example.js"]
+  },
+  "settings_schema": {
+    "display_welcome": {
+      "type": "boolean",
+      "default": true,
+      "label": "Display Welcome Message"
+    },
+    "custom_message": {
+      "type": "string",
+      "default": "Hello from Example Plugin!",
+      "label": "Custom Message"
+    }
+  }
+}

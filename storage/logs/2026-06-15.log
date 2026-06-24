@@ -1,0 +1,43 @@
+[2026-06-15 09:05:52] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1525): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\auth.php(1592): init_session_security()
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\JDH_POS\tmp_check.php(7): safe_require('auth.php', 'src', true)
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-15 09:11:40] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\billing\get_payment_details.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\billing\get_payment_details.php on line 16
+[2026-06-15 09:14:31] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\billing\get_payment_details.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\billing\get_payment_details.php on line 16
+[2026-06-15 10:53:24] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1525): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\auth.php(1592): init_session_security()
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(10): safe_require('auth.php', 'src', true)
+#4 C:\xampp\htdocs\JDH_POS\admin\run_migrations.php(7): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-15 22:11:43] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1525): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\src\auth.php(1592): init_session_security()
+#2 C:\xampp\htdocs\JDH_POS\src\paths.php(202): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\JDH_POS\simulate_cashier_login.php(8): safe_require('auth.php', 'src', true)
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-15 23:02:37] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'u.is_superadmin' in 'field list' in C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php(8): PDO->prepare('\n    SELECT u.i...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php on line 8
+[2026-06-15 23:03:06] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause' in C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php(19): PDO->prepare('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\debug_cashier_admin.php on line 19

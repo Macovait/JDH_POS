@@ -1,0 +1,128 @@
+[2026-04-14 01:11:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 25
+[2026-04-14 01:11:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 25
+[2026-04-14 01:15:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 25
+[2026-04-14 01:15:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 25
+[2026-04-14 01:15:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 25
+[2026-04-14 01:19:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:61
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 61
+[2026-04-14 01:19:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:61
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 61
+[2026-04-14 01:19:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:61
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 61
+[2026-04-14 01:28:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:29:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:34:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:34:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:34:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:34:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:37:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 01:37:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function is_logged_in() in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:62
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 62
+[2026-04-14 08:17:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:12
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 12
+[2026-04-14 09:09:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:09:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:10:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 09:10:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/includes/SmartRecommendations.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 21
+[2026-04-14 11:04:38] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function pos_process_sale() in C:\xampp\htdocs\JDH_POS\public\pos\process_sale.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\process_sale.php on line 76
+[2026-04-14 11:14:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function pos_process_sale() in C:\xampp\htdocs\JDH_POS\public\pos\process_sale.php:76
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\process_sale.php on line 76

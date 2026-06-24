@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "उद्यम बिक्री प्रणाली"},
+  "auth": {"login": {"title": "लॉग इन", "email": "ईमेल", "password": "पासवर्ड", "remember": "याद रखें", "submit": "साइन इन", "success": "स्वागत है, :name!", "failed": "गलत जानकारी।", "logout": "लॉग आउट हो गया।"}, "forgot_password": "पासवर्ड भूल गए?", "reset_password": "रीसेट करें"},
+  "pos": {"title": "बिक्री केंद्र", "search_product": "खोजें...", "barcode": "बारकोड स्कैन", "cart": {"title": "कार्ट", "empty": "कार्ट खाली", "total": "कुल", "checkout": "चेकआउट", "clear": "साफ़"}, "product": {"not_found": "नहीं मिला", "out_of_stock": "स्टॉक खत्म", "price": "मूल्य", "quantity": "मात्रा"}, "payment": {"title": "भुगतान", "cash": "नकद", "card": "कार्ड", "mobile": "मोबाइल", "amount": "राशि", "change": "बदलाव"}},
+  "sales": {"title": "बिक्री", "receipt": {"title": "रसीद", "thank_you": "धन्यवाद!", "date": "तारीख", "receipt_number": "रसीद #:receipt"}, "refund": {"title": "वापसी", "reason": "कारण", "success": "सफल"}},
+  "inventory": {"title": "इन्वेंटरी", "low_stock": "कम स्टॉक", "stock_count": ":count आइटम", "out_of_stock": "खत्म"},
+  "common": {"save": "सहेजें", "cancel": "रद्द", "delete": "हटाएं", "edit": "संपादित", "create": "बनाएं", "search": "खोजें", "filter": "फ़िल्टर", "export": "निर्यात", "print": "प्रिंट", "loading": "लोड हो रहा...", "success": "सफलता", "error": "त्रुटि", "warning": "चेतावनी", "info": "जानकारी", "yes": "हाँ", "no": "नहीं", "confirm": "क्या आपको यकीन है?", "required": "आवश्यक", "optional": "वैकल्पिक"},
+  "validation": {"required": ":field आवश्यक है।", "email": ":field सही ईमेल होना चाहिए।", "min": "कम से कम :min अक्षर।", "max": "अधिकतम :max अक्षर।", "numeric": "संख्या होनी चाहिए।", "unique": ":field पहले से मौजूद है।"},
+  "errors": {"generic": "कोई त्रुटि हुई।", "not_found": "नहीं मिला।", "unauthorized": "अधिकृत नहीं।", "rate_limited": "बहुत अधिक प्रयास।", "maintenance": "रखरखाव चल रहा है।"}
+}

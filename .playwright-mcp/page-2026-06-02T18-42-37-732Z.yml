@@ -1,0 +1,1033 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - complementary [ref=e2]:
+    - link "JA JAKPOS POS System" [ref=e4] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/dashboard/home.php
+      - generic [ref=e6]: JA
+      - generic [ref=e7]:
+        - heading "JAKPOS" [level=1] [ref=e8]
+        - paragraph [ref=e9]: POS System
+    - generic [ref=e10]:
+      - img "Bunde" [ref=e12]
+      - generic [ref=e13]:
+        - heading "Bunde " [level=5] [ref=e14]:
+          - text: Bunde
+          - generic [ref=e15]: 
+        - generic [ref=e16]: Administrator
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "" [ref=e20] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/support.php
+          - generic [ref=e21]: 
+      - listitem [ref=e22]:
+        - link "" [ref=e23] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/docs.php
+          - generic [ref=e24]: 
+      - listitem [ref=e25]:
+        - link "" [ref=e26] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/projects.php
+          - generic [ref=e27]: 
+      - listitem [ref=e28]:
+        - link "" [ref=e29] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e30]: 
+    - navigation [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Overview
+        - link " Dashboard Hot" [ref=e34] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/home.php
+          - generic [ref=e35]: 
+          - generic [ref=e36]: Dashboard
+          - generic [ref=e37]: Hot
+      - generic [ref=e38]:
+        - generic [ref=e39]: Sales
+        - link " Point of Sale" [ref=e40] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/pos.php
+          - generic [ref=e41]: 
+          - generic [ref=e42]: Point of Sale
+        - link " All Sales" [ref=e43] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/all_sales.php
+          - generic [ref=e44]: 
+          - generic [ref=e45]: All Sales
+        - link " Returns" [ref=e46] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/select_sale_for_return.php
+          - generic [ref=e47]: 
+          - generic [ref=e48]: Returns
+        - link " Quotations" [ref=e49] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/quotations/list_quotation.php
+          - generic [ref=e50]: 
+          - generic [ref=e51]: Quotations
+        - link "% Discounts" [ref=e52] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/discounts/discounts.php
+          - generic [ref=e53]: "%"
+          - generic [ref=e54]: Discounts
+        - link " Vouchers" [ref=e55] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/vouchers/vouchers.php
+          - generic [ref=e56]: 
+          - generic [ref=e57]: Vouchers
+      - generic [ref=e58]:
+        - generic [ref=e59]: Inventory
+        - link " Products" [ref=e60] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/products.php
+          - generic [ref=e61]: 
+          - generic [ref=e62]: Products
+        - link "+ Add Product" [ref=e63] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product_form.php
+          - generic [ref=e64]: +
+          - generic [ref=e65]: Add Product
+        - link " Brands" [ref=e66] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brands.php
+          - generic [ref=e67]: 
+          - generic [ref=e68]: Brands
+        - link "+ Add Brand" [ref=e69] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brand_form.php
+          - generic [ref=e70]: +
+          - generic [ref=e71]: Add Brand
+        - link " Categories" [ref=e72] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/categories/list_categories.php
+          - generic [ref=e73]: 
+          - generic [ref=e74]: Categories
+        - link " Stock" [ref=e75] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/inventory.php
+          - generic [ref=e76]: 
+          - generic [ref=e77]: Stock
+        - link " Item Expiry" [ref=e78] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/item_expiry.php
+          - generic [ref=e79]: 
+          - generic [ref=e80]: Item Expiry
+        - link " Suppliers" [ref=e81] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/suppliers.php
+          - generic [ref=e82]: 
+          - generic [ref=e83]: Suppliers
+        - link " Shipments" [ref=e84] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/shipments/shipments.php
+          - generic [ref=e85]: 
+          - generic [ref=e86]: Shipments
+        - link " Barcode Labels" [ref=e87] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/barcode_labels.php
+          - generic [ref=e88]: 
+          - generic [ref=e89]: Barcode Labels
+        - link " Attributes" [ref=e90] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/attributes.php
+          - generic [ref=e91]: 
+          - generic [ref=e92]: Attributes
+        - link " Product Tags" [ref=e93] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product-tags.php
+          - generic [ref=e94]: 
+          - generic [ref=e95]: Product Tags
+      - generic [ref=e96]:
+        - generic [ref=e97]: Procurement
+        - link " Purchases" [ref=e98] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/purchases/purchase_orders.php
+          - generic [ref=e99]: 
+          - generic [ref=e100]: Purchases
+      - generic [ref=e101]:
+        - generic [ref=e102]: People
+        - link " All Customers" [ref=e103] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/customers.php
+          - generic [ref=e104]: 
+          - generic [ref=e105]: All Customers
+        - link " Add Customer" [ref=e106] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/add_customer.php
+          - generic [ref=e107]: 
+          - generic [ref=e108]: Add Customer
+        - link " Bulk SMS" [ref=e109] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/bulk_sms.php
+          - generic [ref=e110]: 
+          - generic [ref=e111]: Bulk SMS
+        - link " Loyalty Program" [ref=e112] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/loyalty.php
+          - generic [ref=e113]: 
+          - generic [ref=e114]: Loyalty Program
+        - link " CRM" [ref=e115] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/index.php
+          - generic [ref=e116]: 
+          - generic [ref=e117]: CRM
+        - link " CRM Leads" [ref=e118] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/leads.php
+          - generic [ref=e119]: 
+          - generic [ref=e120]: CRM Leads
+        - link " CRM Deals" [ref=e121] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/deals.php
+          - generic [ref=e122]: 
+          - generic [ref=e123]: CRM Deals
+        - link " HR Dashboard" [ref=e124] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/index.php
+          - generic [ref=e125]: 
+          - generic [ref=e126]: HR Dashboard
+        - link " Employees" [ref=e127] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/employees.php
+          - generic [ref=e128]: 
+          - generic [ref=e129]: Employees
+        - link " Leave Requests" [ref=e130] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/leave_requests.php
+          - generic [ref=e131]: 
+          - generic [ref=e132]: Leave Requests
+      - generic [ref=e133]:
+        - generic [ref=e134]: Finance
+        - link " Reports 7" [ref=e135] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/reports/reports.php
+          - generic [ref=e136]: 
+          - generic [ref=e137]: Reports
+          - generic [ref=e138]: "7"
+        - link " Expenses" [ref=e139] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/expenses/expenses.php
+          - generic [ref=e140]: 
+          - generic [ref=e141]: Expenses
+      - generic [ref=e142]:
+        - generic [ref=e143]: Billing
+        - link " Subscription" [ref=e144] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/billing.php
+          - generic [ref=e145]: 
+          - generic [ref=e146]: Subscription
+        - link " M-Pesa Settings" [ref=e147] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/mpesa_settings.php
+          - generic [ref=e148]: 
+          - generic [ref=e149]: M-Pesa Settings
+        - link " SMS Settings" [ref=e150] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/sms_settings.php
+          - generic [ref=e151]: 
+          - generic [ref=e152]: SMS Settings
+        - link " Payment History" [ref=e153] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/payment_history.php
+          - generic [ref=e154]: 
+          - generic [ref=e155]: Payment History
+      - generic [ref=e156]:
+        - generic [ref=e157]: System
+        - link " Branches" [ref=e158] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/branches/branches.php
+          - generic [ref=e159]: 
+          - generic [ref=e160]: Branches
+        - link " Users" [ref=e161] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/users.php
+          - generic [ref=e162]: 
+          - generic [ref=e163]: Users
+        - link " Roles & Permissions" [ref=e164] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/roles/roles.php
+          - generic [ref=e165]: 
+          - generic [ref=e166]: Roles & Permissions
+        - link " Backup" [ref=e167] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/backup/backup.php
+          - generic [ref=e168]: 
+          - generic [ref=e169]: Backup
+        - link " Activity Log" [ref=e170] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/activity_logs.php
+          - generic [ref=e171]: 
+          - generic [ref=e172]: Activity Log
+        - link " Settings" [ref=e173] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e174]: 
+          - generic [ref=e175]: Settings
+    - link " Sign Out" [ref=e177] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/auth/logout.php
+      - generic [ref=e178]: 
+      - generic [ref=e179]: Sign Out
+  - generic [ref=e180]:
+    - banner [ref=e181]:
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: 
+          - generic [ref=e187]: Kisumu
+        - generic [ref=e190]:
+          - generic [ref=e191]: 
+          - textbox "Search products, customers, sales..." [ref=e192]
+          - text: 
+          - generic [ref=e193]: Ctrl K
+        - generic [ref=e194]:
+          - button "" [ref=e195] [cursor=pointer]:
+            - generic [ref=e196]: 
+          - link " POS" [ref=e197] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/pos/pos.php
+            - generic [ref=e198]: 
+            - generic [ref=e199]: POS
+          - button "" [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: 
+          - button "EN" [ref=e204] [cursor=pointer]
+          - button "Bunde Bunde Administrator " [ref=e206] [cursor=pointer]:
+            - img "Bunde" [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]: Bunde
+              - generic [ref=e211]: Administrator
+            - generic [ref=e212]: 
+    - text:              
+    - navigation "Breadcrumb" [ref=e213]:
+      - list [ref=e214]:
+        - listitem [ref=e215]:
+          - link " Dashboard" [ref=e216] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/dashboard/home.php
+            - generic [ref=e217]: 
+            - generic [ref=e218]: Dashboard
+          - generic [ref=e219]: 
+        - listitem [ref=e220]:
+          - link " Users" [ref=e221] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/users
+            - generic [ref=e222]: 
+            - generic [ref=e223]: Users
+          - generic [ref=e224]: 
+        - listitem [ref=e225]:
+          - link " Roles" [ref=e226] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/users/roles
+            - generic [ref=e227]: 
+            - generic [ref=e228]: Roles
+          - generic [ref=e229]: 
+        - listitem [ref=e230]:
+          - generic [ref=e231]: 
+          - generic [ref=e232]: Roles?v=%3C?php%20echo%20time();%20?%3E
+    - main [ref=e233]:
+      - generic [ref=e234]:
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - generic [ref=e239]: 
+            - generic [ref=e240]:
+              - paragraph [ref=e241]: Administration
+              - heading "Role & Permission Manager" [level=1] [ref=e242]
+          - button " Create New Role" [ref=e243] [cursor=pointer]:
+            - generic [ref=e244]: 
+            - generic [ref=e245]: Create New Role
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - paragraph [ref=e248]: Total Roles
+            - paragraph [ref=e249]: "4"
+          - generic [ref=e250]:
+            - paragraph [ref=e251]: Permissions
+            - paragraph [ref=e252]: "83"
+          - generic [ref=e253]:
+            - paragraph [ref=e254]: Active Roles
+            - paragraph [ref=e255]: "4"
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: Categories
+            - paragraph [ref=e258]: "15"
+        - generic [ref=e259]:
+          - generic [ref=e260]:
+            - generic [ref=e261]:
+              - heading "System Roles" [level=2] [ref=e263]
+              - generic [ref=e264]: (4 roles)
+            - generic [ref=e265]:
+              - generic [ref=e266]:
+                - generic [ref=e267]: 
+                - textbox "Search roles..." [ref=e268]
+              - button " Export" [ref=e269] [cursor=pointer]:
+                - generic [ref=e270]: 
+                - text: Export
+          - table [ref=e273]:
+            - rowgroup [ref=e274]:
+              - row "Role Name Description Users Permissions Actions" [ref=e275]:
+                - columnheader "Role Name" [ref=e276]
+                - columnheader "Description" [ref=e277]
+                - columnheader "Users" [ref=e278]
+                - columnheader "Permissions" [ref=e279]
+                - columnheader "Actions" [ref=e280]
+            - rowgroup [ref=e281]:
+              - row " Manager  Protected Manage operations 0 0   " [ref=e282]:
+                - cell " Manager  Protected" [ref=e283]:
+                  - generic [ref=e284]:
+                    - generic [ref=e286]: 
+                    - generic [ref=e287]:
+                      - text: Manager
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: 
+                        - text: Protected
+                - cell "Manage operations" [ref=e290]
+                - cell "0" [ref=e291]:
+                  - generic [ref=e292]: "0"
+                - cell "0" [ref=e293]:
+                  - generic [ref=e294]: "0"
+                - cell "  " [ref=e295]:
+                  - generic [ref=e296]:
+                    - button "" [ref=e297] [cursor=pointer]:
+                      - generic [ref=e298]: 
+                    - button "" [ref=e299] [cursor=pointer]:
+                      - generic [ref=e300]: 
+                    - button "" [ref=e301] [cursor=pointer]:
+                      - generic [ref=e302]: 
+              - row " Administrator Full tenant access 2 83    " [ref=e303]:
+                - cell " Administrator" [ref=e304]:
+                  - generic [ref=e305]:
+                    - generic [ref=e307]: 
+                    - generic [ref=e308]: Administrator
+                - cell "Full tenant access" [ref=e309]
+                - cell "2" [ref=e310]:
+                  - generic [ref=e311]: "2"
+                - cell "83" [ref=e312]:
+                  - generic [ref=e313]: "83"
+                - cell "   " [ref=e314]:
+                  - generic [ref=e315]:
+                    - button "" [ref=e316] [cursor=pointer]:
+                      - generic [ref=e317]: 
+                    - button "" [ref=e318] [cursor=pointer]:
+                      - generic [ref=e319]: 
+                    - button "" [ref=e320] [cursor=pointer]:
+                      - generic [ref=e321]: 
+                    - button "" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]: 
+              - row " Cashier  Protected Process sales 0 0   " [ref=e324]:
+                - cell " Cashier  Protected" [ref=e325]:
+                  - generic [ref=e326]:
+                    - generic [ref=e328]: 
+                    - generic [ref=e329]:
+                      - text: Cashier
+                      - generic [ref=e330]:
+                        - generic [ref=e331]: 
+                        - text: Protected
+                - cell "Process sales" [ref=e332]
+                - cell "0" [ref=e333]:
+                  - generic [ref=e334]: "0"
+                - cell "0" [ref=e335]:
+                  - generic [ref=e336]: "0"
+                - cell "  " [ref=e337]:
+                  - generic [ref=e338]:
+                    - button "" [ref=e339] [cursor=pointer]:
+                      - generic [ref=e340]: 
+                    - button "" [ref=e341] [cursor=pointer]:
+                      - generic [ref=e342]: 
+                    - button "" [ref=e343] [cursor=pointer]:
+                      - generic [ref=e344]: 
+              - row " Inventory Manage inventory 0 0    " [ref=e345]:
+                - cell " Inventory" [ref=e346]:
+                  - generic [ref=e347]:
+                    - generic [ref=e349]: 
+                    - generic [ref=e350]: Inventory
+                - cell "Manage inventory" [ref=e351]
+                - cell "0" [ref=e352]:
+                  - generic [ref=e353]: "0"
+                - cell "0" [ref=e354]:
+                  - generic [ref=e355]: "0"
+                - cell "   " [ref=e356]:
+                  - generic [ref=e357]:
+                    - button "" [ref=e358] [cursor=pointer]:
+                      - generic [ref=e359]: 
+                    - button "" [ref=e360] [cursor=pointer]:
+                      - generic [ref=e361]: 
+                    - button "" [ref=e362] [cursor=pointer]:
+                      - generic [ref=e363]: 
+                    - button "" [ref=e364] [cursor=pointer]:
+                      - generic [ref=e365]: 
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - heading "Permission Manager" [level=2] [ref=e370]
+            - generic [ref=e371]:
+              - button " Select All" [ref=e372] [cursor=pointer]:
+                - generic [ref=e373]: 
+                - text: Select All
+              - button " Deselect All" [ref=e374] [cursor=pointer]:
+                - generic [ref=e375]: 
+                - text: Deselect All
+              - button " Save Changes" [disabled] [ref=e376]:
+                - generic [ref=e377]: 
+                - text: Save Changes
+          - generic [ref=e378]:
+            - generic [ref=e379]:
+              - generic [ref=e380]: 
+              - text: "Quick Templates:"
+            - button " Full Access" [ref=e381] [cursor=pointer]:
+              - generic [ref=e382]: 
+              - text: Full Access
+            - button " POS Only" [ref=e383] [cursor=pointer]:
+              - generic [ref=e384]: 
+              - text: POS Only
+            - button " Inventory Manager" [ref=e385] [cursor=pointer]:
+              - generic [ref=e386]: 
+              - text: Inventory Manager
+            - button " Reports Only" [ref=e387] [cursor=pointer]:
+              - generic [ref=e388]: 
+              - text: Reports Only
+            - button " Customer Service" [ref=e389] [cursor=pointer]:
+              - generic [ref=e390]: 
+              - text: Customer Service
+            - button " Accountant" [ref=e391] [cursor=pointer]:
+              - generic [ref=e392]: 
+              - text: Accountant
+            - button " Branch Manager" [ref=e393] [cursor=pointer]:
+              - generic [ref=e394]: 
+              - text: Branch Manager
+            - button " Waiter" [ref=e395] [cursor=pointer]:
+              - generic [ref=e396]: 
+              - text: Waiter
+            - button " Kitchen Staff" [ref=e397] [cursor=pointer]:
+              - generic [ref=e398]: 
+              - text: Kitchen Staff
+            - button " Delivery Rider" [ref=e399] [cursor=pointer]:
+              - generic [ref=e400]: 
+              - text: Delivery Rider
+            - button " Auditor" [ref=e401] [cursor=pointer]:
+              - generic [ref=e402]: 
+              - text: Auditor
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - generic [ref=e406]:
+                - generic [ref=e407]:
+                  - generic [ref=e408]: 
+                  - heading "pos" [level=3] [ref=e409]
+                  - generic [ref=e410]: (9)
+                - generic [ref=e411] [cursor=pointer]:
+                  - checkbox "All" [ref=e412]
+                  - generic [ref=e413]: All
+              - generic [ref=e414]:
+                - generic [ref=e415] [cursor=pointer]:
+                  - checkbox "pos.discount Apply discounts at checkout" [ref=e416]
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: pos.discount
+                    - generic [ref=e419]: Apply discounts at checkout
+                - generic [ref=e420] [cursor=pointer]:
+                  - checkbox "pos.hold Park and retrieve held orders" [ref=e421]
+                  - generic [ref=e422]:
+                    - generic [ref=e423]: pos.hold
+                    - generic [ref=e424]: Park and retrieve held orders
+                - generic [ref=e425] [cursor=pointer]:
+                  - checkbox "pos.kitchen Send and manage kitchen orders" [ref=e426]
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: pos.kitchen
+                    - generic [ref=e429]: Send and manage kitchen orders
+                - generic [ref=e430] [cursor=pointer]:
+                  - checkbox "pos.order Create and manage customer orders" [ref=e431]
+                  - generic [ref=e432]:
+                    - generic [ref=e433]: pos.order
+                    - generic [ref=e434]: Create and manage customer orders
+                - generic [ref=e435] [cursor=pointer]:
+                  - checkbox "pos.refund Issue refunds and returns" [ref=e436]
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: pos.refund
+                    - generic [ref=e439]: Issue refunds and returns
+                - generic [ref=e440] [cursor=pointer]:
+                  - checkbox "pos.sell Create sales transactions" [ref=e441]
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: pos.sell
+                    - generic [ref=e444]: Create sales transactions
+                - generic [ref=e445] [cursor=pointer]:
+                  - checkbox "pos.split Split bill between customers" [ref=e446]
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: pos.split
+                    - generic [ref=e449]: Split bill between customers
+                - generic [ref=e450] [cursor=pointer]:
+                  - checkbox "pos.table Manage restaurant tables" [ref=e451]
+                  - generic [ref=e452]:
+                    - generic [ref=e453]: pos.table
+                    - generic [ref=e454]: Manage restaurant tables
+                - generic [ref=e455] [cursor=pointer]:
+                  - checkbox "pos.view Access the POS screen" [ref=e456]
+                  - generic [ref=e457]:
+                    - generic [ref=e458]: pos.view
+                    - generic [ref=e459]: Access the POS screen
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e462]:
+                  - generic [ref=e463]: 
+                  - heading "sales" [level=3] [ref=e464]
+                  - generic [ref=e465]: (4)
+                - generic [ref=e466] [cursor=pointer]:
+                  - checkbox "All" [ref=e467]
+                  - generic [ref=e468]: All
+              - generic [ref=e469]:
+                - generic [ref=e470] [cursor=pointer]:
+                  - checkbox "sales.export Export sales data" [ref=e471]
+                  - generic [ref=e472]:
+                    - generic [ref=e473]: sales.export
+                    - generic [ref=e474]: Export sales data
+                - generic [ref=e475] [cursor=pointer]:
+                  - checkbox "sales.manage Edit and void sales" [ref=e476]
+                  - generic [ref=e477]:
+                    - generic [ref=e478]: sales.manage
+                    - generic [ref=e479]: Edit and void sales
+                - generic [ref=e480] [cursor=pointer]:
+                  - checkbox "sales.returns Handle product returns" [ref=e481]
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: sales.returns
+                    - generic [ref=e484]: Handle product returns
+                - generic [ref=e485] [cursor=pointer]:
+                  - checkbox "sales.view Access sales history" [ref=e486]
+                  - generic [ref=e487]:
+                    - generic [ref=e488]: sales.view
+                    - generic [ref=e489]: Access sales history
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]: 
+                  - heading "products" [level=3] [ref=e494]
+                  - generic [ref=e495]: (7)
+                - generic [ref=e496] [cursor=pointer]:
+                  - checkbox "All" [ref=e497]
+                  - generic [ref=e498]: All
+              - generic [ref=e499]:
+                - generic [ref=e500] [cursor=pointer]:
+                  - checkbox "products.categories Organize product categories" [ref=e501]
+                  - generic [ref=e502]:
+                    - generic [ref=e503]: products.categories
+                    - generic [ref=e504]: Organize product categories
+                - generic [ref=e505] [cursor=pointer]:
+                  - checkbox "products.create Add new products" [ref=e506]
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: products.create
+                    - generic [ref=e509]: Add new products
+                - generic [ref=e510] [cursor=pointer]:
+                  - checkbox "products.delete Remove products from catalog" [ref=e511]
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: products.delete
+                    - generic [ref=e514]: Remove products from catalog
+                - generic [ref=e515] [cursor=pointer]:
+                  - checkbox "products.edit Modify product details" [ref=e516]
+                  - generic [ref=e517]:
+                    - generic [ref=e518]: products.edit
+                    - generic [ref=e519]: Modify product details
+                - generic [ref=e520] [cursor=pointer]:
+                  - checkbox "products.import Bulk import products" [ref=e521]
+                  - generic [ref=e522]:
+                    - generic [ref=e523]: products.import
+                    - generic [ref=e524]: Bulk import products
+                - generic [ref=e525] [cursor=pointer]:
+                  - checkbox "products.pricing Set product prices and tiers" [ref=e526]
+                  - generic [ref=e527]:
+                    - generic [ref=e528]: products.pricing
+                    - generic [ref=e529]: Set product prices and tiers
+                - generic [ref=e530] [cursor=pointer]:
+                  - checkbox "products.view Browse product catalog" [ref=e531]
+                  - generic [ref=e532]:
+                    - generic [ref=e533]: products.view
+                    - generic [ref=e534]: Browse product catalog
+            - generic [ref=e535]:
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - generic [ref=e538]: 
+                  - heading "inventory" [level=3] [ref=e539]
+                  - generic [ref=e540]: (6)
+                - generic [ref=e541] [cursor=pointer]:
+                  - checkbox "All" [ref=e542]
+                  - generic [ref=e543]: All
+              - generic [ref=e544]:
+                - generic [ref=e545] [cursor=pointer]:
+                  - checkbox "inventory.adjust Manual stock adjustments" [ref=e546]
+                  - generic [ref=e547]:
+                    - generic [ref=e548]: inventory.adjust
+                    - generic [ref=e549]: Manual stock adjustments
+                - generic [ref=e550] [cursor=pointer]:
+                  - checkbox "inventory.alerts View and manage stock alerts" [ref=e551]
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: inventory.alerts
+                    - generic [ref=e554]: View and manage stock alerts
+                - generic [ref=e555] [cursor=pointer]:
+                  - checkbox "inventory.count Perform stock takes" [ref=e556]
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: inventory.count
+                    - generic [ref=e559]: Perform stock takes
+                - generic [ref=e560] [cursor=pointer]:
+                  - checkbox "inventory.reorder Set reorder thresholds" [ref=e561]
+                  - generic [ref=e562]:
+                    - generic [ref=e563]: inventory.reorder
+                    - generic [ref=e564]: Set reorder thresholds
+                - generic [ref=e565] [cursor=pointer]:
+                  - checkbox "inventory.transfer Transfer stock between locations" [ref=e566]
+                  - generic [ref=e567]:
+                    - generic [ref=e568]: inventory.transfer
+                    - generic [ref=e569]: Transfer stock between locations
+                - generic [ref=e570] [cursor=pointer]:
+                  - checkbox "inventory.view Check stock levels" [ref=e571]
+                  - generic [ref=e572]:
+                    - generic [ref=e573]: inventory.view
+                    - generic [ref=e574]: Check stock levels
+            - generic [ref=e575]:
+              - generic [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e578]: 
+                  - heading "customers" [level=3] [ref=e579]
+                  - generic [ref=e580]: (6)
+                - generic [ref=e581] [cursor=pointer]:
+                  - checkbox "All" [ref=e582]
+                  - generic [ref=e583]: All
+              - generic [ref=e584]:
+                - generic [ref=e585] [cursor=pointer]:
+                  - checkbox "customers.create Add new customers" [ref=e586]
+                  - generic [ref=e587]:
+                    - generic [ref=e588]: customers.create
+                    - generic [ref=e589]: Add new customers
+                - generic [ref=e590] [cursor=pointer]:
+                  - checkbox "customers.credit Manage customer credit accounts" [ref=e591]
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: customers.credit
+                    - generic [ref=e594]: Manage customer credit accounts
+                - generic [ref=e595] [cursor=pointer]:
+                  - checkbox "customers.delete Remove customer records" [ref=e596]
+                  - generic [ref=e597]:
+                    - generic [ref=e598]: customers.delete
+                    - generic [ref=e599]: Remove customer records
+                - generic [ref=e600] [cursor=pointer]:
+                  - checkbox "customers.edit Update customer information" [ref=e601]
+                  - generic [ref=e602]:
+                    - generic [ref=e603]: customers.edit
+                    - generic [ref=e604]: Update customer information
+                - generic [ref=e605] [cursor=pointer]:
+                  - checkbox "customers.loyalty Manage loyalty points and rewards" [ref=e606]
+                  - generic [ref=e607]:
+                    - generic [ref=e608]: customers.loyalty
+                    - generic [ref=e609]: Manage loyalty points and rewards
+                - generic [ref=e610] [cursor=pointer]:
+                  - checkbox "customers.view Access customer list" [ref=e611]
+                  - generic [ref=e612]:
+                    - generic [ref=e613]: customers.view
+                    - generic [ref=e614]: Access customer list
+            - generic [ref=e615]:
+              - generic [ref=e616]:
+                - generic [ref=e617]:
+                  - generic [ref=e618]: 
+                  - heading "users" [level=3] [ref=e619]
+                  - generic [ref=e620]: (6)
+                - generic [ref=e621] [cursor=pointer]:
+                  - checkbox "All" [ref=e622]
+                  - generic [ref=e623]: All
+              - generic [ref=e624]:
+                - generic [ref=e625] [cursor=pointer]:
+                  - checkbox "users.attendance Track staff attendance" [ref=e626]
+                  - generic [ref=e627]:
+                    - generic [ref=e628]: users.attendance
+                    - generic [ref=e629]: Track staff attendance
+                - generic [ref=e630] [cursor=pointer]:
+                  - checkbox "users.create Add new staff members" [ref=e631]
+                  - generic [ref=e632]:
+                    - generic [ref=e633]: users.create
+                    - generic [ref=e634]: Add new staff members
+                - generic [ref=e635] [cursor=pointer]:
+                  - checkbox "users.delete Remove user accounts" [ref=e636]
+                  - generic [ref=e637]:
+                    - generic [ref=e638]: users.delete
+                    - generic [ref=e639]: Remove user accounts
+                - generic [ref=e640] [cursor=pointer]:
+                  - checkbox "users.edit Update user information" [ref=e641]
+                  - generic [ref=e642]:
+                    - generic [ref=e643]: users.edit
+                    - generic [ref=e644]: Update user information
+                - generic [ref=e645] [cursor=pointer]:
+                  - checkbox "users.roles Create and assign roles" [ref=e646]
+                  - generic [ref=e647]:
+                    - generic [ref=e648]: users.roles
+                    - generic [ref=e649]: Create and assign roles
+                - generic [ref=e650] [cursor=pointer]:
+                  - checkbox "users.view Access staff/user list" [ref=e651]
+                  - generic [ref=e652]:
+                    - generic [ref=e653]: users.view
+                    - generic [ref=e654]: Access staff/user list
+            - generic [ref=e655]:
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - generic [ref=e658]: 
+                  - heading "reports" [level=3] [ref=e659]
+                  - generic [ref=e660]: (9)
+                - generic [ref=e661] [cursor=pointer]:
+                  - checkbox "All" [ref=e662]
+                  - generic [ref=e663]: All
+              - generic [ref=e664]:
+                - generic [ref=e665] [cursor=pointer]:
+                  - checkbox "reports.dashboard View main dashboard analytics" [ref=e666]
+                  - generic [ref=e667]:
+                    - generic [ref=e668]: reports.dashboard
+                    - generic [ref=e669]: View main dashboard analytics
+                - generic [ref=e670] [cursor=pointer]:
+                  - checkbox "reports.expense Track and report expenses" [ref=e671]
+                  - generic [ref=e672]:
+                    - generic [ref=e673]: reports.expense
+                    - generic [ref=e674]: Track and report expenses
+                - generic [ref=e675] [cursor=pointer]:
+                  - checkbox "reports.export Export report data" [ref=e676]
+                  - generic [ref=e677]:
+                    - generic [ref=e678]: reports.export
+                    - generic [ref=e679]: Export report data
+                - generic [ref=e680] [cursor=pointer]:
+                  - checkbox "reports.financial View profit and loss statements" [ref=e681]
+                  - generic [ref=e682]:
+                    - generic [ref=e683]: reports.financial
+                    - generic [ref=e684]: View profit and loss statements
+                - generic [ref=e685] [cursor=pointer]:
+                  - checkbox "reports.inventory View stock and inventory reports" [ref=e686]
+                  - generic [ref=e687]:
+                    - generic [ref=e688]: reports.inventory
+                    - generic [ref=e689]: View stock and inventory reports
+                - generic [ref=e690] [cursor=pointer]:
+                  - checkbox "reports.profit View profit margins by product" [ref=e691]
+                  - generic [ref=e692]:
+                    - generic [ref=e693]: reports.profit
+                    - generic [ref=e694]: View profit margins by product
+                - generic [ref=e695] [cursor=pointer]:
+                  - checkbox "reports.sales View sales analytics" [ref=e696]
+                  - generic [ref=e697]:
+                    - generic [ref=e698]: reports.sales
+                    - generic [ref=e699]: View sales analytics
+                - generic [ref=e700] [cursor=pointer]:
+                  - checkbox "reports.tax View tax collection summaries" [ref=e701]
+                  - generic [ref=e702]:
+                    - generic [ref=e703]: reports.tax
+                    - generic [ref=e704]: View tax collection summaries
+                - generic [ref=e705] [cursor=pointer]:
+                  - checkbox "reports.view Access all reports" [ref=e706]
+                  - generic [ref=e707]:
+                    - generic [ref=e708]: reports.view
+                    - generic [ref=e709]: Access all reports
+            - generic [ref=e710]:
+              - generic [ref=e711]:
+                - generic [ref=e712]:
+                  - generic [ref=e713]: 
+                  - heading "expenses" [level=3] [ref=e714]
+                  - generic [ref=e715]: (5)
+                - generic [ref=e716] [cursor=pointer]:
+                  - checkbox "All" [ref=e717]
+                  - generic [ref=e718]: All
+              - generic [ref=e719]:
+                - generic [ref=e720] [cursor=pointer]:
+                  - checkbox "expenses.approve Approve pending expenses" [ref=e721]
+                  - generic [ref=e722]:
+                    - generic [ref=e723]: expenses.approve
+                    - generic [ref=e724]: Approve pending expenses
+                - generic [ref=e725] [cursor=pointer]:
+                  - checkbox "expenses.categories Manage expense categories" [ref=e726]
+                  - generic [ref=e727]:
+                    - generic [ref=e728]: expenses.categories
+                    - generic [ref=e729]: Manage expense categories
+                - generic [ref=e730] [cursor=pointer]:
+                  - checkbox "expenses.create Record new expenses" [ref=e731]
+                  - generic [ref=e732]:
+                    - generic [ref=e733]: expenses.create
+                    - generic [ref=e734]: Record new expenses
+                - generic [ref=e735] [cursor=pointer]:
+                  - checkbox "expenses.edit Modify expense entries" [ref=e736]
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: expenses.edit
+                    - generic [ref=e739]: Modify expense entries
+                - generic [ref=e740] [cursor=pointer]:
+                  - checkbox "expenses.view Access expense records" [ref=e741]
+                  - generic [ref=e742]:
+                    - generic [ref=e743]: expenses.view
+                    - generic [ref=e744]: Access expense records
+            - generic [ref=e745]:
+              - generic [ref=e746]:
+                - generic [ref=e747]:
+                  - generic [ref=e748]: 
+                  - heading "attendance" [level=3] [ref=e749]
+                  - generic [ref=e750]: (4)
+                - generic [ref=e751] [cursor=pointer]:
+                  - checkbox "All" [ref=e752]
+                  - generic [ref=e753]: All
+              - generic [ref=e754]:
+                - generic [ref=e755] [cursor=pointer]:
+                  - checkbox "attendance.clock Record attendance" [ref=e756]
+                  - generic [ref=e757]:
+                    - generic [ref=e758]: attendance.clock
+                    - generic [ref=e759]: Record attendance
+                - generic [ref=e760] [cursor=pointer]:
+                  - checkbox "attendance.leave Manage leave applications" [ref=e761]
+                  - generic [ref=e762]:
+                    - generic [ref=e763]: attendance.leave
+                    - generic [ref=e764]: Manage leave applications
+                - generic [ref=e765] [cursor=pointer]:
+                  - checkbox "attendance.manage Edit attendance records" [ref=e766]
+                  - generic [ref=e767]:
+                    - generic [ref=e768]: attendance.manage
+                    - generic [ref=e769]: Edit attendance records
+                - generic [ref=e770] [cursor=pointer]:
+                  - checkbox "attendance.view Check staff attendance" [ref=e771]
+                  - generic [ref=e772]:
+                    - generic [ref=e773]: attendance.view
+                    - generic [ref=e774]: Check staff attendance
+            - generic [ref=e775]:
+              - generic [ref=e776]:
+                - generic [ref=e777]:
+                  - generic [ref=e778]: 
+                  - heading "branch" [level=3] [ref=e779]
+                  - generic [ref=e780]: (5)
+                - generic [ref=e781] [cursor=pointer]:
+                  - checkbox "All" [ref=e782]
+                  - generic [ref=e783]: All
+              - generic [ref=e784]:
+                - generic [ref=e785] [cursor=pointer]:
+                  - checkbox "branch.create Add new branch locations" [ref=e786]
+                  - generic [ref=e787]:
+                    - generic [ref=e788]: branch.create
+                    - generic [ref=e789]: Add new branch locations
+                - generic [ref=e790] [cursor=pointer]:
+                  - checkbox "branch.manage Edit branch settings" [ref=e791]
+                  - generic [ref=e792]:
+                    - generic [ref=e793]: branch.manage
+                    - generic [ref=e794]: Edit branch settings
+                - generic [ref=e795] [cursor=pointer]:
+                  - checkbox "branch.reports View branch performance" [ref=e796]
+                  - generic [ref=e797]:
+                    - generic [ref=e798]: branch.reports
+                    - generic [ref=e799]: View branch performance
+                - generic [ref=e800] [cursor=pointer]:
+                  - checkbox "branch.transfer Transfer between branches" [ref=e801]
+                  - generic [ref=e802]:
+                    - generic [ref=e803]: branch.transfer
+                    - generic [ref=e804]: Transfer between branches
+                - generic [ref=e805] [cursor=pointer]:
+                  - checkbox "branch.view Access branch locations" [ref=e806]
+                  - generic [ref=e807]:
+                    - generic [ref=e808]: branch.view
+                    - generic [ref=e809]: Access branch locations
+            - generic [ref=e810]:
+              - generic [ref=e811]:
+                - generic [ref=e812]:
+                  - generic [ref=e813]: 
+                  - heading "delivery" [level=3] [ref=e814]
+                  - generic [ref=e815]: (4)
+                - generic [ref=e816] [cursor=pointer]:
+                  - checkbox "All" [ref=e817]
+                  - generic [ref=e818]: All
+              - generic [ref=e819]:
+                - generic [ref=e820] [cursor=pointer]:
+                  - checkbox "delivery.assign Assign riders to orders" [ref=e821]
+                  - generic [ref=e822]:
+                    - generic [ref=e823]: delivery.assign
+                    - generic [ref=e824]: Assign riders to orders
+                - generic [ref=e825] [cursor=pointer]:
+                  - checkbox "delivery.track Track live delivery status" [ref=e826]
+                  - generic [ref=e827]:
+                    - generic [ref=e828]: delivery.track
+                    - generic [ref=e829]: Track live delivery status
+                - generic [ref=e830] [cursor=pointer]:
+                  - checkbox "delivery.update Update delivery status" [ref=e831]
+                  - generic [ref=e832]:
+                    - generic [ref=e833]: delivery.update
+                    - generic [ref=e834]: Update delivery status
+                - generic [ref=e835] [cursor=pointer]:
+                  - checkbox "delivery.view Access delivery orders" [ref=e836]
+                  - generic [ref=e837]:
+                    - generic [ref=e838]: delivery.view
+                    - generic [ref=e839]: Access delivery orders
+            - generic [ref=e840]:
+              - generic [ref=e841]:
+                - generic [ref=e842]:
+                  - generic [ref=e843]: 
+                  - heading "dispatch" [level=3] [ref=e844]
+                  - generic [ref=e845]: (3)
+                - generic [ref=e846] [cursor=pointer]:
+                  - checkbox "All" [ref=e847]
+                  - generic [ref=e848]: All
+              - generic [ref=e849]:
+                - generic [ref=e850] [cursor=pointer]:
+                  - checkbox "dispatch.assign Assign dispatch tasks" [ref=e851]
+                  - generic [ref=e852]:
+                    - generic [ref=e853]: dispatch.assign
+                    - generic [ref=e854]: Assign dispatch tasks
+                - generic [ref=e855] [cursor=pointer]:
+                  - checkbox "dispatch.route Plan delivery routes" [ref=e856]
+                  - generic [ref=e857]:
+                    - generic [ref=e858]: dispatch.route
+                    - generic [ref=e859]: Plan delivery routes
+                - generic [ref=e860] [cursor=pointer]:
+                  - checkbox "dispatch.view Access dispatch board" [ref=e861]
+                  - generic [ref=e862]:
+                    - generic [ref=e863]: dispatch.view
+                    - generic [ref=e864]: Access dispatch board
+            - generic [ref=e865]:
+              - generic [ref=e866]:
+                - generic [ref=e867]:
+                  - generic [ref=e868]: 
+                  - heading "kitchen" [level=3] [ref=e869]
+                  - generic [ref=e870]: (4)
+                - generic [ref=e871] [cursor=pointer]:
+                  - checkbox "All" [ref=e872]
+                  - generic [ref=e873]: All
+              - generic [ref=e874]:
+                - generic [ref=e875] [cursor=pointer]:
+                  - checkbox "kitchen.manage Manage kitchen workflow" [ref=e876]
+                  - generic [ref=e877]:
+                    - generic [ref=e878]: kitchen.manage
+                    - generic [ref=e879]: Manage kitchen workflow
+                - generic [ref=e880] [cursor=pointer]:
+                  - checkbox "kitchen.ready Mark items as ready" [ref=e881]
+                  - generic [ref=e882]:
+                    - generic [ref=e883]: kitchen.ready
+                    - generic [ref=e884]: Mark items as ready
+                - generic [ref=e885] [cursor=pointer]:
+                  - checkbox "kitchen.send Submit orders to kitchen" [ref=e886]
+                  - generic [ref=e887]:
+                    - generic [ref=e888]: kitchen.send
+                    - generic [ref=e889]: Submit orders to kitchen
+                - generic [ref=e890] [cursor=pointer]:
+                  - checkbox "kitchen.view Access kitchen display" [ref=e891]
+                  - generic [ref=e892]:
+                    - generic [ref=e893]: kitchen.view
+                    - generic [ref=e894]: Access kitchen display
+            - generic [ref=e895]:
+              - generic [ref=e896]:
+                - generic [ref=e897]:
+                  - generic [ref=e898]: 
+                  - heading "orders" [level=3] [ref=e899]
+                  - generic [ref=e900]: (4)
+                - generic [ref=e901] [cursor=pointer]:
+                  - checkbox "All" [ref=e902]
+                  - generic [ref=e903]: All
+              - generic [ref=e904]:
+                - generic [ref=e905] [cursor=pointer]:
+                  - checkbox "orders.cancel Cancel pending orders" [ref=e906]
+                  - generic [ref=e907]:
+                    - generic [ref=e908]: orders.cancel
+                    - generic [ref=e909]: Cancel pending orders
+                - generic [ref=e910] [cursor=pointer]:
+                  - checkbox "orders.dispatch Dispatch orders for delivery" [ref=e911]
+                  - generic [ref=e912]:
+                    - generic [ref=e913]: orders.dispatch
+                    - generic [ref=e914]: Dispatch orders for delivery
+                - generic [ref=e915] [cursor=pointer]:
+                  - checkbox "orders.modify Edit existing orders" [ref=e916]
+                  - generic [ref=e917]:
+                    - generic [ref=e918]: orders.modify
+                    - generic [ref=e919]: Edit existing orders
+                - generic [ref=e920] [cursor=pointer]:
+                  - checkbox "orders.view Access all orders" [ref=e921]
+                  - generic [ref=e922]:
+                    - generic [ref=e923]: orders.view
+                    - generic [ref=e924]: Access all orders
+            - generic [ref=e925]:
+              - generic [ref=e926]:
+                - generic [ref=e927]:
+                  - generic [ref=e928]: 
+                  - heading "settings" [level=3] [ref=e929]
+                  - generic [ref=e930]: (7)
+                - generic [ref=e931] [cursor=pointer]:
+                  - checkbox "All" [ref=e932]
+                  - generic [ref=e933]: All
+              - generic [ref=e934]:
+                - generic [ref=e935] [cursor=pointer]:
+                  - checkbox "settings.api Manage API keys and webhooks" [ref=e936]
+                  - generic [ref=e937]:
+                    - generic [ref=e938]: settings.api
+                    - generic [ref=e939]: Manage API keys and webhooks
+                - generic [ref=e940] [cursor=pointer]:
+                  - checkbox "settings.backup Manage system backups" [ref=e941]
+                  - generic [ref=e942]:
+                    - generic [ref=e943]: settings.backup
+                    - generic [ref=e944]: Manage system backups
+                - generic [ref=e945] [cursor=pointer]:
+                  - checkbox "settings.general Manage store information" [ref=e946]
+                  - generic [ref=e947]:
+                    - generic [ref=e948]: settings.general
+                    - generic [ref=e949]: Manage store information
+                - generic [ref=e950] [cursor=pointer]:
+                  - checkbox "settings.payment Configure payment options" [ref=e951]
+                  - generic [ref=e952]:
+                    - generic [ref=e953]: settings.payment
+                    - generic [ref=e954]: Configure payment options
+                - generic [ref=e955] [cursor=pointer]:
+                  - checkbox "settings.receipt Customize receipt templates" [ref=e956]
+                  - generic [ref=e957]:
+                    - generic [ref=e958]: settings.receipt
+                    - generic [ref=e959]: Customize receipt templates
+                - generic [ref=e960] [cursor=pointer]:
+                  - checkbox "settings.tax Manage tax rates and rules" [ref=e961]
+                  - generic [ref=e962]:
+                    - generic [ref=e963]: settings.tax
+                    - generic [ref=e964]: Manage tax rates and rules
+                - generic [ref=e965] [cursor=pointer]:
+                  - checkbox "settings.view Access system settings" [ref=e966]
+                  - generic [ref=e967]:
+                    - generic [ref=e968]: settings.view
+                    - generic [ref=e969]: Access system settings
+          - button " Save Permissions" [disabled] [ref=e971]:
+            - generic [ref=e972]: 
+            - text: Save Permissions
+      - text: +        
+  - generic [ref=e974]:
+    - generic [ref=e975]: Offline Mode
+    - generic [ref=e976]: (0 pending)
+    - text: 
+  - generic [ref=e978]:
+    - generic [ref=e979]: 
+    - generic [ref=e980]: Update available. Refresh to update.
+    - button "" [ref=e981] [cursor=pointer]:
+      - generic [ref=e982]: 

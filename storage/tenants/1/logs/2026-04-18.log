@@ -1,0 +1,218 @@
+[2026-04-18 07:12:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-18 07:12:19] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-18 07:22:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:495
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 495
+[2026-04-18 11:23:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:23:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:25:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:25:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:25:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:26:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:31:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 7
+[2026-04-18 11:40:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/BaseModel.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 8
+[2026-04-18 11:40:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\pos/../../src/BaseModel.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(16): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\POSModel.php on line 8
+[2026-04-18 11:43:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:186
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(186): implode(', ', NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 186
+[2026-04-18 12:36:02] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 12:39:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 12:47:29] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 12:53:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 12:54:56] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 12:59:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 12:59:48] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:08:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:08:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:19:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:19:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "BaseRepository" not found in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php:13
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(248): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\repositories\ProductRepository.php on line 13
+[2026-04-18 13:26:03] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:29:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:29:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:29:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:33:55] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:34:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:34:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:34:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:34:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:34:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 13:39:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 14:42:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 14:54:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 14:54:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 14:56:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:02:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:15:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:15:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:22:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:26:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:30:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:38:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:44:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:45:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 15:45:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Cannot declare class SecurityException, because the name is already in use in C:\xampp\htdocs\JDH_POS\src\TenantContext.php on line 188
+[2026-04-18 16:37:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:255
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 255
+[2026-04-18 16:37:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:255
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 255
+[2026-04-18 16:38:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:255
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 255
+[2026-04-18 16:45:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:255
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 255
+[2026-04-18 16:46:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:255
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 255
+[2026-04-18 16:51:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:51:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:51:36] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:56:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:56:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:57:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:57:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:272
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 272
+[2026-04-18 16:58:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 16:58:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:02:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:02:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:09:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:14:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:14:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:15:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 17:15:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 20:16:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258
+[2026-04-18 20:29:38] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to protected method BaseModel::applyTenantScope() from global scope in C:\xampp\htdocs\JDH_POS\public\products\product_form.php:258
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\product_form.php on line 258

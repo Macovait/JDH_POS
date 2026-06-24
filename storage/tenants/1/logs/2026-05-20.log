@@ -1,0 +1,10 @@
+[2026-05-20 22:19:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined method Endroid\QrCode\Builder\Builder::create() in C:\xampp\htdocs\JDH_POS\public\pos\receipts\receipt.php:164
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\receipt.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\receipts\receipt.php on line 164
+[2026-05-20 22:20:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined method Endroid\QrCode\Builder\Builder::create() in C:\xampp\htdocs\JDH_POS\public\pos\receipts\receipt.php:164
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\receipt.php(5): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\receipts\receipt.php on line 164

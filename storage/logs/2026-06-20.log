@@ -1,0 +1,6 @@
+[2026-06-20 23:22:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'price_monthly' in 'order clause' in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:16
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\PlansModel.php(16): PDO->prepare('SELECT * FROM p...')
+#1 C:\xampp\htdocs\JDH_POS\admin\plans.php(162): PlansModel->getPlans()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 16

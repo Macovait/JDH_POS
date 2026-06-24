@@ -1,0 +1,7 @@
+[2026-06-10 09:21:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_db() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:24
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(79): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(120): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\login.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 24

@@ -1,0 +1,267 @@
+[2026-04-06 09:19:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:22:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:22:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:22:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:23:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:24:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:282
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(282): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 282
+[2026-04-06 09:24:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:25:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:282
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(282): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 282
+[2026-04-06 09:25:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:282
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(282): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 282
+[2026-04-06 09:25:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:26:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 09:26:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 10:33:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 10:33:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 11:29:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:341
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(341): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 341
+[2026-04-06 11:29:36] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-06 11:33:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 11:33:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 11:33:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 11:33:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 11:33:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:08:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-06 13:08:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/sidebar.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\index.php:273
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\index.php on line 273
+[2026-04-06 13:11:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:20:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:23:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:25:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:25:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:26:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:26:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:34:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 13:38:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 14:00:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:422
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(422): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 422
+[2026-04-06 14:15:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:422
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(422): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 422
+[2026-04-06 14:18:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:422
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(422): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 422
+[2026-04-06 14:25:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'r.code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:343
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(343): PDO->prepare('SELECT u.id, u....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 343
+[2026-04-06 14:27:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:426
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(426): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 426
+[2026-04-06 14:27:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:426
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(426): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 426
+[2026-04-06 14:27:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:426
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(426): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 426
+[2026-04-06 14:29:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:422
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(422): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 422
+[2026-04-06 14:30:41] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:422
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(422): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 422
+[2026-04-06 18:15:02] [ERROR] [User: guest] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stock' in 'field list' in Command line code:12
+Stack trace:
+#0 Command line code(12): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in Command line code on line 12
+[2026-04-06 18:16:23] [ERROR] [User: guest] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stock' in 'field list' in Command line code:9
+Stack trace:
+#0 Command line code(9): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in Command line code on line 9
+[2026-04-06 20:02:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function table_exists() in C:\xampp\htdocs\JDH_POS\public\api\products.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 102
+[2026-04-06 20:02:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function table_exists() in C:\xampp\htdocs\JDH_POS\public\api\products.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 102
+[2026-04-06 20:02:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function table_exists() in C:\xampp\htdocs\JDH_POS\public\api\products.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 102
+[2026-04-06 20:05:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function table_exists() in C:\xampp\htdocs\JDH_POS\public\api\products.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 102
+[2026-04-06 20:06:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function table_exists() in C:\xampp\htdocs\JDH_POS\public\api\products.php:102
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 102
+[2026-04-06 22:28:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\public\products\products.php:150
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\products.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 150
+[2026-04-06 22:28:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\public\products\products.php:150
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\products.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 150
+[2026-04-06 22:28:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\public\products\products.php:150
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\products.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 150
+[2026-04-06 22:29:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\public\products\products.php:150
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\products.php(150): PDOStatement->execute(Array)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 150
+[2026-04-06 23:33:10] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in Command line code:31
+Stack trace:
+#0 Command line code(31): PDOStatement->execute()
+#1 {main}
+  thrown in Command line code on line 31
+[2026-04-06 23:40:05] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.stock' in 'field list' in Command line code:61
+Stack trace:
+#0 Command line code(61): PDO->prepare('SELECT p.id, p....')
+#1 {main}
+  thrown in Command line code on line 61
+[2026-04-06 23:52:05] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: array_slice(): Argument #1 ($array) must be of type array, null given in Command line code:23
+Stack trace:
+#0 Command line code(23): array_slice(NULL, 0, 3)
+#1 {main}
+  thrown in Command line code on line 23

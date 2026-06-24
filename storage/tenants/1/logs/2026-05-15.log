@@ -1,0 +1,6 @@
+[2026-05-15 11:30:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'receipt_number' in 'field list' in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php:63
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(63): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php(21): perform_global_search(Object(PDO), 1, 'ro', 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\global_search.php on line 63

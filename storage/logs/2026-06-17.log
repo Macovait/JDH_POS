@@ -1,0 +1,11 @@
+[2026-06-17 16:00:10] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\scripts\migrate.php:178
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(178): PDO->rollBack()
+#1 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(255): MigrationRunner->runMigration(Array, false)
+#2 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(417): MigrationRunner->up(0, false)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\migrate.php on line 178
+[2026-06-17 20:23:19] [ERROR] [User: guest] [IP: ::1]  Fatal error: strict_types declaration must be the very first statement in the script in C:\xampp\htdocs\JDH_POS\src\db.php on line 2
+[2026-06-17 20:23:42] [ERROR] [User: guest] [IP: ::1]  Fatal error: strict_types declaration must be the very first statement in the script in C:\xampp\htdocs\JDH_POS\src\db.php on line 2
+[2026-06-17 20:24:51] [ERROR] [User: guest] [IP: ::1]  Fatal error: strict_types declaration must be the very first statement in the script in C:\xampp\htdocs\JDH_POS\src\db.php on line 2
+[2026-06-17 20:26:47] [ERROR] [User: guest] [IP: ::1]  Fatal error: strict_types declaration must be the very first statement in the script in C:\xampp\htdocs\JDH_POS\src\db.php on line 2

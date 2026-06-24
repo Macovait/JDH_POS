@@ -1,0 +1,1 @@
+[2026-05-14 08:36:28] [ERROR] [User: 1] [IP: 0.0.0.0]  Fatal error: Cannot redeclare get_db_connection() (previously declared in C:\xampp\htdocs\JDH_POS\public\pos\test_process_return.php:55) in C:\xampp\htdocs\JDH_POS\src\db.php on line 117

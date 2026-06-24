@@ -1,0 +1,20 @@
+[2026-04-27 18:13:33] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-27 18:14:54] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "JDH_POS\Services\OwnerPanelService" not found in C:\xampp\htdocs\JDH_POS\test_owner_panel.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_owner_panel.php on line 8
+[2026-04-27 18:15:48] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "JDH_POS\Services\OwnerPanelService" not found in C:\xampp\htdocs\JDH_POS\test_owner_panel.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_owner_panel.php on line 8
+[2026-04-27 18:17:20] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "JDH_POS\Services\OwnerPanelService" not found in C:\xampp\htdocs\JDH_POS\test_owner_panel.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_owner_panel.php on line 17
+[2026-04-27 18:30:59] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Class "JDH_POS\Services\OwnerPanelService" not found in C:\xampp\htdocs\JDH_POS\test_owner_panel.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_owner_panel.php on line 17
+[2026-04-27 18:32:29] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-27 18:34:15] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401
+[2026-04-27 18:36:40] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: syntax error, unexpected token "if", expecting "function" or "const" in C:\xampp\htdocs\JDH_POS\src\Services\OwnerPanelService.php on line 401

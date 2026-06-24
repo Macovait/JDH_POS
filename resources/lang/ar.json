@@ -1,0 +1,10 @@
+{
+  "app": {"name": "JDH POS", "tagline": "نظام نقاط البيع"},
+  "auth": {"login": {"title": "تسجيل الدخول", "email": "البريد", "password": "كلمة المرور", "remember": "تذكرني", "submit": "دخول", "success": "مرحباً :name!", "failed": "بيانات غير صحيحة.", "logout": "تم تسجيل الخروج."}, "forgot_password": "نسيت كلمة المرور؟", "reset_password": "إعادة تعيين"},
+  "pos": {"title": "نقطة البيع", "search_product": "بحث...", "barcode": "مسح الباركود", "cart": {"title": "سلة", "empty": "السلة فارغة", "total": "الإجمالي", "checkout": "دفع", "clear": "إفراغ"}, "product": {"not_found": "المنتج غير موجود", "out_of_stock": "نفذت الكمية", "price": "السعر", "quantity": "الكمية"}, "payment": {"title": "الدفع", "cash": "نقداً", "card": "بطاقة", "mobile": "محفظة", "amount": "المبلغ", "change": "الباقي"}},
+  "sales": {"title": "المبيعات", "receipt": {"title": "إيصال", "thank_you": "شكراً!", "date": "التاريخ", "receipt_number": "رقم الإيصال #:receipt"}, "refund": {"title": "استرجاع", "reason": "السبب", "success": "تم الاسترجاع"}},
+  "inventory": {"title": "المخزون", "low_stock": "مخزون منخفض", "stock_count": ":count عنصر", "out_of_stock": "نفذت الكمية"},
+  "common": {"save": "حفظ", "cancel": "إلغاء", "delete": "حذف", "edit": "تعديل", "create": "إنشاء", "search": "بحث", "filter": "تصفية", "export": "تصدير", "print": "طباعة", "loading": "جارٍ التحميل...", "success": "نجاح", "error": "خطأ", "warning": "تحذير", "info": "معلومات", "yes": "نعم", "no": "لا", "confirm": "هل أنت متأكد؟", "required": "مطلوب", "optional": "اختياري"},
+  "validation": {"required": "حقل :field مطلوب.", "email": "حقل :field يجب أن يكون بريداً صحيحاً.", "min": "الحد الأدنى :min أحرف.", "max": "الحد الأقصى :max أحرف.", "numeric": "يجب أن يكون رقماً.", "unique": "الـ :field موجود مسبقاً."},
+  "errors": {"generic": "حدث خطأ. حاول مرة أخرى.", "not_found": "المورد غير موجود.", "unauthorized": "غير مصرح.", "rate_limited": "محاولات كثيرة.", "maintenance": "النظام تحت الصيانة."}
+}

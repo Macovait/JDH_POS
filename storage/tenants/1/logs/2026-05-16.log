@@ -1,0 +1,91 @@
+[2026-05-16 11:42:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-16 17:34:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT cs.*, c....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(268): db_fetch_all('SELECT cs.*, c....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(268): db_fetch_all('SELECT cs.*, c....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-16 17:34:11] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sp.price_monthly' in 'field list' in C:\xampp\htdocs\JDH_POS\src\db.php:137
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(137): PDO->prepare('SELECT cs.*, c....')
+#1 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(268): db_fetch_all('SELECT cs.*, c....', Array)
+#3 {main}
+
+Next RuntimeException: Database query failed in C:\xampp\htdocs\JDH_POS\src\db.php:142
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\db.php(168): db_query('SELECT cs.*, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\admin\subscriptions.php(268): db_fetch_all('SELECT cs.*, c....', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\db.php on line 142
+[2026-05-16 21:47:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-16 21:48:03] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-16 21:55:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-16 22:29:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674
+[2026-05-16 22:44:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function locale() in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(381): include()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(1898): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\users\roles.php(1691): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php on line 8
+[2026-05-16 22:44:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function locale() in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(381): include()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(1898): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(929): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php on line 8
+[2026-05-16 22:44:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function locale() in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(381): include()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(1898): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(929): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php on line 8
+[2026-05-16 22:44:52] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function locale() in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(381): include()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(1898): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\inventory\item_expiry.php(295): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php on line 8
+[2026-05-16 22:45:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function locale() in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php:8
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\layouts\header.php(381): include()
+#1 C:\xampp\htdocs\JDH_POS\public\layouts\app.php(1898): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(929): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\layouts\language-switcher.php on line 8

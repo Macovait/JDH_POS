@@ -1,0 +1,117 @@
+[2026-06-04 00:02:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 00:27:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 00:52:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 01:11:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 01:18:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 01:48:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:04:57] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:30:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:32:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:07] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:33:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:34:14] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:34:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 02:34:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 11:31:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: App\Pos\PosBootstrapService::__construct(): Argument #1 ($pdo) must be of type PDO, null given, called in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 150 and defined in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php:39
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(150): App\Pos\PosBootstrapService->__construct(NULL, 1, 1)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\POS\PosBootstrapService.php on line 39
+[2026-06-04 20:48:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:117
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 117
+[2026-06-04 20:48:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:117
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 117
+[2026-06-04 20:49:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:117
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 117
+[2026-06-04 20:58:35] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\JDH_POS\public\pos\pos.php:117
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 117
+[2026-06-04 22:25:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.custom_reports' doesn't exist in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php:674
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(674): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php(45): get_saved_reports(Object(PDO), 1, 2)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\custom_builder.php on line 674

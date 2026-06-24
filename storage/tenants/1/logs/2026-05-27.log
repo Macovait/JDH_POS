@@ -1,0 +1,10 @@
+[2026-05-27 16:32:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type_id() in C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php:120
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php(66): saveHeldSale()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php on line 120
+[2026-05-27 16:35:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type_id() in C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php:120
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php(66): saveHeldSale()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\hold_sale.php on line 120

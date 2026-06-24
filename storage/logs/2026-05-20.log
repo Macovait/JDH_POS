@@ -1,0 +1,4 @@
+[2026-05-20 09:13:38] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Undefined constant "BASE_PATH" in C:\xampp\htdocs\JDH_POS\test_attr_query.php:3
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\test_attr_query.php on line 3

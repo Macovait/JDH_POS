@@ -1,0 +1,96 @@
+[2026-04-19 05:22:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_user_role() in C:\xampp\htdocs\JDH_POS\public\users\users.php:316
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 316
+[2026-04-19 05:46:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_user_role() in C:\xampp\htdocs\JDH_POS\public\users\users.php:267
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 267
+[2026-04-19 06:29:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'slug' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:10
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(10): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 10
+[2026-04-19 06:33:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:10
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(10): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 10
+[2026-04-19 06:34:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:10
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(10): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 10
+[2026-04-19 06:34:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'field list' in C:\xampp\htdocs\JDH_POS\public\users\users.php:10
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(10): PDO->prepare('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 10
+[2026-04-19 07:40:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 08:11:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 08:12:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\roles.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php on line 7
+[2026-04-19 15:16:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 15:17:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\roles.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\RolesModel.php on line 7
+[2026-04-19 15:47:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 15:49:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 15:49:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 15:50:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 15:51:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/../../src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 16:08:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs/src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 16:08:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs/src/TenantContext.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php:7
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\plans.php(13): require_once()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\PlansModel.php on line 7
+[2026-04-19 16:14:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\roles.php:313
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\roles.php on line 313
+[2026-04-19 16:16:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\admin/components/footer.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\admin\notifications.php:385
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\notifications.php on line 385

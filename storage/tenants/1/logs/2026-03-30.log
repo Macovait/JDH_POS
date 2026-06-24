@@ -1,0 +1,608 @@
+[2026-03-30 02:38:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 02:38:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 02:52:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 02:52:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 02:52:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 02:53:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 07:02:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 07:02:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\reports\reports.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\reports.php on line 26
+[2026-03-30 07:02:20] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\reports\reports.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\reports.php on line 26
+[2026-03-30 07:02:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 07:27:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 07:27:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 07:27:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 07:28:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\sales.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\sales.php on line 24
+[2026-03-30 07:28:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\reports\reports.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\reports.php on line 26
+[2026-03-30 07:30:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\reports\reports.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\reports\reports.php on line 26
+[2026-03-30 07:33:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 07:34:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 08:50:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php on line 23
+[2026-03-30 08:51:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\inventory\suppliers.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\suppliers.php on line 25
+[2026-03-30 08:51:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\shipments\shipments.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\shipments\shipments.php on line 17
+[2026-03-30 08:51:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\purchases\purchase_orders.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\purchases\purchase_orders.php on line 25
+[2026-03-30 08:54:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php on line 23
+[2026-03-30 08:55:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php on line 23
+[2026-03-30 08:59:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\select_sale_for_return.php on line 23
+[2026-03-30 08:59:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\products\products.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 21
+[2026-03-30 09:00:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_branch_name() in C:\xampp\htdocs\JDH_POS\public\inventory\suppliers.php:25
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\suppliers.php on line 25
+[2026-03-30 17:57:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 17:58:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 17:59:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 17:59:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:08:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:08:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:09:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:10:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:11:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:13:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:13:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:14:59] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:15:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:16:25] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:17:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:17:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:17:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:18:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:19:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:20:55] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:22:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:23:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:24:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:25:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:26:35] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:27:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:28:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:29:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:30:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:31:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:32:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:33:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:33:36] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:34:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:36:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:39:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:40:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:40:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:40:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:41:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:45:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:45:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:46:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:47:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:47:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:48:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:49:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:50:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 18:51:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 19:06:21] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 19:07:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:00:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:00:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:00:46] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:01:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:01:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:01:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:01:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:02:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:03:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:04:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:05:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:06:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:07:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:08:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:09:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:11:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:12:19] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:13:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:14:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:15:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:16:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:22:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:22:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:23:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:24:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:25:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 20:26:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:22:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:23:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:24:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:25:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:26:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:27:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:28:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:29:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:30:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:31:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:32:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:33:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:37:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:38:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:39:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:40:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:41:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:42:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:43:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:43:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:43:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:43:51] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:45:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:46:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:47:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:48:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:49:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:50:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:51:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:52:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:53:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:54:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:55:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:56:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:57:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:58:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 21:59:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:00:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:03:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:03:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:04:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:04:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:04:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:05:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:06:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:07:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66
+[2026-03-30 22:08:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type() in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php:66
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\ajax\get_today_sales.php on line 66

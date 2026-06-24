@@ -1,0 +1,746 @@
+[2026-04-02 00:02:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:03:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:03:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:03:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:04:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:05:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:22] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:06:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(26): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:07:33] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 Command line code(17): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:08:07] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 Command line code(19): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 00:08:41] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:496
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\debug_home.php(33): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 496
+[2026-04-02 07:24:56] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`jakababa_pos`.`sales`, CONSTRAINT `fk_sales_company` FOREIGN KEY (`company_id`) REFERENCES `companies` (`id`) ON DELETE CASCADE) in C:\xampp\htdocs\JDH_POS\src\pos_backend.php:429
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\pos_backend.php(429): PDOStatement->execute(Array)
+#1 Command line code(38): pos_process_sale(Object(PDO), Array, Array, Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\pos_backend.php on line 429
+[2026-04-02 15:26:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:26:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:26:52] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:27:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:27:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:27:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:27:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:27:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:29:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:29:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:29:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:29:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:32:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:32:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:33:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:45:01] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:45:04] [ERROR] [User: 1] [IP: 127.0.0.1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:45:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:45:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:24
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 24
+[2026-04-02 15:51:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(306): DashboardRepository->prepare('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(130): DashboardRepository->inventoryKPIs(' AND company_id...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(92): DashboardRepository->buildKPIs(' AND s.company_...', Array, ' AND company_id...', Array)
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(30): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 15:55:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(306): DashboardRepository->prepare('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(130): DashboardRepository->inventoryKPIs(' AND company_id...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(92): DashboardRepository->buildKPIs(' AND s.company_...', Array, ' AND company_id...', Array)
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(30): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 16:03:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(306): DashboardRepository->prepare('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(130): DashboardRepository->inventoryKPIs(' AND company_id...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(92): DashboardRepository->buildKPIs(' AND s.company_...', Array, ' AND company_id...', Array)
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(30): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 16:04:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(306): DashboardRepository->prepare('SELECT COUNT(*)...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(130): DashboardRepository->inventoryKPIs(' AND company_id...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(92): DashboardRepository->buildKPIs(' AND s.company_...', Array, ' AND company_id...', Array)
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(30): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 16:14:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:28:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:30:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:30:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:30:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 16:31:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 18:34:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 18:34:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 19:08:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\public\dashboard/../../src/dashboard/DashboardRepository.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 16
+[2026-04-02 19:19:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:31] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:19:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:22:56] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:22:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:22:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:22:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:22:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:23:49] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:24:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:26:26] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:28:38] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:40:07] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Using $this when not in object context in C:\xampp\htdocs\JDH_POS\public\dashboard\test.php:138
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\test.php on line 138
+[2026-04-02 19:41:34] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT COALESCE...')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(297): DashboardRepository->prepare('SELECT COALESCE...', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(133): DashboardRepository->costForPeriod('CURDATE()', 'CURDATE()', ' AND s.company_...', Array)
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(86): DashboardRepository->buildKPIs()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69
+[2026-04-02 19:47:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 19:58:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 19:58:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:02:25] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:02:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 20:03:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:18] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:03:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:53:53] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught RuntimeException: safe_require: Could not find file 'dashboard/DashboardContext.php' (type: src) in C:\xampp\htdocs\JDH_POS\src\paths.php:183
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(15): safe_require('dashboard/Dashb...', 'src', true)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\paths.php on line 183
+[2026-04-02 20:54:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:54:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "DashboardContext" not found in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 26
+[2026-04-02 20:57:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:57:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:57:47] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:58:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:58:29] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:58:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:70
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(70): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(719): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(607): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(89): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 70
+[2026-04-02 20:59:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(733): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(621): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(103): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 79
+[2026-04-02 20:59:32] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:79
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(79): PDOStatement->execute()
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(733): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(621): DashboardRepository->customerSegments()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(103): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(34): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 79
+[2026-04-02 21:00:57] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: str_replace(): Argument #4 ($count) cannot be passed by reference in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:85
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(743): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(631): DashboardRepository->customerSegments()
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(113): DashboardRepository->buildTables()
+#3 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(70): DashboardRepository->build()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 85
+[2026-04-02 21:01:03] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: str_replace(): Argument #4 ($count) cannot be passed by reference in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:85
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(743): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(631): DashboardRepository->customerSegments()
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(113): DashboardRepository->buildTables()
+#3 C:\xampp\htdocs\JDH_POS\public\dashboard\test_repository.php(70): DashboardRepository->build()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 85
+[2026-04-02 21:01:09] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: str_replace(): Argument #4 ($count) cannot be passed by reference in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:85
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(743): DashboardRepository->prepare('SELECT c.id, c....', Array)
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(631): DashboardRepository->customerSegments()
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(113): DashboardRepository->buildTables()
+#3 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#4 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 85
+[2026-04-02 21:02:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php:69
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(69): PDO->prepare('SELECT b.id, b....')
+#1 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(857): DashboardRepository->prepare('SELECT b.id, b....', Array)
+#2 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(652): DashboardRepository->branchPerformance()
+#3 C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php(130): DashboardRepository->buildTables()
+#4 C:\xampp\htdocs\JDH_POS\public\dashboard\test_debug.php(135): DashboardRepository->build()
+#5 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\DashboardRepository.php on line 69

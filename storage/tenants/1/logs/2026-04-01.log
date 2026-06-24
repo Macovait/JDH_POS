@@ -1,0 +1,228 @@
+[2026-04-01 23:12:06] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:12:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:13:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:14:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:14:44] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:14:49] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(13): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:15:10] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(13): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:15:23] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(14): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:16:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:16:11] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:16:12] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:16:55] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:17:33] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:18:22] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:18:27] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:18:54] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:18:55] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:18:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:19:02] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:19:04] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:19:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:19:39] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:20:12] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:20:24] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:20:38] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(6): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:14] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:28] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(12): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:21:48] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(12): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:22:06] [ERROR] [User: 1] [IP: 0.0.0.0] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 Command line code(12): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:25:58] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:27:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:28:16] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:28:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:28:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:28:17] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:29:00] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:29:10] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:30:23] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:38:30] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:44:28] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:45:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:46:37] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:49:05] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:49:08] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:49:15] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:52:40] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:53:13] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:58:39] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:58:42] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:58:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506
+[2026-04-01 23:58:43] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:506
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php on line 506

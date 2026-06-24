@@ -1,0 +1,4 @@
+[2026-04-13 12:45:35] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught Error: Failed opening required 'C:\xampp\htdocs\JDH_POS\setup/../src/core/paths.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\JDH_POS\setup\run_migrations.php:8
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\setup\run_migrations.php on line 8

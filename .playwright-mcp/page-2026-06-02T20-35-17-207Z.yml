@@ -1,0 +1,302 @@
+- generic [active] [ref=e1]:
+  - text: 
+  - complementary [ref=e2]:
+    - link "JA JAKPOS POS System" [ref=e4] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/dashboard/home.php
+      - generic [ref=e6]: JA
+      - generic [ref=e7]:
+        - heading "JAKPOS" [level=1] [ref=e8]
+        - paragraph [ref=e9]: POS System
+    - generic [ref=e10]:
+      - img "Bunde" [ref=e12]
+      - generic [ref=e13]:
+        - heading "Bunde " [level=5] [ref=e14]:
+          - text: Bunde
+          - generic [ref=e15]: 
+        - generic [ref=e16]: Administrator
+    - list [ref=e18]:
+      - listitem [ref=e19]:
+        - link "" [ref=e20] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/support.php
+          - generic [ref=e21]: 
+      - listitem [ref=e22]:
+        - link "" [ref=e23] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/docs.php
+          - generic [ref=e24]: 
+      - listitem [ref=e25]:
+        - link "" [ref=e26] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/projects.php
+          - generic [ref=e27]: 
+      - listitem [ref=e28]:
+        - link "" [ref=e29] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e30]: 
+    - navigation [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Overview
+        - link " Dashboard Hot" [ref=e34] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/home.php
+          - generic [ref=e35]: 
+          - generic [ref=e36]: Dashboard
+          - generic [ref=e37]: Hot
+      - generic [ref=e38]:
+        - generic [ref=e39]: Sales
+        - link " Point of Sale" [ref=e40] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/pos.php
+          - generic [ref=e41]: 
+          - generic [ref=e42]: Point of Sale
+        - link " All Sales" [ref=e43] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/all_sales.php
+          - generic [ref=e44]: 
+          - generic [ref=e45]: All Sales
+        - link " Returns" [ref=e46] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/select_sale_for_return.php
+          - generic [ref=e47]: 
+          - generic [ref=e48]: Returns
+        - link " Quotations" [ref=e49] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/quotations/list_quotation.php
+          - generic [ref=e50]: 
+          - generic [ref=e51]: Quotations
+        - link "% Discounts" [ref=e52] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/pos/discounts/discounts.php
+          - generic [ref=e53]: "%"
+          - generic [ref=e54]: Discounts
+        - link " Vouchers" [ref=e55] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/vouchers/vouchers.php
+          - generic [ref=e56]: 
+          - generic [ref=e57]: Vouchers
+      - generic [ref=e58]:
+        - generic [ref=e59]: Inventory
+        - link " Products" [ref=e60] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/products.php
+          - generic [ref=e61]: 
+          - generic [ref=e62]: Products
+        - link "+ Add Product" [ref=e63] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product_form.php
+          - generic [ref=e64]: +
+          - generic [ref=e65]: Add Product
+        - link " Brands" [ref=e66] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brands.php
+          - generic [ref=e67]: 
+          - generic [ref=e68]: Brands
+        - link "+ Add Brand" [ref=e69] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/brand_form.php
+          - generic [ref=e70]: +
+          - generic [ref=e71]: Add Brand
+        - link " Categories" [ref=e72] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/categories/list_categories.php
+          - generic [ref=e73]: 
+          - generic [ref=e74]: Categories
+        - link " Stock" [ref=e75] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/inventory.php
+          - generic [ref=e76]: 
+          - generic [ref=e77]: Stock
+        - link " Item Expiry" [ref=e78] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/item_expiry.php
+          - generic [ref=e79]: 
+          - generic [ref=e80]: Item Expiry
+        - link " Suppliers" [ref=e81] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/inventory/suppliers.php
+          - generic [ref=e82]: 
+          - generic [ref=e83]: Suppliers
+        - link " Shipments" [ref=e84] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/shipments/shipments.php
+          - generic [ref=e85]: 
+          - generic [ref=e86]: Shipments
+        - link " Barcode Labels" [ref=e87] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/barcode_labels.php
+          - generic [ref=e88]: 
+          - generic [ref=e89]: Barcode Labels
+        - link " Attributes" [ref=e90] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/attributes.php
+          - generic [ref=e91]: 
+          - generic [ref=e92]: Attributes
+        - link " Product Tags" [ref=e93] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/products/product-tags.php
+          - generic [ref=e94]: 
+          - generic [ref=e95]: Product Tags
+      - generic [ref=e96]:
+        - generic [ref=e97]: Procurement
+        - link " Purchases" [ref=e98] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/purchases/purchase_orders.php
+          - generic [ref=e99]: 
+          - generic [ref=e100]: Purchases
+      - generic [ref=e101]:
+        - generic [ref=e102]: People
+        - link " All Customers" [ref=e103] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/customers.php
+          - generic [ref=e104]: 
+          - generic [ref=e105]: All Customers
+        - link " Add Customer" [ref=e106] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/add_customer.php
+          - generic [ref=e107]: 
+          - generic [ref=e108]: Add Customer
+        - link " Bulk SMS" [ref=e109] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/bulk_sms.php
+          - generic [ref=e110]: 
+          - generic [ref=e111]: Bulk SMS
+        - link " Loyalty Program" [ref=e112] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/customers/loyalty.php
+          - generic [ref=e113]: 
+          - generic [ref=e114]: Loyalty Program
+        - link " CRM" [ref=e115] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/index.php
+          - generic [ref=e116]: 
+          - generic [ref=e117]: CRM
+        - link " CRM Leads" [ref=e118] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/leads.php
+          - generic [ref=e119]: 
+          - generic [ref=e120]: CRM Leads
+        - link " CRM Deals" [ref=e121] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/crm/deals.php
+          - generic [ref=e122]: 
+          - generic [ref=e123]: CRM Deals
+        - link " HR Dashboard" [ref=e124] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/index.php
+          - generic [ref=e125]: 
+          - generic [ref=e126]: HR Dashboard
+        - link " Employees" [ref=e127] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/employees.php
+          - generic [ref=e128]: 
+          - generic [ref=e129]: Employees
+        - link " Leave Requests" [ref=e130] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/hr/leave_requests.php
+          - generic [ref=e131]: 
+          - generic [ref=e132]: Leave Requests
+      - generic [ref=e133]:
+        - generic [ref=e134]: Finance
+        - link " Reports 7" [ref=e135] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/reports/reports.php
+          - generic [ref=e136]: 
+          - generic [ref=e137]: Reports
+          - generic [ref=e138]: "7"
+        - link " Expenses" [ref=e139] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/expenses/expenses.php
+          - generic [ref=e140]: 
+          - generic [ref=e141]: Expenses
+      - generic [ref=e142]:
+        - generic [ref=e143]: Billing
+        - link " Subscription" [ref=e144] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/billing.php
+          - generic [ref=e145]: 
+          - generic [ref=e146]: Subscription
+        - link " M-Pesa Settings" [ref=e147] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/mpesa_settings.php
+          - generic [ref=e148]: 
+          - generic [ref=e149]: M-Pesa Settings
+        - link " SMS Settings" [ref=e150] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/sms_settings.php
+          - generic [ref=e151]: 
+          - generic [ref=e152]: SMS Settings
+        - link " Payment History" [ref=e153] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/billing/payment_history.php
+          - generic [ref=e154]: 
+          - generic [ref=e155]: Payment History
+      - generic [ref=e156]:
+        - generic [ref=e157]: System
+        - link " Branches" [ref=e158] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/branches/branches.php
+          - generic [ref=e159]: 
+          - generic [ref=e160]: Branches
+        - link " Users" [ref=e161] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/users.php
+          - generic [ref=e162]: 
+          - generic [ref=e163]: Users
+        - link " Roles & Permissions" [ref=e164] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/users/roles/roles.php
+          - generic [ref=e165]: 
+          - generic [ref=e166]: Roles & Permissions
+        - link " Backup" [ref=e167] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/backup/backup.php
+          - generic [ref=e168]: 
+          - generic [ref=e169]: Backup
+        - link " Activity Log" [ref=e170] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/activity_logs.php
+          - generic [ref=e171]: 
+          - generic [ref=e172]: Activity Log
+        - link " Settings" [ref=e173] [cursor=pointer]:
+          - /url: http://localhost/JDH_POS/public/dashboard/settings.php
+          - generic [ref=e174]: 
+          - generic [ref=e175]: Settings
+    - link " Sign Out" [ref=e177] [cursor=pointer]:
+      - /url: http://localhost/JDH_POS/public/auth/logout.php
+      - generic [ref=e178]: 
+      - generic [ref=e179]: Sign Out
+  - generic [ref=e180]:
+    - banner [ref=e181]:
+      - generic [ref=e183]:
+        - generic [ref=e185]:
+          - generic [ref=e186]: 
+          - generic [ref=e187]: Kisumu
+        - generic [ref=e190]:
+          - generic [ref=e191]: 
+          - textbox "Search products, customers, sales..." [ref=e192]
+          - text: 
+          - generic [ref=e193]: Ctrl K
+        - generic [ref=e194]:
+          - button "" [ref=e195] [cursor=pointer]:
+            - generic [ref=e196]: 
+          - link " POS" [ref=e197] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/pos/pos.php
+            - generic [ref=e198]: 
+            - generic [ref=e199]: POS
+          - button "" [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]: 
+          - button "EN" [ref=e204] [cursor=pointer]
+          - button "Bunde Bunde Administrator " [ref=e206] [cursor=pointer]:
+            - img "Bunde" [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]: Bunde
+              - generic [ref=e211]: Administrator
+            - generic [ref=e212]: 
+    - text:              
+    - navigation "Breadcrumb" [ref=e213]:
+      - list [ref=e214]:
+        - listitem [ref=e215]:
+          - link " Dashboard" [ref=e216] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/dashboard/home.php
+            - generic [ref=e217]: 
+            - generic [ref=e218]: Dashboard
+          - generic [ref=e219]: 
+        - listitem [ref=e220]:
+          - link " Users" [ref=e221] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/users
+            - generic [ref=e222]: 
+            - generic [ref=e223]: Users
+          - generic [ref=e224]: 
+        - listitem [ref=e225]:
+          - link " Roles" [ref=e226] [cursor=pointer]:
+            - /url: http://localhost/JDH_POS/public/users/roles
+            - generic [ref=e227]: 
+            - generic [ref=e228]: Roles
+          - generic [ref=e229]: 
+        - listitem [ref=e230]:
+          - generic [ref=e231]: 
+          - generic [ref=e232]: Edit Role?id=1
+    - main [ref=e233]:
+      - generic [ref=e234]:
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic [ref=e237]: Role Management
+            - heading "Edit Role" [level=1] [ref=e238]
+          - link " Back" [ref=e240] [cursor=pointer]:
+            - /url: roles.php
+            - generic [ref=e241]: 
+            - text: Back
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - generic [ref=e245]: Role Name *
+            - textbox [ref=e246]: Administrator
+          - generic [ref=e247]:
+            - generic [ref=e248]: Description
+            - textbox [ref=e249]: Full tenant access
+          - generic [ref=e250]:
+            - button " Save Role" [ref=e251] [cursor=pointer]:
+              - generic [ref=e252]: 
+              - text: Save Role
+            - link "Cancel" [ref=e253] [cursor=pointer]:
+              - /url: roles.php
+  - generic [ref=e255]:
+    - generic [ref=e256]: Offline Mode
+    - generic [ref=e257]: (0 pending)
+    - text: 

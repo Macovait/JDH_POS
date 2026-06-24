@@ -1,0 +1,284 @@
+[2026-05-23 10:07:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'b.deleted_at' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\products\brands.php:128
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\brands.php(128): PDO->prepare('SELECT b.id, b....')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\brands.php on line 128
+[2026-05-23 16:11:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in C:\xampp\htdocs\JDH_POS\public\api\stock-events.php:67
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\api\stock-events.php(67): PDO->prepare('SELECT id, prod...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\stock-events.php on line 67
+[2026-05-23 18:22:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:23:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:23:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:23:31] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:23:33] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:23:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:24:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:24:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:24:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:26:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:26:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:28:19] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:32:25] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 52 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(52): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 18:56:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:44
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(44): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(135): JDH\POS\SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): JDH\POS\SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 44
+[2026-05-23 18:56:50] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:44
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(44): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(135): JDH\POS\SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): JDH\POS\SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 44
+[2026-05-23 18:56:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:44
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(44): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(135): JDH\POS\SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): JDH\POS\SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 44
+[2026-05-23 18:58:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:58:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:58:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:58:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:58:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:59:36] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 18:59:39] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:00] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:53] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(55): SettingsManager->get('auto_print_labe...', '0')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:57] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(55): SettingsManager->get('auto_print_labe...', '0')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:05:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:06:02] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(133): SettingsManager->get('auto_print_labe...', '0')
+#2 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels.php(63): SettingsManager->getLabelSettings()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:06:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(55): SettingsManager->get('auto_print_labe...', '0')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:06:42] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(55): SettingsManager->get('auto_print_labe...', '0')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:07:48] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_settings' doesn't exist in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php:42
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SettingsManager.php(42): PDO->prepare('SELECT setting_...')
+#1 C:\xampp\htdocs\JDH_POS\public\dashboard\home.php(55): SettingsManager->get('auto_print_labe...', '0')
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SettingsManager.php on line 42
+[2026-05-23 19:09:37] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:09:44] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:10:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:10:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:13:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:16:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 19:16:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 20:35:16] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 21:39:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 21:39:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 21:45:46] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19
+[2026-05-23 21:47:58] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught ArgumentCountError: Too few arguments to function JDH\POS\Barcode\EscPosPrinter::__construct(), 0 passed in C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php on line 53 and at least 1 expected in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php:19
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\products\barcode_labels_generate.php(53): JDH\POS\Barcode\EscPosPrinter->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\Barcode\EscPosPrinter.php on line 19

@@ -1,0 +1,34 @@
+[2026-04-04 06:15:40] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\scripts\migrate.php:178
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(178): PDO->rollBack()
+#1 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(255): MigrationRunner->runMigration(Array, false)
+#2 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(417): MigrationRunner->up(0, false)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\migrate.php on line 178
+[2026-04-04 06:16:39] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\scripts\migrate.php:178
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(178): PDO->rollBack()
+#1 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(255): MigrationRunner->runMigration(Array, false)
+#2 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(417): MigrationRunner->up(0, false)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\migrate.php on line 178
+[2026-04-04 06:17:08] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: There is no active transaction in C:\xampp\htdocs\JDH_POS\scripts\migrate.php:178
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(178): PDO->rollBack()
+#1 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(255): MigrationRunner->runMigration(Array, false)
+#2 C:\xampp\htdocs\JDH_POS\scripts\migrate.php(417): MigrationRunner->up(0, false)
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\scripts\migrate.php on line 178
+[2026-04-04 18:22:09] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:23:42] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:25:36] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:26:04] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:26:39] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:27:09] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:28:11] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:28:22] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:28:30] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils.php on line 39
+[2026-04-04 18:29:19] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\test_eval_utils.php(15) : eval()'d code on line 39
+[2026-04-04 18:29:48] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Cannot redeclare verify_csrf_token() (previously declared in C:\xampp\htdocs\JDH_POS\src\auth.php:865) in C:\xampp\htdocs\JDH_POS\admin\utils_minimal.php on line 27
+[2026-04-04 18:51:22] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare time_ago() (previously declared in C:\xampp\htdocs\JDH_POS\src\functions.php:165) in C:\xampp\htdocs\JDH_POS\admin\index.php on line 119
+[2026-04-04 18:52:04] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare time_ago() (previously declared in C:\xampp\htdocs\JDH_POS\src\functions.php:165) in C:\xampp\htdocs\JDH_POS\admin\index.php on line 119

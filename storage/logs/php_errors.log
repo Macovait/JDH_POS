@@ -1,0 +1,19 @@
+[16-Mar-2026 02:05:03 Europe/Berlin] 2026-03-16 02:05:03 - Script started
+[16-Mar-2026 02:05:03 Europe/Berlin] 2026-03-16 02:05:03 - User info - Array
+(
+    [user_id] => 1
+    [branch_id] => 1
+    [branch_name] => Main Branch
+)
+
+[16-Mar-2026 02:05:03 Europe/Berlin] 2026-03-16 02:05:03 - Currency fetched - Array
+(
+    [currency] => USD
+)
+
+[16-Mar-2026 02:05:03 Europe/Berlin] 2026-03-16 02:05:03 - Category ID from URL - Array
+(
+    [id] => 0
+)
+
+[16-Mar-2026 02:05:03 Europe/Berlin] 2026-03-16 02:05:03 - No category ID provided, redirecting

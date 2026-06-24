@@ -1,0 +1,6 @@
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\public\pos\pos.php:1) in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 38
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\public\pos\pos.php:1) in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 39
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\public\pos\pos.php:1) in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 40
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\JDH_POS\public\pos\pos.php:1) in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 41
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 45
+[13-May-2026 07:29:05 Europe/Berlin] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\xampp\htdocs\JDH_POS\public\pos\pos.php on line 46

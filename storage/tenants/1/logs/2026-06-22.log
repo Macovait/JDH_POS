@@ -1,0 +1,91 @@
+[2026-06-22 06:28:05] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$current_branch_id' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\inventory\variants.php:95
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\variants.php(95): PDO->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\variants.php on line 95
+[2026-06-22 07:14:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "RateLimiter" not found in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php on line 44
+[2026-06-22 07:19:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "RateLimiter" not found in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php on line 44
+[2026-06-22 07:19:28] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "RateLimiter" not found in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php on line 44
+[2026-06-22 07:19:38] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "RateLimiter" not found in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php on line 44
+[2026-06-22 07:19:49] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Class "RateLimiter" not found in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\inventory_tracking.php on line 44
+[2026-06-22 07:31:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_low_stock_alerts() in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 48
+[2026-06-22 07:51:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_low_stock_alerts() in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:48
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 48
+[2026-06-22 16:05:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\JDH_POS\admin\dashboard.php:706
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(706): array_map(Object(Closure), NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\dashboard.php on line 706
+[2026-06-22 16:06:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\JDH_POS\admin\dashboard.php:706
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(706): array_map(Object(Closure), NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\dashboard.php on line 706
+[2026-06-22 16:06:20] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\JDH_POS\admin\dashboard.php:706
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\dashboard.php(706): array_map(Object(Closure), NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\dashboard.php on line 706
+[2026-06-22 18:04:59] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\credits.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-22 18:05:04] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\credits.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-22 18:05:15] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\credits.php(7): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-22 18:06:08] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function admin_table_exists() in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php:29
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(83): admin_hydrate_session_from_user()
+#1 C:\xampp\htdocs\JDH_POS\admin\bootstrap.php(178): admin_start_session()
+#2 C:\xampp\htdocs\JDH_POS\admin\index.php(9): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\admin\bootstrap.php on line 29
+[2026-06-22 18:12:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-22 18:17:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 18:22:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 18:27:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 18:31:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-22 18:32:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-22 18:32:45] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-22 18:33:17] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 18:33:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-22 18:33:30] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82
+[2026-06-22 18:38:51] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-22 18:53:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 19:16:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 75
+[2026-06-22 19:19:23] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 51
+[2026-06-22 19:22:24] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\JDH_POS\src\auth.php on line 82

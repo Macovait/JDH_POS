@@ -1,0 +1,40 @@
+[2026-05-07 00:28:23] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:25] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:25] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:26] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:26] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:26] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:28:26] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:118) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:27] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:28] [ERROR] [User: guest] [IP: ::1]  Fatal error: Uncaught TypeError: Cannot assign null to property SecureTenantContext::$tenant_id of type int in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php:46
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(27): SecureTenantContext->hydrateFromSession()
+#1 C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php(36): SecureTenantContext->__construct()
+#2 C:\xampp\htdocs\JDH_POS\public\pos\pos.php(69): SecureTenantContext::getInstance()
+#3 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\SecureTenantContext.php on line 46
+[2026-05-07 00:30:30] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:31] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:32] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:33] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 00:30:34] [ERROR] [User: guest] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\dashboard\home.php:178) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 10:58:31] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php:83) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 12:37:16] [ERROR] [User: 2] [IP: ::1]  Fatal error: Cannot redeclare has_feature() (previously declared in C:\xampp\htdocs\JDH_POS\public\layouts\sidebar.php:83) in C:\xampp\htdocs\JDH_POS\src\db.php on line 627
+[2026-05-07 23:46:44] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:46:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:46:45] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:53:15] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:53:17] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:53:23] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:53:54] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:54:08] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:56:01] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:56:02] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:56:02] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:56:03] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:34] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:35] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:35] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:36] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:36] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84
+[2026-05-07 23:57:36] [ERROR] [User: guest] [IP: ::1]  Fatal error: syntax error, unexpected token "else", expecting end of file in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 84

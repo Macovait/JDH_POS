@@ -1,0 +1,21 @@
+[2026-04-13 01:55:45] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\branches\branches.php:339
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\branches\branches.php(339): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\branches\branches.php on line 339
+[2026-04-13 01:55:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.user_branches' doesn't exist in C:\xampp\htdocs\JDH_POS\public\users\users.php:864
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\users\users.php(864): PDO->prepare('\n        SELECT...')
+#1 C:\xampp\htdocs\JDH_POS\public\users\users.php(992): get_users('', '', '', 1, 25)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\users\users.php on line 864
+[2026-04-13 09:39:19] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\JDH_POS\public\api\products.php:299
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\api\products.php(299): array_keys(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 299
+[2026-04-13 09:39:50] [ERROR] [User: 1] [IP: ::1] [Company: 1] Fatal error: Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\JDH_POS\public\api\products.php:299
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\api\products.php(299): array_keys(NULL)
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\api\products.php on line 299

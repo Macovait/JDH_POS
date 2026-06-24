@@ -1,0 +1,5 @@
+[2026-04-03 06:06:27] [ERROR] [User: guest] [IP: 0.0.0.0]  Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jakababa_pos.stock_movement_log' doesn't exist in Command line code:1
+Stack trace:
+#0 Command line code(1): PDOStatement->execute(Array)
+#1 {main}
+  thrown in Command line code on line 1

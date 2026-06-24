@@ -1,0 +1,36 @@
+{
+  "name": "jdh-pos",
+  "version": "1.0.0",
+  "description": "JDH POS — PHP + MySQL SaaS POS. Tailwind CLI builds for all pages (app.css) and dedicated POS page (pos.css).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./public/assets/css/tailwind.css -o ./public/assets/css/app.css --watch",
+    "build": "tailwindcss -i ./public/assets/css/tailwind.css -o ./public/assets/css/app.css --minify",
+    "build:win": ".\\node_modules\\.bin\\tailwindcss.cmd -i .\\public\\assets\\css\\tailwind.css -o .\\public\\assets\\css\\app.css --minify",
+    "build:pos": ".\\node_modules\\.bin\\tailwindcss.cmd --config tailwind.config.pos.js -i .\\public\\assets\\css\\tailwind.css -o .\\public\\pos\\pos.css --minify",
+    "dev:pos": ".\\node_modules\\.bin\\tailwindcss.cmd --config tailwind.config.pos.js -i .\\public\\assets\\css\\tailwind.css -o .\\public\\pos\\pos.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "baseline-browser-mapping": "^2.10.11",
+    "browserslist": "^4.28.1",
+    "caniuse-lite": "^1.0.30001781",
+    "electron-to-chromium": "^1.5.328",
+    "escalade": "^3.2.0",
+    "fraction.js": "^5.3.4",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.36",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.2.3"
+  }
+}

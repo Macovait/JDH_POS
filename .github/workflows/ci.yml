@@ -1,0 +1,98 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: jdh_pos_test
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=3
+
+      redis:
+        image: redis:alpine
+        ports:
+          - 6379:6379
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: pdo, pdo_mysql, redis, zip, intl, mbstring, bcmath
+          coverage: xdebug
+
+      - name: Copy environment
+        run: cp .env.example .env
+
+      - name: Install dependencies
+        run: composer install --no-interaction --prefer-dist
+
+      - name: Run migrations
+        run: |
+          vendor/bin/phinx migrate -e testing
+        env:
+          DB_HOST: 127.0.0.1
+          DB_NAME: jdh_pos_test
+          DB_USER: root
+          DB_PASS: root
+
+      - name: Run PHP syntax check
+        run: find src public -name "*.php" -exec php -l {} \;
+
+      - name: Run PHPStan
+        run: vendor/bin/phpstan analyse src --level=5 --no-progress || true
+
+      - name: Run tests
+        run: vendor/bin/phpunit --coverage-text --colors=never || true
+        env:
+          DB_HOST: 127.0.0.1
+          DB_NAME: jdh_pos_test
+          DB_USER: root
+          DB_PASS: root
+
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          ignore-unfixed: true
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [test]
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t jdh-pos:${{ github.sha }} -f docker/Dockerfile .
+
+      - name: Push to registry
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+          docker tag jdh-pos:${{ github.sha }} jdh-pos:latest
+          docker push jdh-pos:latest

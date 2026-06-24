@@ -1,0 +1,9 @@
+[     385ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[    9401ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   45824ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   49910ms] [LOG] [App] Registering SW: http://localhost/JDH_POS/public/sw-enhanced.js?v=14&ts=1780425012990 @ http://localhost/JDH_POS/public/dashboard/home.php:5209
+[   50381ms] [LOG] [App] Service Worker registered: http://localhost/JDH_POS/public/ @ http://localhost/JDH_POS/public/dashboard/home.php:5212
+[   50383ms] [LOG] [App] Offline manager loaded @ http://localhost/JDH_POS/public/dashboard/home.php:5321
+[   50438ms] [LOG] [SW Cleanup] Legacy service workers unregistered @ http://localhost/JDH_POS/public/dashboard/home.php:5267
+[   50446ms] [LOG] [Cache Cleanup] Deleting stale cache: jdh-pos-static-v14 @ http://localhost/JDH_POS/public/dashboard/home.php:5279
+[   50521ms] [LOG] [OfflineManager] Initialized @ http://localhost/JDH_POS/public/assets/js/offline-manager.js:22

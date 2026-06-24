@@ -1,0 +1,30 @@
+[2026-05-06 13:48:29] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ec.color' in 'field list' in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php:433
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php(433): PDO->prepare('\n    SELECT \n  ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\expenses\expenses.php on line 433
+[2026-05-06 23:17:47] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:404
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(404): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(24): get_automated_inventory_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 404
+[2026-05-06 23:21:26] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:405
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(405): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(25): get_automated_inventory_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 405
+[2026-05-06 23:46:52] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:46:54] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:46:55] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:46:56] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:49:22] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:51:06] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:58:43] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in C:\xampp\htdocs\JDH_POS\public\layouts\app.php on line 741
+[2026-05-06 23:59:01] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jdh_pos.tenant_configs' doesn't exist in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php:405
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(405): PDO->prepare('SELECT * FROM t...')
+#1 C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php(25): get_automated_inventory_settings(Object(PDO), 1)
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\inventory\automated_inventory.php on line 405

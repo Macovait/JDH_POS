@@ -1,0 +1,243 @@
+/**
+ * Mobile Responsiveness Improvements
+ * Enhanced mobile experience for POS system
+ * @version 1.0.0
+ */
+
+/* Mobile-first responsive improvements */
+@media (max-width: 768px) {
+    /* Touch-friendly buttons */
+    .btn, button, input[type="submit"] {
+        min-height: 44px;
+        min-width: 44px;
+        padding: 12px 20px;
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    /* Larger touch targets for form elements */
+    input, select, textarea {
+        min-height: 44px;
+        font-size: 16px;
+    }
+    
+    /* Touch-friendly checkboxes and radios */
+    input[type="checkbox"], input[type="radio"] {
+        width: 24px;
+        height: 24px;
+    }
+    
+    /* Table scrolling on mobile */
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    /* Card layouts for mobile */
+    .mobile-cards .table-responsive table {
+        display: block;
+    }
+    
+    .mobile-cards .table-responsive thead {
+        display: none;
+    }
+    
+    .mobile-cards .table-responsive tbody tr {
+        display: block;
+        margin-bottom: 16px;
+        padding: 16px;
+        border: 1px solid #334155;
+        border-radius: 8px;
+        background: #1e293b;
+    }
+    
+    .mobile-cards .table-responsive td {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border: none;
+        border-bottom: 1px solid #334155;
+    }
+    
+    .mobile-cards .table-responsive td:last-child {
+        border-bottom: none;
+    }
+    
+    .mobile-cards .table-responsive td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: #94a3b8;
+    }
+    
+    /* Bottom navigation for mobile */
+    .mobile-bottom-nav {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #1e293b;
+        border-top: 1px solid #334155;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-around;
+        padding: 8px 0;
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+    
+    .mobile-bottom-nav a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8px 16px;
+        color: #94a3b8;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    .mobile-bottom-nav a.active {
+        color: #fbbf24;
+    }
+    
+    .mobile-bottom-nav i {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+    
+    /* POS mobile optimizations */
+    .pos-mobile .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .pos-mobile .cart-panel {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #1e293b;
+        border-top: 1px solid #334155;
+        max-height: 50vh;
+        overflow-y: auto;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+        z-index: 1001;
+    }
+    
+    .pos-mobile .cart-panel.open {
+        transform: translateY(0);
+    }
+    
+    /* Floating action button */
+    .fab {
+        position: fixed;
+        bottom: 80px;
+        right: 16px;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: #fbbf24;
+        color: #0f172a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        z-index: 1000;
+        border: none;
+        cursor: pointer;
+    }
+    
+    /* Swipe gestures for mobile */
+    .swipe-container {
+        overflow: hidden;
+        touch-action: pan-y;
+    }
+    
+    .swipe-item {
+        transition: transform 0.3s ease;
+    }
+    
+    /* Pull-to-refresh indicator */
+    .pull-to-refresh {
+        text-align: center;
+        padding: 16px;
+        color: #94a3b8;
+        transition: opacity 0.3s;
+    }
+    
+    .pull-to-refresh.loading {
+        opacity: 1;
+    }
+    
+    /* Hide scrollbar on mobile for cleaner look */
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}
+
+/* Tablet optimizations */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .tablet-sidebar {
+        width: 64px;
+    }
+    
+    .tablet-sidebar:hover {
+        width: 200px;
+    }
+    
+    .tablet-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Safe area insets for notched devices */
+@supports (padding-top: env(safe-area-inset-top)) {
+    .safe-area-top {
+        padding-top: env(safe-area-inset-top);
+    }
+    
+    .safe-area-bottom {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .mobile-bottom-nav {
+        background: #0f172a;
+    }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Print styles */
+@media print {
+    .no-print, .mobile-bottom-nav, .fab, .sidebar {
+        display: none !important;
+    }
+    
+    .main-content {
+        margin-left: 0 !important;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    .btn, button {
+        border: 2px solid currentColor;
+    }
+}
+
+/* Landscape mode on mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .pos-mobile .product-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

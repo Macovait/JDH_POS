@@ -1,0 +1,20 @@
+[2026-06-13 00:12:40] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught Error: Call to undefined function get_current_business_type_id() in C:\xampp\htdocs\JDH_POS\public\products\products.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\products\products.php on line 26
+[2026-06-13 00:17:41] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught RuntimeException: Failed to start session in C:\xampp\htdocs\JDH_POS\src\auth.php:73
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\src\auth.php(1373): start_session_secure()
+#1 C:\xampp\htdocs\JDH_POS\public\crm\deals.php(121): generate_csrf_token()
+#2 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\src\auth.php on line 73
+[2026-06-13 01:23:09] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$current_branch_id' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php:234
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php(234): PDO->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php on line 234
+[2026-06-13 09:51:34] [ERROR] [User: 2] [IP: ::1] [Company: 1] Fatal error: Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '$current_branch_id' in 'where clause' in C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php:234
+Stack trace:
+#0 C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php(234): PDO->query('SELECT id, name...')
+#1 {main}
+  thrown in C:\xampp\htdocs\JDH_POS\public\pos\discounts\discounts.php on line 234
