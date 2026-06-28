@@ -867,7 +867,29 @@ try {
         $branchId
     );
     
-    // === 27. Build Response ===
+    // === 27. KRA eTIMS Submission (non-blocking) ===
+    $etimsData = ['enabled' => false];
+    try {
+        $etimsServicePath = __DIR__ . '/../../src/Services/Integration/KRA/EtimsService.php';
+        if (file_exists($etimsServicePath)) {
+            require_once $etimsServicePath;
+            $etimsService = new \Jakababa\Services\Integration\KRA\EtimsService($pdo, $tenantId);
+            if ($etimsService->isEnabled()) {
+                $etimsResult = $etimsService->submitSale($saleId);
+                $etimsData = [
+                    'enabled' => true,
+                    'success' => $etimsResult['success'],
+                    'cu_invoice_no' => $etimsResult['cu_invoice_no'] ?? '',
+                    'receipt_sign' => $etimsResult['receipt_sign'] ?? '',
+                ];
+            }
+        }
+    } catch (\Throwable $e) {
+        error_log("eTIMS submission error for sale {$saleId}: " . $e->getMessage());
+        $etimsData = ['enabled' => true, 'success' => false, 'error' => $e->getMessage()];
+    }
+
+    // === 28. Build Response ===
     $receiptItems = [];
     foreach ($items as $item) {
         $productId = (int) $item['product_id'];
@@ -911,7 +933,8 @@ try {
         ],
         'redirect' => false,
         'message' => 'Sale completed successfully',
-        'timestamp' => date('Y-m-d H:i:s')
+        'timestamp' => date('Y-m-d H:i:s'),
+        'etims' => $etimsData,
     ];
 
     // Plugin hook: allow plugins to modify response or trigger side effects
