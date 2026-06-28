@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/../../src/Security/CorsHandler.php';
 // Branch filter for multi-tenant isolation
 $current_branch_id = get_current_branch_id();
 /**
@@ -36,7 +37,7 @@ class ProductsApi extends ApiBase {
                 break;
             case 'OPTIONS':
                 // CORS preflight
-                header('Access-Control-Allow-Origin: *');
+                \Jakababa\Security\apply_cors_headers();
                 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
                 header('Access-Control-Allow-Headers: Content-Type, X-API-Key');
                 exit;
@@ -147,6 +148,16 @@ class ProductsApi extends ApiBase {
             $this->error('SKU already exists', self::HTTP_BAD_REQUEST, ['sku' => 'SKU must be unique']);
         }
         
+        // Enforce product quota
+        require_once __DIR__ . '/../../src/Security/PlanEnforcement.php';
+        PlanEnforcement::loadTenantPlan($this->pdo, $this->tenant_id);
+        $countStmt = $this->pdo->prepare("SELECT COUNT(*) FROM products WHERE tenant_id = ? AND deleted_at IS NULL");
+        $countStmt->execute([$this->tenant_id]);
+        $productCount = (int) $countStmt->fetchColumn();
+        if (!PlanEnforcement::checkLimit('max_products', $productCount)) {
+            $this->error('Product limit reached for your plan. Please upgrade.', self::HTTP_FORBIDDEN);
+        }
+
         // Generate barcode if not provided
         $barcode = $input['barcode'] ?? $this->generateBarcode();
         

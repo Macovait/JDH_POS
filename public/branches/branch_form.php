@@ -97,12 +97,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 header('Location: branches.php?success=' . urlencode('Branch updated successfully'));
                 exit;
             } else {
-                // Create
+                // Create — enforce branch quota
+                require_once __DIR__ . '/../../src/Security/PlanEnforcement.php';
+                PlanEnforcement::loadTenantPlan($pdo, $tenant_id);
+                $countStmt = $pdo->prepare("SELECT COUNT(*) FROM branches WHERE tenant_id = ? AND deleted_at IS NULL");
+                $countStmt->execute([$tenant_id]);
+                $branchCount = (int) $countStmt->fetchColumn();
+                if (!PlanEnforcement::checkLimit('max_branches', $branchCount)) {
+                    $errors[] = 'Branch limit reached for your plan. Please upgrade to add more branches.';
+                }
+
                 $check = $pdo->prepare('SELECT id FROM branches WHERE name = ? AND tenant_id = ?');
                 $check->execute([$name, $tenant_id]);
                 if ($check->fetch()) {
                     $errors[] = 'Branch with this name already exists';
-                } else {
+                }
+                if (empty($errors)) {
                     $has_bt_col = false;
                     try {
                         $has_bt_col = $pdo->query("SHOW COLUMNS FROM branches LIKE 'business_type_id'")->rowCount() > 0;

@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
 // Branch filter for multi-tenant isolation
 $current_branch_id = get_current_branch_id();
 /**
@@ -12,7 +13,7 @@ safe_require('db.php', 'src', true);
 safe_require('functions.php', 'src', true);
 
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
+\Jakababa\Security\apply_cors_headers();
 header('Access-Control-Allow-Methods: GET, POST, PATCH, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 

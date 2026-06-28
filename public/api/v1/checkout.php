@@ -4,12 +4,13 @@
  * Step 1: GET summary | Step 2: POST shipping | Step 3: POST place-order
  */
 
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
 require_once dirname(dirname(dirname(__DIR__))) . '/src/paths.php';
 safe_require('db.php', 'src', true);
 safe_require('functions.php', 'src', true);
 
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
+\Jakababa\Security\apply_cors_headers();
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 

@@ -86,6 +86,7 @@ $advanced_mode = !empty($settings['advanced_settings']) && $settings['advanced_s
 $defaults = [
     'company_name' => 'Jakababa POS', 'company_email' => '', 'company_phone' => '', 'company_address' => '', 'company_logo' => '',
     'vat_number' => '', 'pin_number' => '', 'fiscal_stand' => '', 'receipt_description' => '',
+    'etims_enabled' => '0', 'etims_environment' => 'sandbox', 'etims_tin' => '', 'etims_branch_id' => '00', 'etims_device_serial' => '', 'etims_cmc_key' => '',
     'site_title' => '', 'site_tagline' => '', 'site_icon' => '',
     'business_type' => 'retail', 'currency' => 'KES', 'timezone' => 'Africa/Nairobi',
     'date_format' => 'd M Y', 'time_format' => 'H:i', 'tax_rate' => '11',
@@ -518,6 +519,45 @@ ob_start();
                                         <label>Receipt Description / Tagline</label>
                                         <input type="text" name="receipt_description" value="<?php echo htmlspecialchars($settings['receipt_description']); ?>" placeholder="e.g. Your trusted retail partner">
                                         <p class="text-xs text-slate-500 mt-1">Short tagline shown on printed receipts below company info</p>
+                                    </div>
+
+                                    <!-- KRA eTIMS Configuration -->
+                                    <div class="md:col-span-2 border-t border-slate-700 pt-4 mt-2">
+                                        <h4 class="text-sm font-semibold text-white mb-3"><i class="fas fa-landmark text-amber-400 mr-2"></i>KRA eTIMS Integration</h4>
+                                        <p class="text-xs text-slate-400 mb-3">Configure Kenya Revenue Authority Electronic Tax Invoice Management System for tax compliance.</p>
+                                    </div>
+                                    <div>
+                                        <label>eTIMS Status</label>
+                                        <select name="etims_enabled" class="w-full">
+                                            <option value="0" <?php echo ($settings['etims_enabled'] ?? '') !== '1' ? 'selected' : ''; ?>>Disabled</option>
+                                            <option value="1" <?php echo ($settings['etims_enabled'] ?? '') === '1' ? 'selected' : ''; ?>>Enabled</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label>Environment</label>
+                                        <select name="etims_environment" class="w-full">
+                                            <option value="sandbox" <?php echo ($settings['etims_environment'] ?? '') !== 'production' ? 'selected' : ''; ?>>Sandbox (Testing)</option>
+                                            <option value="production" <?php echo ($settings['etims_environment'] ?? '') === 'production' ? 'selected' : ''; ?>>Production</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label>KRA TIN</label>
+                                        <input type="text" name="etims_tin" value="<?php echo htmlspecialchars($settings['etims_tin'] ?? ''); ?>" placeholder="e.g. P000000000A">
+                                        <p class="text-xs text-slate-500 mt-1">Tax Identification Number from KRA</p>
+                                    </div>
+                                    <div>
+                                        <label>Branch ID</label>
+                                        <input type="text" name="etims_branch_id" value="<?php echo htmlspecialchars($settings['etims_branch_id'] ?? '00'); ?>" placeholder="00">
+                                        <p class="text-xs text-slate-500 mt-1">00 for headquarters, 01+ for branches</p>
+                                    </div>
+                                    <div>
+                                        <label>Device Serial No</label>
+                                        <input type="text" name="etims_device_serial" value="<?php echo htmlspecialchars($settings['etims_device_serial'] ?? ''); ?>" placeholder="Device serial from KRA">
+                                    </div>
+                                    <div>
+                                        <label>CMC Key</label>
+                                        <input type="password" name="etims_cmc_key" value="<?php echo htmlspecialchars($settings['etims_cmc_key'] ?? ''); ?>" placeholder="Communication key from KRA">
+                                        <p class="text-xs text-slate-500 mt-1">Issued during device registration</p>
                                     </div>
                                     <div>
                                         <label>Company Logo</label>

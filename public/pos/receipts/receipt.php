@@ -400,6 +400,20 @@ $page_title = 'Receipt | Jakababa POS';
             </div>
         <?php endif; ?>
 
+        <!-- KRA eTIMS Fiscal Data -->
+        <?php if (!empty($sale['etims_cu_invoice_no'])): ?>
+        <div class="px-2 py-2 border-t border-dashed border-gray-300 text-[9px] text-center">
+            <div class="font-bold uppercase text-[10px] mb-1">KRA eTIMS Fiscal Data</div>
+            <div>CU Invoice No: <?php echo htmlspecialchars($sale['etims_cu_invoice_no']); ?></div>
+            <?php if (!empty($sale['etims_receipt_sign'])): ?>
+                <div class="break-all mt-0.5">Sign: <?php echo htmlspecialchars(substr($sale['etims_receipt_sign'], 0, 50)); ?>...</div>
+            <?php endif; ?>
+            <?php if (!empty($sale['etims_sdc_datetime'])): ?>
+                <div>SDC Date: <?php echo htmlspecialchars($sale['etims_sdc_datetime']); ?></div>
+            <?php endif; ?>
+        </div>
+        <?php endif; ?>
+
         <!-- Footer -->
         <div class="text-center px-2 py-3 border-t border-dashed border-gray-300 text-xs">
             <div class="font-medium">Thank you for your business!</div>

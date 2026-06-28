@@ -4,10 +4,11 @@
  * REST API for POS, customer ordering, and delivery management
  */
 
+require_once __DIR__ . '/../../../../src/Security/CorsHandler.php';
 require_once __DIR__ . '/../../../src/paths.php';
 
 // CORS headers for mobile apps
-header('Access-Control-Allow-Origin: *');
+\Jakababa\Security\apply_cors_headers();
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-API-Key, X-Tenant-ID');
 header('Content-Type: application/json');

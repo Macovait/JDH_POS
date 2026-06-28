@@ -1,7 +1,0 @@
-[     456ms] [LOG] [App] Registering SW: http://localhost/JDH_POS/public/sw-enhanced.js?v=14&ts=1780432437622 @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4246
-[     723ms] [LOG] [App] Offline manager loaded @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4358
-[     838ms] [LOG] [OfflineManager] Initialized @ http://localhost/JDH_POS/public/assets/js/offline-manager.js:22
-[     974ms] [LOG] [App] Service Worker registered: http://localhost/JDH_POS/public/ @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4249
-[     979ms] [LOG] [SW Cleanup] Legacy service workers unregistered @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4304
-[     982ms] [LOG] [Cache Cleanup] Deleting stale cache: jdh-pos-static-v14 @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4316
-[    1259ms] [LOG] [App] New service worker available @ http://localhost/JDH_POS/public/users/roles/delete_role.php?id=1:4255

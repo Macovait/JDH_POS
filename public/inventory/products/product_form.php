@@ -74,6 +74,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $imagePath = null;
     }
 
+    // Enforce product quota on creation
+    if (empty($errors) && !$id) {
+        require_once __DIR__ . '/../../src/Security/PlanEnforcement.php';
+        PlanEnforcement::loadTenantPlan($pdo, $tenant_id);
+        $countStmt = $pdo->prepare("SELECT COUNT(*) FROM products WHERE tenant_id = ? AND deleted_at IS NULL");
+        $countStmt->execute([$tenant_id]);
+        $productCount = (int) $countStmt->fetchColumn();
+        if (!PlanEnforcement::checkLimit('max_products', $productCount)) {
+            $errors[] = 'Product limit reached for your plan. Please upgrade to add more products.';
+        }
+    }
+
     if (empty($errors)) {
         try {
             $pdo->beginTransaction();

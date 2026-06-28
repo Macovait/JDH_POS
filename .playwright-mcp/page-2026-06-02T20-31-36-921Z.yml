@@ -1,3 +1,0 @@
-- generic [active] [ref=e1]:
-  - text: "Warning: require_once(C:\\xampp\\htdocs\\JDH_POS\\public\\users\\roles/../../src/paths.php): Failed to open stream: No such file or directory in C:\\xampp\\htdocs\\JDH_POS\\public\\users\\roles\\manage_permissions.php on line 2"
-  - text: "Fatal error: Uncaught Error: Failed opening required 'C:\\xampp\\htdocs\\JDH_POS\\public\\users\\roles/../../src/paths.php' (include_path='C:\\xampp\\php\\PEAR') in C:\\xampp\\htdocs\\JDH_POS\\public\\users\\roles\\manage_permissions.php:2 Stack trace: #0 {main} thrown in C:\\xampp\\htdocs\\JDH_POS\\public\\users\\roles\\manage_permissions.php on line 2"

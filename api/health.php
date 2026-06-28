@@ -75,6 +75,17 @@ try {
     $checks['webhooks'] = ['status' => 'error'];
 }
 
+// eTIMS retry queue
+$checks['etims_retry'] = ['status' => 'ok'];
+try {
+    $pdo = get_db_connection();
+    $etimsPending = (int) $pdo->query("SELECT COUNT(*) FROM etims_retry_queue WHERE status = 'pending'")->fetchColumn();
+    $etimsFailed = (int) $pdo->query("SELECT COUNT(*) FROM etims_retry_queue WHERE status = 'failed'")->fetchColumn();
+    $checks['etims_retry'] = ['status' => $etimsPending > 100 ? 'warning' : 'ok', 'pending' => $etimsPending, 'failed' => $etimsFailed];
+} catch (\Exception $e) {
+    $checks['etims_retry'] = ['status' => 'n/a'];
+}
+
 $response = [
     'status' => $healthy ? 'healthy' : 'degraded',
     'timestamp' => date('c'),

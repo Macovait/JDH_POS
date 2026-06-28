@@ -18,6 +18,7 @@
  * - Activity logging
  */
 
+require_once __DIR__ . '/../../src/Security/CorsHandler.php';
 // ============================================
 // ERROR HANDLING
 // ============================================
@@ -68,7 +69,7 @@ function sendJsonResponse($data, $statusCode = 200) {
     
     http_response_code($statusCode);
     header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: *');
+    \Jakababa\Security\apply_cors_headers();
     header('Access-Control-Allow-Methods: POST');
     header('Access-Control-Allow-Headers: Content-Type, X-CSRF-Token, X-Requested-With');
     
@@ -95,56 +96,16 @@ function sendErrorResponse($message, $errorCode = 'unknown_error', $statusCode =
 }
 
 // ============================================
-// FUNCTION: Check Table/Column Exists (Cached)
+// FUNCTION: Check Table/Column Exists (File-Cached Schema)
 // ============================================
-$tableCache = [];
-$columnCache = [];
+require_once __DIR__ . '/../../src/Cache/SchemaCache.php';
 
 function tableExists($pdo, $table) {
-    global $tableCache;
-    
-    if (isset($tableCache[$table])) {
-        return $tableCache[$table];
-    }
-    
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.TABLES
-            WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table]);
-        $exists = $stmt->fetch() !== false;
-        $tableCache[$table] = $exists;
-        return $exists;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_table_exists($pdo, $table);
 }
 
 function columnExists($pdo, $table, $column) {
-    global $columnCache;
-    $key = $table . '.' . $column;
-    
-    if (isset($columnCache[$key])) {
-        return $columnCache[$key];
-    }
-    
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.COLUMNS
-            WHERE TABLE_SCHEMA = DATABASE()
-              AND TABLE_NAME = ?
-              AND COLUMN_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table, $column]);
-        $exists = $stmt->fetch() !== false;
-        $columnCache[$key] = $exists;
-        return $exists;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_column_exists($pdo, $table, $column);
 }
 
 // ============================================
@@ -866,7 +827,29 @@ try {
         $branchId
     );
     
-    // === 27. Build Response ===
+    // === 27. KRA eTIMS Submission (non-blocking) ===
+    $etimsData = ['enabled' => false];
+    try {
+        $etimsServicePath = __DIR__ . '/../../src/Services/Integration/KRA/EtimsService.php';
+        if (file_exists($etimsServicePath)) {
+            require_once $etimsServicePath;
+            $etimsService = new \Jakababa\Services\Integration\KRA\EtimsService($pdo, $tenantId);
+            if ($etimsService->isEnabled()) {
+                $etimsResult = $etimsService->submitSale($saleId);
+                $etimsData = [
+                    'enabled' => true,
+                    'success' => $etimsResult['success'],
+                    'cu_invoice_no' => $etimsResult['cu_invoice_no'] ?? '',
+                    'receipt_sign' => $etimsResult['receipt_sign'] ?? '',
+                ];
+            }
+        }
+    } catch (\Throwable $e) {
+        error_log("eTIMS submission error for sale {$saleId}: " . $e->getMessage());
+        $etimsData = ['enabled' => true, 'success' => false, 'error' => $e->getMessage()];
+    }
+
+    // === 28. Build Response ===
     $receiptItems = [];
     foreach ($items as $item) {
         $productId = (int) $item['product_id'];
@@ -910,7 +893,8 @@ try {
         ],
         'redirect' => false,
         'message' => 'Sale completed successfully',
-        'timestamp' => date('Y-m-d H:i:s')
+        'timestamp' => date('Y-m-d H:i:s'),
+        'etims' => $etimsData,
     ];
 
     // Plugin hook: allow plugins to modify response or trigger side effects
