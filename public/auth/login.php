@@ -483,6 +483,13 @@ if (!empty($_GET['error'])) {
 }
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
+    // Enforce rate limiting on login attempts (per IP)
+    $rateLimitMiddleware = __DIR__ . '/../../src/Middleware/ApiRateLimitMiddleware.php';
+    if (file_exists($rateLimitMiddleware)) {
+        require_once $rateLimitMiddleware;
+        \Jakababa\Middleware\enforce_api_rate_limit('login_attempts');
+    }
+
     $loginType = $_POST['login_type'] ?? 'email';
     
     if (!isset($_POST['csrf_token']) || !verify_csrf_token($_POST['csrf_token'])) {
@@ -576,6 +583,9 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST') {
             $auth = authenticateUser($tenantCode, $username, $password);
             
             if ($auth['success']) {
+                if (function_exists('\Jakababa\Middleware\reset_rate_limit')) {
+                    \Jakababa\Middleware\reset_rate_limit('login_attempts');
+                }
                 completeLogin($auth['user'], $auth['tenant'], $rememberMe);
                 header('Location: ' . base_url('dashboard/home.php'));
                 exit;
