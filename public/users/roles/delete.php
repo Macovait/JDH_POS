@@ -14,6 +14,7 @@
  * - Proper JSON responses
  */
 
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
 // ============================================
 // ERROR HANDLING
 // ============================================
@@ -57,7 +58,7 @@ require_login();
 function sendJsonResponse($data, $statusCode = 200) {
     http_response_code($statusCode);
     header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: *');
+    \Jakababa\Security\apply_cors_headers();
     header('Access-Control-Allow-Methods: POST');
     header('Access-Control-Allow-Headers: Content-Type, X-CSRF-Token, X-Requested-With');
     echo json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);

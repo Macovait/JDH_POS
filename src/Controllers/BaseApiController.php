@@ -225,9 +225,8 @@ abstract class BaseApiController
     {
         http_response_code($code);
         header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: *');
-        header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
-        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
+        require_once __DIR__ . '/../Security/CorsHandler.php';
+        \Jakababa\Security\apply_cors_headers();
 
         echo json_encode($this->response, JSON_PRETTY_PRINT);
         exit;
