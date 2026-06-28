@@ -1,9 +1,0 @@
-[    1017ms] [LOG] [App] Registering SW: http://localhost/JDH_POS/public/sw-enhanced.js?v=14&ts=1780425707127 @ http://localhost/JDH_POS/public/users/roles/roles.php:5554
-[    1229ms] [LOG] [App] Service Worker registered: http://localhost/JDH_POS/public/ @ http://localhost/JDH_POS/public/users/roles/roles.php:5557
-[    1288ms] [LOG] [App] Offline manager loaded @ http://localhost/JDH_POS/public/users/roles/roles.php:5666
-[    1289ms] [LOG] [SW Cleanup] Legacy service workers unregistered @ http://localhost/JDH_POS/public/users/roles/roles.php:5612
-[    1298ms] [LOG] [Cache Cleanup] Deleting stale cache: jdh-pos-static-v14 @ http://localhost/JDH_POS/public/users/roles/roles.php:5624
-[    1393ms] [LOG] [OfflineManager] Initialized @ http://localhost/JDH_POS/public/assets/js/offline-manager.js:22
-[    1456ms] [LOG] [App] New service worker available @ http://localhost/JDH_POS/public/users/roles/roles.php:5563
-[   44783ms] [ERROR] Access to fetch at 'http://localhost/JDH_POS/public/users/roles/roles.php' from origin 'null' has been blocked by CORS policy: The request client is not a secure context and the resource is in more-private address space `loopback`. @ about:blank:0
-[   44785ms] [ERROR] Failed to load resource: net::ERR_FAILED @ http://localhost/JDH_POS/public/users/roles/roles.php:0

@@ -193,8 +193,17 @@ $config['brand'] = [
 ];
 
 // ----------------------------------------------------------------------
-// Validate critical settings
+// Validate critical settings & secrets
 // ----------------------------------------------------------------------
+$validatorPath = dirname(__DIR__) . '/src/Security/SecretsValidator.php';
+if (file_exists($validatorPath)) {
+    require_once $validatorPath;
+    $validator = new \Jakababa\Security\SecretsValidator();
+    // In production, throw on error; in development, log warnings only
+    $validator->validate($config['app']['env'] === 'production');
+}
+
+// Legacy validation (fallback if SecretsValidator is not available)
 if (empty($config['app']['encryption_key']) && $config['app']['env'] === 'production') {
     throw new RuntimeException('ENCRYPTION_KEY is required in production mode. Please set it in .env');
 }
