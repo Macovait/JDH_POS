@@ -24,16 +24,8 @@ $branch_id = get_current_branch_id();
 $branch_name = get_current_branch_name();
 
 // Check if tags tables exist, create if not
-$tables_exist = false;
-try {
-    $check = $pdo->query(
-        "SELECT 1 FROM information_schema.TABLES
-         WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'product_tags' LIMIT 1"
-    )->fetch();
-    $tables_exist = !empty($check);
-} catch (Exception $e) {
-    $tables_exist = false;
-}
+require_once __DIR__ . '/../../src/Cache/SchemaCache.php';
+$tables_exist = \Jakababa\Cache\cached_table_exists($pdo, 'product_tags');
 
 if (!$tables_exist) {
     // Create product_tags table

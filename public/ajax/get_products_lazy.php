@@ -60,36 +60,16 @@ function getDbConnection() {
 }
 
 // ============================================
-// FUNCTION: Check Table/Column Exists
+// FUNCTION: Check Table/Column Exists (File-Cached Schema)
 // ============================================
+require_once __DIR__ . '/../../src/Cache/SchemaCache.php';
+
 function tableExists($pdo, $table) {
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.TABLES
-            WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table]);
-        return $stmt->fetch() !== false;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_table_exists($pdo, $table);
 }
 
 function columnExists($pdo, $table, $column) {
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.COLUMNS
-            WHERE TABLE_SCHEMA = DATABASE()
-              AND TABLE_NAME = ?
-              AND COLUMN_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table, $column]);
-        return $stmt->fetch() !== false;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_column_exists($pdo, $table, $column);
 }
 
 // ============================================

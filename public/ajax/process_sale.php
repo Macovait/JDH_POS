@@ -96,56 +96,16 @@ function sendErrorResponse($message, $errorCode = 'unknown_error', $statusCode =
 }
 
 // ============================================
-// FUNCTION: Check Table/Column Exists (Cached)
+// FUNCTION: Check Table/Column Exists (File-Cached Schema)
 // ============================================
-$tableCache = [];
-$columnCache = [];
+require_once __DIR__ . '/../../src/Cache/SchemaCache.php';
 
 function tableExists($pdo, $table) {
-    global $tableCache;
-    
-    if (isset($tableCache[$table])) {
-        return $tableCache[$table];
-    }
-    
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.TABLES
-            WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table]);
-        $exists = $stmt->fetch() !== false;
-        $tableCache[$table] = $exists;
-        return $exists;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_table_exists($pdo, $table);
 }
 
 function columnExists($pdo, $table, $column) {
-    global $columnCache;
-    $key = $table . '.' . $column;
-    
-    if (isset($columnCache[$key])) {
-        return $columnCache[$key];
-    }
-    
-    try {
-        $stmt = $pdo->prepare("
-            SELECT 1 FROM INFORMATION_SCHEMA.COLUMNS
-            WHERE TABLE_SCHEMA = DATABASE()
-              AND TABLE_NAME = ?
-              AND COLUMN_NAME = ?
-            LIMIT 1
-        ");
-        $stmt->execute([$table, $column]);
-        $exists = $stmt->fetch() !== false;
-        $columnCache[$key] = $exists;
-        return $exists;
-    } catch (Exception $e) {
-        return false;
-    }
+    return \Jakababa\Cache\cached_column_exists($pdo, $table, $column);
 }
 
 // ============================================

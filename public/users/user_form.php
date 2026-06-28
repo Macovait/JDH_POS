@@ -253,7 +253,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                 }
             } else {
-                // CREATE
+                // CREATE — enforce user quota
+                require_once __DIR__ . '/../../src/Security/PlanEnforcement.php';
+                PlanEnforcement::loadTenantPlan($pdo, $tenant_id);
+                $countStmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND deleted_at IS NULL");
+                $countStmt->execute([$tenant_id]);
+                $userCount = (int) $countStmt->fetchColumn();
+                if (!PlanEnforcement::checkLimit('max_users', $userCount)) {
+                    $errors[] = 'User limit reached for your plan. Please upgrade to add more users.';
+                }
+
                 if (empty($password)) {
                     $errors[] = 'Password is required for new users';
                 } elseif (strlen($password) < 6) {
