@@ -1,5 +1,0 @@
-# JDH POS Development Mode
-# Create this file to enable development settings
-# Remove in production for enhanced security
-
-DEVELOPMENT_MODE=1

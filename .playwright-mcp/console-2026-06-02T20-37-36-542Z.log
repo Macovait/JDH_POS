@@ -1,8 +1,0 @@
-[     873ms] [LOG] [App] Registering SW: http://localhost/JDH_POS/public/sw-enhanced.js?v=14&ts=1780432657414 @ http://localhost/JDH_POS/public/users/user_form.php:4584
-[     896ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost/JDH_POS/public/users/user_form.php:0
-[    1054ms] [LOG] [App] Offline manager loaded @ http://localhost/JDH_POS/public/users/user_form.php:4696
-[    1126ms] [LOG] [OfflineManager] Initialized @ http://localhost/JDH_POS/public/assets/js/offline-manager.js:22
-[    1243ms] [LOG] [App] Service Worker registered: http://localhost/JDH_POS/public/ @ http://localhost/JDH_POS/public/users/user_form.php:4587
-[    1251ms] [LOG] [SW Cleanup] Legacy service workers unregistered @ http://localhost/JDH_POS/public/users/user_form.php:4642
-[    1252ms] [LOG] [Cache Cleanup] Deleting stale cache: jdh-pos-static-v14 @ http://localhost/JDH_POS/public/users/user_form.php:4654
-[    1570ms] [LOG] [App] New service worker available @ http://localhost/JDH_POS/public/users/user_form.php:4593
