@@ -299,10 +299,14 @@ ob_start();
         </p>
     </div>
     <div class="flex items-center gap-2 shrink-0">
-        <a href="export_csv.php?table=pos_tenants" target="_blank"
-           class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700 text-slate-400 text-sm font-medium hover:bg-slate-700 hover:text-white transition-colors">
-            <i class="fas fa-download text-xs"></i> Export CSV
-        </a>
+        <form method="POST" action="export_csv.php" class="inline" target="_blank">
+            <input type="hidden" name="table" value="pos_tenants">
+            <input type="hidden" name="columns" value='[{"field":"id","label":"ID"},{"field":"name","label":"Name"},{"field":"slug","label":"Slug"},{"field":"email","label":"Email"},{"field":"business_type","label":"Business Type"},{"field":"status","label":"Status","format":"status"},{"field":"created_at","label":"Created","format":"date"}]'>
+            <input type="hidden" name="filename" value="tenants">
+            <button type="submit" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-800 border border-slate-700 text-slate-400 text-sm font-medium hover:bg-slate-700 hover:text-white transition-colors">
+                <i class="fas fa-download text-xs"></i> Export CSV
+            </button>
+        </form>
         <button onclick="openModal('createModal')"
            class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-400 text-sm font-medium hover:bg-amber-500/20 transition-colors">
             <i class="fas fa-plus text-xs"></i> Add Tenant
