@@ -4,6 +4,7 @@
  * Version: 5.0 - Fixed parameter binding and optimized queries
  */
 
+require_once __DIR__ . '/../../src/Security/CorsHandler.php';
 // ============================================
 // ERROR HANDLING - MUST BE FIRST
 // ============================================
@@ -39,7 +40,7 @@ function sendJsonResponse($data, $statusCode = 200) {
     
     http_response_code($statusCode);
     header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: *');
+    \Jakababa\Security\apply_cors_headers();
     
     echo json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
     exit;

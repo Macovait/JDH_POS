@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . '/../../src/Security/CorsHandler.php';
 // Branch filter for multi-tenant isolation
 $current_branch_id = get_current_branch_id();
 /**
@@ -36,7 +37,7 @@ class ProductsApi extends ApiBase {
                 break;
             case 'OPTIONS':
                 // CORS preflight
-                header('Access-Control-Allow-Origin: *');
+                \Jakababa\Security\apply_cors_headers();
                 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
                 header('Access-Control-Allow-Headers: Content-Type, X-API-Key');
                 exit;

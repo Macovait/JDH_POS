@@ -17,6 +17,7 @@
  * - Activity logging with detailed metadata
  */
 
+require_once __DIR__ . '/../../src/Security/CorsHandler.php';
 // ============================================
 // ERROR HANDLING
 // ============================================
@@ -59,7 +60,7 @@ function sendJsonResponse(array $data, int $statusCode = 200): void {
     
     http_response_code($statusCode);
     header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: *');
+    \Jakababa\Security\apply_cors_headers();
     header('Access-Control-Allow-Methods: POST');
     header('Access-Control-Allow-Headers: Content-Type, X-CSRF-Token, X-Requested-With');
     

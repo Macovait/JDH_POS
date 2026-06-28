@@ -13,21 +13,16 @@
 header('Content-Type: application/json; charset=utf-8');
 header('X-Powered-By: Jakababa-POS/3.0');
 
-// CORS headers for external integrations
-$allowedOrigins = getenv('API_ALLOWED_ORIGINS') ?: '*';
-header('Access-Control-Allow-Origin: ' . $allowedOrigins);
-header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, Authorization, X-API-Key, X-Company-ID, X-Tenant-ID');
-header('Access-Control-Max-Age: 86400');
-
-// Handle preflight
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
-    http_response_code(204);
-    exit;
-}
+// CORS — validated against allowlist from API_ALLOWED_ORIGINS env
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
+\Jakababa\Security\apply_cors_headers();
 
 require_once __DIR__ . '/../../../src/paths.php';
 load_core_files();
+
+// Rate limiting — enforce per-IP throttling
+require_once __DIR__ . '/../../../src/Middleware/ApiRateLimitMiddleware.php';
+\Jakababa\Middleware\enforce_api_rate_limit('api_requests');
 
 // =============================================================================
 // API Authentication
