@@ -60,42 +60,75 @@ if (!function_exists('sanitize_input')) {
 
 if (!function_exists('generate_csrf_token')) {
     /**
-     * Generate a secure CSRF token
-     *
-     * @param string $form_name
-     * @return string
+     * Generate a secure CSRF token.
+     * Keep this implementation consistent with auth.php so token storage and
+     * validation match regardless of load order.
      */
     function generate_csrf_token(string $form_name = 'default'): string
     {
-        if (session_status() === PHP_SESSION_NONE) {
+        if (function_exists('start_session_secure')) {
+            start_session_secure();
+        } elseif (session_status() === PHP_SESSION_NONE) {
             session_start();
         }
-        $token = bin2hex(random_bytes(32));
-        $_SESSION['csrf_tokens'][$form_name] = $token;
+
+        try {
+            $token = bin2hex(random_bytes(32));
+        } catch (Exception $e) {
+            throw new RuntimeException('Failed to generate CSRF token: ' . $e->getMessage());
+        }
+
+        $_SESSION['csrf_tokens'][$form_name] = [
+            'token' => $token,
+            'expires' => time() + CSRF_TOKEN_LIFETIME,
+        ];
+
+        if (function_exists('clean_expired_csrf_tokens')) {
+            clean_expired_csrf_tokens();
+        }
+
         return $token;
     }
 }
 
 if (!function_exists('verify_csrf_token')) {
     /**
-     * Verify a CSRF token
-     *
-     * @param string|null $token
-     * @param string $form_name
-     * @return bool
+     * Verify a CSRF token.
+     * Keep this implementation consistent with auth.php so token storage and
+     * validation match regardless of load order.
      */
     function verify_csrf_token(?string $token = null, string $form_name = 'default'): bool
     {
-        if (session_status() === PHP_SESSION_NONE) {
+        if (function_exists('start_session_secure')) {
+            start_session_secure();
+        } elseif (session_status() === PHP_SESSION_NONE) {
             session_start();
         }
+
         if ($token === null) {
             $token = $_POST['csrf_token'] ?? $_SERVER['HTTP_X_CSRF_TOKEN'] ?? null;
         }
-        if (!$token || empty($_SESSION['csrf_tokens'][$form_name])) {
+
+        if (!is_string($token) || $token === '') {
             return false;
         }
-        return hash_equals($_SESSION['csrf_tokens'][$form_name], $token);
+
+        if (!isset($_SESSION['csrf_tokens'][$form_name])) {
+            return false;
+        }
+
+        $storedToken = $_SESSION['csrf_tokens'][$form_name];
+
+        if (is_array($storedToken) && isset($storedToken['expires']) && $storedToken['expires'] < time()) {
+            unset($_SESSION['csrf_tokens'][$form_name]);
+            return false;
+        }
+
+        if (is_array($storedToken)) {
+            return hash_equals($storedToken['token'], $token);
+        }
+
+        return hash_equals($storedToken, $token);
     }
 }
 

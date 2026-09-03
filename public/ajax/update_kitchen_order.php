@@ -51,12 +51,8 @@ try {
     $branch_id = get_current_branch_id();
 
     // Verify ownership
-    $has_tenant = false;
-    try { $pdo->query("SELECT tenant_id FROM kitchen_orders LIMIT 1"); $has_tenant = true; } catch (Exception $e) {}
-
-    $sql = "SELECT id FROM kitchen_orders WHERE id = ? AND branch_id = ?";
-    $params = [$id, $branch_id];
-    if ($has_tenant) { $sql .= " AND (tenant_id = ? OR tenant_id IS NULL)"; $params[] = $tenant_id; }
+    $sql = "SELECT id FROM kitchen_orders WHERE id = ? AND branch_id = ? AND tenant_id = ?";
+    $params = [$id, $branch_id, $tenant_id];
     $stmt = $pdo->prepare($sql); $stmt->execute($params);
     if (!$stmt->fetch()) {
         echo json_encode(['success' => false, 'error' => 'Order not found']);
@@ -64,15 +60,13 @@ try {
     }
 
     $pdo->beginTransaction();
-    $updateSql = "UPDATE kitchen_orders SET status = ?, updated_at = NOW() WHERE id = ? AND branch_id = ?";
-    $updateParams = [$status, $id, $branch_id];
-    if ($has_tenant) { $updateSql .= " AND (tenant_id = ? OR tenant_id IS NULL)"; $updateParams[] = $tenant_id; }
+    $updateSql = "UPDATE kitchen_orders SET status = ?, updated_at = NOW() WHERE id = ? AND branch_id = ? AND tenant_id = ?";
+    $updateParams = [$status, $id, $branch_id, $tenant_id];
     $stmt = $pdo->prepare($updateSql);
     $stmt->execute($updateParams);
 
-    $itemSql = "UPDATE kitchen_order_items SET status = ? WHERE kitchen_order_id = ? AND EXISTS (SELECT 1 FROM kitchen_orders ko WHERE ko.id = ? AND ko.branch_id = ?";
-    $itemParams = [$status, $id, $id, $branch_id];
-    if ($has_tenant) { $itemSql .= " AND (ko.tenant_id = ? OR ko.tenant_id IS NULL)"; $itemParams[] = $tenant_id; }
+    $itemSql = "UPDATE kitchen_order_items SET status = ? WHERE kitchen_order_id = ? AND EXISTS (SELECT 1 FROM kitchen_orders ko WHERE ko.id = ? AND ko.branch_id = ? AND ko.tenant_id = ?";
+    $itemParams = [$status, $id, $id, $branch_id, $tenant_id];
     $itemSql .= ")";
     $stmt = $pdo->prepare($itemSql);
     $stmt->execute($itemParams);

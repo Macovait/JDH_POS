@@ -20,18 +20,18 @@ header('Content-Type: application/json');
 
 $input = json_decode(file_get_contents('php://input'), true);
 $customer_id = intval($input['customer_id'] ?? 0);
-$company_id = intval($input['company_id'] ?? 0);
+$tenant_id = intval($input['tenant_id'] ?? 0);
 $branch_id = intval($input['branch_id'] ?? 0);
 
 $session_tenant_id = get_current_tenant_id();
 
-if (!$customer_id || !$company_id) {
-    echo json_encode(['success' => false, 'error' => 'Customer ID and Company ID required']);
+if (!$customer_id || !$tenant_id) {
+    echo json_encode(['success' => false, 'error' => 'Customer ID and tenant ID required']);
     exit;
 }
 
-// Validate company_id matches session tenant
-if ($company_id !== $session_tenant_id) {
+// Validate the requested tenant against the authenticated tenant.
+if ($tenant_id !== $session_tenant_id) {
     http_response_code(403);
     echo json_encode(['success' => false, 'error' => 'Unauthorized tenant context']);
     exit;
@@ -51,6 +51,15 @@ if ($branch_id) {
 try {
     $pdo = get_db_connection();
 
+    // Establish ownership before reading any customer-related data.
+    $owner = $pdo->prepare('SELECT id FROM customers WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL LIMIT 1');
+    $owner->execute([$customer_id, $session_tenant_id]);
+    if (!$owner->fetchColumn()) {
+        http_response_code(404);
+        echo json_encode(['success' => false, 'error' => 'Customer not found']);
+        exit;
+    }
+
     // Get purchase statistics
     $sql = "
         SELECT 
@@ -61,16 +70,16 @@ try {
             MAX(created_at) as last_purchase,
             COUNT(DISTINCT DATE(created_at)) as unique_visit_days
         FROM sales
-        WHERE customer_id = ? AND company_id = ? AND status = 'completed'
+        WHERE customer_id = ? AND tenant_id = ? AND status = 'completed'
     ";
     
     if ($branch_id) {
         $sql .= " AND branch_id = ?";
         $stmt = $pdo->prepare($sql);
-        $stmt->execute([$customer_id, $company_id, $branch_id]);
+        $stmt->execute([$customer_id, $session_tenant_id, $branch_id]);
     } else {
         $stmt = $pdo->prepare($sql);
-        $stmt->execute([$customer_id, $company_id]);
+        $stmt->execute([$customer_id, $session_tenant_id]);
     }
     
     $stats = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -99,16 +108,16 @@ try {
             COUNT(*) as purchase_count,
             SUM(si.quantity * si.price) as total_spent
         FROM sales s
-        JOIN sale_items si ON s.id = si.sale_id
-        JOIN products p ON si.product_id = p.id
-        JOIN categories c ON p.category_id = c.id
-        WHERE s.customer_id = ? AND s.company_id = ? AND s.status = 'completed'
+        JOIN sale_items si ON s.id = si.sale_id AND si.tenant_id = s.tenant_id
+        JOIN products p ON si.product_id = p.id AND p.tenant_id = s.tenant_id
+        JOIN categories c ON p.category_id = c.id AND c.tenant_id = s.tenant_id
+        WHERE s.customer_id = ? AND s.tenant_id = ? AND s.status = 'completed'
         GROUP BY c.id
         ORDER BY purchase_count DESC
         LIMIT 3
     ";
     $stmt = $pdo->prepare($sql);
-    $stmt->execute([$customer_id, $company_id]);
+    $stmt->execute([$customer_id, $session_tenant_id]);
     $favorite_categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     $favorite_category = $favorite_categories[0]['category_name'] ?? 'Not enough data';
@@ -123,9 +132,9 @@ try {
             COUNT(*) as purchase_count,
             'Your favorite' as reason
         FROM sales s
-        JOIN sale_items si ON s.id = si.sale_id
-        JOIN products p ON si.product_id = p.id
-        WHERE s.customer_id = ? AND s.company_id = ?
+        JOIN sale_items si ON s.id = si.sale_id AND si.tenant_id = s.tenant_id
+        JOIN products p ON si.product_id = p.id AND p.tenant_id = s.tenant_id
+        WHERE s.customer_id = ? AND s.tenant_id = ?
         AND s.created_at > DATE_SUB(NOW(), INTERVAL 90 DAY)
         AND p.deleted_at IS NULL
         AND p.active = 1
@@ -134,7 +143,7 @@ try {
         LIMIT 5
     ";
     $stmt = $pdo->prepare($sql);
-    $stmt->execute([$customer_id, $company_id]);
+    $stmt->execute([$customer_id, $session_tenant_id]);
     $recommended_products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     // If no purchase history, get popular products from favorite category
@@ -149,16 +158,16 @@ try {
                     p.image,
                     'Popular in ' + c.name as reason
                 FROM products p
-                JOIN categories c ON p.category_id = c.id
+                JOIN categories c ON p.category_id = c.id AND c.tenant_id = p.tenant_id
                 WHERE p.category_id = ?
-                AND p.company_id = ?
+                AND p.tenant_id = ?
                 AND p.deleted_at IS NULL
                 AND p.active = 1
                 ORDER BY p.popularity_score DESC
                 LIMIT 5
             ";
             $stmt = $pdo->prepare($sql);
-            $stmt->execute([$category_id, $company_id]);
+            $stmt->execute([$category_id, $session_tenant_id]);
             $recommended_products = $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
     }
@@ -169,14 +178,14 @@ try {
             HOUR(created_at) as hour,
             COUNT(*) as order_count
         FROM sales
-        WHERE customer_id = ? AND company_id = ?
+        WHERE customer_id = ? AND tenant_id = ?
         AND created_at > DATE_SUB(NOW(), INTERVAL 30 DAY)
         GROUP BY HOUR(created_at)
         ORDER BY order_count DESC
         LIMIT 1
     ";
     $stmt = $pdo->prepare($sql);
-    $stmt->execute([$customer_id, $company_id]);
+    $stmt->execute([$customer_id, $session_tenant_id]);
     $peak_hour = $stmt->fetch(PDO::FETCH_ASSOC);
 
     $preferred_time = null;
@@ -194,9 +203,9 @@ try {
     }
 
     // Check for upcoming birthday (if customer has DOB)
-    $sql = "SELECT date_of_birth FROM customers WHERE id = ?";
+    $sql = "SELECT date_of_birth FROM customers WHERE id = ? AND tenant_id = ?";
     $stmt = $pdo->prepare($sql);
-    $stmt->execute([$customer_id]);
+    $stmt->execute([$customer_id, $session_tenant_id]);
     $dob = $stmt->fetch(PDO::FETCH_ASSOC);
 
     $birthday_info = null;
