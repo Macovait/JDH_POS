@@ -8,6 +8,7 @@ require_once __DIR__ . '/../../src/paths.php';
 safe_require('auth.php', 'src', true);
 safe_require('db.php', 'src', true);
 safe_require('functions.php', 'src', true);
+require_once __DIR__ . '/../../admin/UsersModel.php';
 
 // Branch filter for multi-tenant isolation
 $current_branch_id = get_current_branch_id();
@@ -75,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die('CSRF token validation failed');
     }
     
-    $action = $_POST['action'] ?? '';
+    $action = $_POST['action'] ?? $_POST['bulk_action'] ?? '';
     $redirect_msg = '';
     $redirect_type = 'success';
 
@@ -84,11 +85,83 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         switch ($action) {
             case 'delete':
+                $selected_ids = array_filter(array_map('intval', explode(',', $_POST['selected_users'] ?? '')));
+                if (!empty($selected_ids)) {
+                    $selected_ids = array_values(array_diff($selected_ids, [$user_id]));
+                    $deletable_ids = [];
+
+                    foreach ($selected_ids as $selected_id) {
+                        $targetStmt = $pdo->prepare("SELECT id, name, email FROM users WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL");
+                        $targetStmt->execute([$selected_id, $tenant_id]);
+                        $targetUser = $targetStmt->fetch(PDO::FETCH_ASSOC);
+                        if (!$targetUser) {
+                            continue;
+                        }
+
+                        if (UsersModel::isProtectedUser((int) $targetUser['id'], (string) ($targetUser['name'] ?? ''), (string) ($targetUser['email'] ?? ''))) {
+                            continue;
+                        }
+
+                        $deletable_ids[] = $selected_id;
+                    }
+
+                    if (empty($deletable_ids)) {
+                        throw new Exception('No deletable users selected. Protected users are not removable.');
+                    }
+
+                    $placeholders = implode(',', array_fill(0, count($deletable_ids), '?'));
+                    $stmt = $pdo->prepare("UPDATE users SET deleted_at = NOW() WHERE id IN ($placeholders) AND tenant_id = ? AND deleted_at IS NULL");
+                    $stmt->execute(array_merge($deletable_ids, [$tenant_id]));
+                    $redirect_msg = count($deletable_ids) . ' user(s) deleted successfully!';
+                    break;
+                }
+
                 $del_user_id = (int)($_POST['user_id'] ?? 0);
                 if ($del_user_id === $user_id) throw new Exception('Cannot delete your own account');
+
+                $targetStmt = $pdo->prepare("SELECT id, name, email FROM users WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL");
+                $targetStmt->execute([$del_user_id, $tenant_id]);
+                $targetUser = $targetStmt->fetch(PDO::FETCH_ASSOC);
+                if (!$targetUser) throw new Exception('User not found');
+
+                if (UsersModel::isProtectedUser((int) $targetUser['id'], (string) ($targetUser['name'] ?? ''), (string) ($targetUser['email'] ?? ''))) {
+                    throw new Exception('This protected user cannot be deleted.');
+                }
+
                 $stmt = $pdo->prepare("UPDATE users SET deleted_at = NOW() WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL");
                 $stmt->execute([$del_user_id, $tenant_id]);
                 $redirect_msg = 'User deleted successfully!';
+                break;
+            case 'delete_selected':
+                $selected_ids = array_filter(array_map('intval', explode(',', $_POST['selected_users'] ?? '')));
+                if (empty($selected_ids)) throw new Exception('No users selected');
+
+                $selected_ids = array_values(array_diff($selected_ids, [$user_id]));
+                $deletable_ids = [];
+
+                foreach ($selected_ids as $selected_id) {
+                    $targetStmt = $pdo->prepare("SELECT id, name, email FROM users WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL");
+                    $targetStmt->execute([$selected_id, $tenant_id]);
+                    $targetUser = $targetStmt->fetch(PDO::FETCH_ASSOC);
+                    if (!$targetUser) {
+                        continue;
+                    }
+
+                    if (UsersModel::isProtectedUser((int) $targetUser['id'], (string) ($targetUser['name'] ?? ''), (string) ($targetUser['email'] ?? ''))) {
+                        continue;
+                    }
+
+                    $deletable_ids[] = $selected_id;
+                }
+
+                if (empty($deletable_ids)) {
+                    throw new Exception('No deletable users selected. Protected users are not removable.');
+                }
+
+                $placeholders = implode(',', array_fill(0, count($deletable_ids), '?'));
+                $stmt = $pdo->prepare("UPDATE users SET deleted_at = NOW() WHERE id IN ($placeholders) AND tenant_id = ? AND deleted_at IS NULL");
+                $stmt->execute(array_merge($deletable_ids, [$tenant_id]));
+                $redirect_msg = count($deletable_ids) . ' user(s) deleted successfully!';
                 break;
             case 'force_logout':
                 $logout_user_id = (int)($_POST['user_id'] ?? 0);
@@ -154,25 +227,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 if (empty($note)) throw new Exception('Note cannot be empty');
                 // Check if user_notes table exists, create if not
                 try {
-                    $pdo->query("SELECT 1 FROM user_notes WHERE branch_id = $current_branch_id LIMIT 1");
+                    $pdo->prepare("SELECT 1 FROM user_notes WHERE tenant_id = ? LIMIT 1")->execute([$tenant_id]);
                 } catch (PDOException $e) {
                     $pdo->exec("CREATE TABLE IF NOT EXISTS user_notes (
                         id INT PRIMARY KEY AUTO_INCREMENT,
+                        tenant_id INT NOT NULL,
                         user_id INT NOT NULL,
-                        admin_id INT NOT NULL,
+                        author_id INT NOT NULL,
                         note TEXT NOT NULL,
                         created_at DATETIME NOT NULL,
                         FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
                     )");
                 }
-                $stmt = $pdo->prepare("INSERT INTO user_notes (user_id, admin_id, note, created_at) VALUES (?, ?, ?, NOW())");
-                $stmt->execute([$note_user_id, $user_id, $note]);
+                $stmt = $pdo->prepare("INSERT INTO user_notes (tenant_id, user_id, author_id, note, created_at) VALUES (?, ?, ?, ?, NOW())");
+                $stmt->execute([$tenant_id, $note_user_id, $user_id, $note]);
                 $redirect_msg = 'Note added successfully!';
                 break;
             case 'bulk_email':
-                $selected_users = explode(',', $_POST['selected_users'] ?? '');
-                $subject = $_POST['email_subject'] ?? '';
-                $message = $_POST['email_message'] ?? '';
+                 $selected_users = array_filter(array_map('intval', explode(',', $_POST['selected_users'] ?? '')));
+                $subject = trim($_POST['email_subject'] ?? '');
+                $message = trim($_POST['email_message'] ?? '');
                 if (empty($selected_users) || empty($subject) || empty($message)) throw new Exception('Please fill all fields');
                 $placeholders = implode(',', array_fill(0, count($selected_users), '?'));
                 $stmt = $pdo->prepare("SELECT email, name FROM users WHERE id IN ($placeholders) AND tenant_id = ?");
@@ -184,7 +258,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'export':
                 $format = $_POST['export_format'] ?? 'csv';
                 $selected_users = explode(',', $_POST['selected_users'] ?? '');
-                $where = "WHERE tenant_id = ?";
+                $where = "WHERE tenant_id = ? AND deleted_at IS NULL";
                 $params = [$tenant_id];
                 if (!empty($selected_users) && $selected_users[0] != '') {
                     $placeholders = implode(',', array_fill(0, count($selected_users), '?'));
@@ -290,7 +364,7 @@ if (!empty($date_to)) {
 // Get total count
 $total_users = 0;
 try {
-    $stmt = $pdo->prepare("SELECT COUNT(*) FROM users u WHERE (u.tenant_id = ? OR u.tenant_id IS NULL) AND u.deleted_at IS NULL" . $search_condition);
+    $stmt = $pdo->prepare("SELECT COUNT(*) FROM users u WHERE u.tenant_id = ? AND u.deleted_at IS NULL" . $search_condition);
     $stmt->execute(array_merge([$tenant_id], $search_params));
     $total_users = $stmt->fetchColumn();
     $total_pages = max(1, ceil($total_users / $per_page));
@@ -304,15 +378,15 @@ try {
     // Check if login_history table exists
     $has_login_history = false;
     try {
-        $pdo->query("SELECT 1 FROM login_history WHERE branch_id = $current_branch_id LIMIT 1");
+        $pdo->prepare("SELECT 1 FROM login_history WHERE tenant_id = ? LIMIT 1")->execute([$tenant_id]);
         $has_login_history = true;
     } catch (PDOException $e) {}
     
     $select_fields = "u.id, u.name, u.email, u.username, u.role_id, u.is_active, u.created_at, u.last_login";
     if ($has_phone) $select_fields .= ", u.phone";
     
-    $login_count_sql = $has_login_history ? "(SELECT COUNT(*) FROM login_history WHERE user_id = u.id) as login_count" : "0 as login_count";
-    $last_failed_sql = $has_login_history ? "(SELECT MAX(created_at) FROM login_history WHERE user_id = u.id AND success = 0) as last_failed_login" : "NULL as last_failed_login";
+    $login_count_sql = $has_login_history ? "(SELECT COUNT(*) FROM login_history WHERE user_id = u.id AND tenant_id = " . (int)$tenant_id . ") as login_count" : "0 as login_count";
+    $last_failed_sql = $has_login_history ? "(SELECT MAX(created_at) FROM login_history WHERE user_id = u.id AND success = 0 AND tenant_id = " . (int)$tenant_id . ") as last_failed_login" : "NULL as last_failed_login";
     
     $stmt = $pdo->prepare("
         SELECT {$select_fields}, {$login_count_sql}, {$last_failed_sql}
@@ -337,17 +411,17 @@ $stats = [
     'new_this_month' => 0
 ];
 try {
-    $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE (tenant_id = ? OR tenant_id IS NULL) AND deleted_at IS NULL AND is_active = 1");
+    $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND deleted_at IS NULL AND is_active = 1");
     $stmt->execute([$tenant_id]);
     $stats['active'] = $stmt->fetchColumn();
     $stats['inactive'] = $stats['total'] - $stats['active'];
     
     if ($has_last_login) {
-        $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND last_login > DATE_SUB(NOW(), INTERVAL 5 MINUTE)");
+        $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND deleted_at IS NULL AND last_login > DATE_SUB(NOW(), INTERVAL 5 MINUTE)");
         $stmt->execute([$tenant_id]);
         $stats['online'] = $stmt->fetchColumn();
         
-        $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND last_login IS NULL");
+        $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE tenant_id = ? AND deleted_at IS NULL AND last_login IS NULL");
         $stmt->execute([$tenant_id]);
         $stats['never_logged_in'] = $stmt->fetchColumn();
     }
@@ -457,8 +531,8 @@ try {
                 </select>
                 <button type="submit" onclick="executeBulkAction()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-700 border border-slate-600 text-slate-300 text-sm hover:bg-slate-600 transition-colors">Apply</button>
                 <div id="bulk-email-fields" class="hidden flex-1 flex flex-wrap gap-3">
-                    <input type="text" id="email_subject" placeholder="Email Subject" class="flex-1 px-3 py-1.5 bg-slate-900/60 border border-slate-700 rounded-lg text-white text-sm">
-                    <textarea id="email_message" placeholder="Email Message" rows="2" class="flex-1 px-3 py-1.5 bg-slate-900/60 border border-slate-700 rounded-lg text-white text-sm"></textarea>
+                     <input type="text" id="email_subject" name="email_subject" placeholder="Email Subject" class="flex-1 px-3 py-1.5 bg-slate-900/60 border border-slate-700 rounded-lg text-white text-sm">
+                     <textarea id="email_message" name="email_message" placeholder="Email Message" rows="2" class="flex-1 px-3 py-1.5 bg-slate-900/60 border border-slate-700 rounded-lg text-white text-sm"></textarea>
                     <button type="button" onclick="sendBulkEmail()" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-700 border border-slate-600 text-slate-300 text-sm hover:bg-slate-600 transition-colors">Send</button>
                 </div>
                 <span class="text-xs text-slate-500 ml-auto"><?php echo $total_users; ?> total users</span>

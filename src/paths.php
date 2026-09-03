@@ -434,6 +434,13 @@ function dashboard_url(): string
 function admin_url(string $path = 'index.php'): string
 {
     $base = base_url('');
+
+    if (!empty($_SERVER['HTTP_HOST'])) {
+        $parts = parse_url($base);
+        $scheme = is_https() ? 'https' : 'http';
+        $base = $scheme . '://' . $_SERVER['HTTP_HOST'] . ($parts['path'] ?? '');
+    }
+
     // If called from public context, base is /JDH_POS/public — swap to /JDH_POS/admin
     $base = preg_replace('#/public$#', '/admin', $base);
     return $base . '/' . ltrim($path, '/');

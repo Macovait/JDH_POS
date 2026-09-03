@@ -31,7 +31,7 @@ if ($target_user_id <= 0) {
 // Fetch user info
 $user = null;
 try {
-    $stmt = $pdo->prepare("SELECT id, name, email, username FROM users WHERE id = ? AND (tenant_id = ? OR tenant_id IS NULL)");
+    $stmt = $pdo->prepare("SELECT id, name, email, username FROM users WHERE id = ? AND (tenant_id = ? OR tenant_id IS NULL) AND deleted_at IS NULL");
     $stmt->execute([$target_user_id, $tenant_id]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
 } catch (Exception $e) {

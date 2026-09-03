@@ -32,7 +32,7 @@ if ($target_user_id <= 0) {
 $user = null;
 $role_name = 'Unknown';
 try {
-    $stmt = $pdo->prepare("SELECT u.*, r.name as role_name FROM users u LEFT JOIN roles r ON u.role_id = r.id WHERE u.id = ? AND (u.tenant_id = ? OR u.tenant_id IS NULL)");
+    $stmt = $pdo->prepare("SELECT u.*, r.name as role_name FROM users u LEFT JOIN roles r ON u.role_id = r.id WHERE u.id = ? AND (u.tenant_id = ? OR u.tenant_id IS NULL) AND u.deleted_at IS NULL");
     $stmt->execute([$target_user_id, $tenant_id]);
     $user = $stmt->fetch(PDO::FETCH_ASSOC);
     if ($user) {

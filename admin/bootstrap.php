@@ -169,52 +169,8 @@ if (!function_exists('admin_start_session')) {
             admin_hydrate_session_from_user();
         }
 
-        // Copy admin keys from the app session
-        $adminKeys = [];
-        foreach ([
-            'admin_id', 'admin_username', 'admin_name', 'admin_email',
-            'admin_role', 'admin_login_time', 'is_super_admin',
-            'support_mode', 'support_access_id', 'support_company_id',
-            'support_company_name', 'support_company_slug',
-            'support_access_type', 'support_started_at', 'support_expires_at',
-        ] as $key) {
-            if (isset($_SESSION[$key])) {
-                $adminKeys[$key] = $_SESSION[$key];
-            }
-        }
-
-        // Close the app session
-        session_write_close();
-
-        // Switch to admin-specific session
-        session_name('jdh_admin_sid');
-        session_set_cookie_params([
-            'lifetime' => 0,
-            'path' => '/JDH_POS/admin/',
-            'httponly' => true,
-            'samesite' => 'Lax',
-            'secure' => isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on',
-        ]);
-
-        // PHP reuses the old session ID after write_close even with a new name,
-        // so explicitly read the admin cookie to use the correct session
-        $adminSid = $_COOKIE['jdh_admin_sid'] ?? null;
-        if ($adminSid && preg_match('/^[a-zA-Z0-9_-]+$/', $adminSid)) {
-            session_id($adminSid);
-        }
-
-        if (session_status() === PHP_SESSION_NONE) {
-            session_start();
-        }
-
-        // Restore admin keys into the isolated admin session
-        // Only copy keys that are NOT already present in admin session
-        // to avoid overwriting valid admin data with empty app-session values
-        foreach ($adminKeys as $key => $value) {
-            if (!isset($_SESSION[$key])) {
-                $_SESSION[$key] = $value;
-            }
-        }
+        // Keep admin authentication in the established application session.
+        // The admin_* keys are namespaced, so they do not collide with user auth.
     }
 }
 

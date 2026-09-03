@@ -89,6 +89,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $_SESSION['admin_role'] = $admin['role'];
                 $_SESSION['admin_login_time'] = time();
                 $_SESSION['is_super_admin'] = true;
+
+                session_write_close();
                 
                 $success = 'Login successful! Redirecting...';
                 
