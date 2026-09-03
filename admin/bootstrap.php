@@ -10,10 +10,6 @@ require_once __DIR__ . '/../src/paths.php';
 safe_require('auth.php', 'src', true);
 safe_require('db.php', 'src', true);
 safe_require('functions.php', 'src', true);
-require_once __DIR__ . '/../src/Security/SecurityBootstrap.php';
-
-// Initialize comprehensive security system for admin panel
-SecurityBootstrap::initialize();
 
 // ── DB + table helpers (must be defined before admin_hydrate_session_from_user) ──
 
@@ -318,8 +314,8 @@ if (!function_exists('admin_require_super_admin')) {
     {
         if (admin_is_authenticated()) {
             $role = strtolower(trim((string) ($_SESSION['admin_role'] ?? '')));
-            // All roles stored by login.php are permitted for the admin panel
-            $allowed = ['owner', 'admin', 'superadmin', 'super admin', 'support', 'viewer'];
+            // All platform roles stored by login.php are permitted for the admin panel.
+            $allowed = ['owner', 'admin', 'superadmin', 'super admin', 'super_admin', 'support', 'viewer'];
             if (in_array($role, $allowed, true) || !empty($_SESSION['is_super_admin'])) {
                 return;
             }
@@ -406,4 +402,3 @@ if (!function_exists('admin_logout')) {
         exit;
     }
 }
-
