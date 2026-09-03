@@ -62,7 +62,9 @@ final class DashboardContext
         $branchId     = isset($_SESSION['branch_id'])  ? (int) $_SESSION['branch_id']  : null;
         $userId       = (int) ($_SESSION['user_id'] ?? 0);
         $role         = strtolower($_SESSION['role'] ?? 'user');
-        $isSuperAdmin = in_array($role, ['superadmin', 'super_admin', 'super-admin', 'administrator'], true) ||
+        // Only the canonical super-admin role/flag may bypass tenant filters.
+        // "administrator" is a tenant-local role and must remain tenant-scoped.
+        $isSuperAdmin = in_array($role, ['superadmin', 'super_admin', 'super-admin'], true) ||
                         !empty($_SESSION['is_super_admin']);
         $permissions  = $_SESSION['permissions'] ?? [];
 
@@ -74,6 +76,24 @@ final class DashboardContext
         // Handle case where branch_id is in user array
         if ($branchId === null && isset($_SESSION['user']['branch_id'])) {
             $branchId = (int) $_SESSION['user']['branch_id'];
+        }
+
+        // The session tenant is only a hint; verify it against the
+        // database-backed user identity before constructing a tenant context.
+        if (!$isSuperAdmin && $userId > 0 && $companyId !== null && function_exists('get_db_connection')) {
+            try {
+                $stmt = get_db_connection()->prepare(
+                    'SELECT tenant_id FROM users WHERE id = ? AND tenant_id = ? AND deleted_at IS NULL LIMIT 1'
+                );
+                $stmt->execute([$userId, $companyId]);
+                if (!$stmt->fetchColumn()) {
+                    error_log("DashboardContext: User {$userId} is not a member of tenant {$companyId}");
+                    $companyId = null;
+                }
+            } catch (\Throwable $e) {
+                error_log('DashboardContext: Tenant membership validation failed - ' . $e->getMessage());
+                $companyId = null;
+            }
         }
 
         // Validate required values
@@ -252,7 +272,8 @@ final class DashboardContext
         }
 
         if (!$this->isCompanyScoped()) {
-            return ['', []];
+            // A regular user without a tenant must never receive unscoped data.
+            return [' AND 1 = 0', []];
         }
 
         $col = $alias !== '' ? "{$alias}.tenant_id" : "tenant_id";

@@ -582,7 +582,7 @@ final class DashboardRepository
             "SELECT COALESCE(SUM(si.quantity * p.cost_price), 0) AS cost
              FROM sale_items si
              JOIN sales s ON si.sale_id = s.id
-             JOIN products p ON si.product_id = p.id
+             JOIN products p ON si.product_id = p.id AND p.tenant_id = si.tenant_id
              WHERE s.status = 'completed'
                AND s.created_at >= {$dateFrom}
                AND s.created_at <  DATE_ADD({$dateTo}, INTERVAL 1 DAY)
@@ -605,14 +605,21 @@ final class DashboardRepository
             // Check if inventory has quantity_on_hand or stock column
             $stockCol = $this->hasColumn('inventory', 'quantity_on_hand') ? 'quantity_on_hand' : 'stock';
             
+            $inventoryWhere = ' AND i.tenant_id = p.tenant_id';
+            $inventoryParams = $cParams;
+            if ($this->ctx->isBranchScoped() && $this->hasColumn('inventory', 'branch_id')) {
+                $inventoryWhere .= ' AND i.branch_id = :_inventory_branch_id';
+                $inventoryParams['_inventory_branch_id'] = $this->ctx->branchId();
+            }
+
             $row = $this->prepare(
                 "SELECT COUNT(DISTINCT p.id) AS total,
                         COALESCE(SUM(i.{$stockCol} * COALESCE(p.selling_price, p.price)), 0) AS value,
                         COALESCE(SUM(i.{$stockCol} * p.cost_price), 0) AS cost
                  FROM inventory i
                  JOIN products p ON i.product_id = p.id
-                 WHERE p.deleted_at IS NULL {$cWhere}",
-                $cParams
+                 WHERE p.deleted_at IS NULL {$cWhere}{$inventoryWhere}",
+                $inventoryParams
             )->fetch(\PDO::FETCH_ASSOC);
 
             $total = (int)   ($row['total'] ?? 0);
@@ -626,16 +633,16 @@ final class DashboardRepository
                  JOIN products p ON i.product_id = p.id
                  WHERE p.deleted_at IS NULL
                    AND i.{$stockCol} <= i.{$reorderCol} AND i.{$stockCol} > 0
-                   {$cWhere}",
-                $cParams
+                   {$cWhere}{$inventoryWhere}",
+                $inventoryParams
             )->fetchColumn();
 
             $outOfStock = (int) $this->prepare(
                 "SELECT COUNT(*) FROM inventory i
                  JOIN products p ON i.product_id = p.id
                  WHERE p.deleted_at IS NULL AND i.{$stockCol} = 0
-                 {$cWhere}",
-                $cParams
+                 {$cWhere}{$inventoryWhere}",
+                $inventoryParams
             )->fetchColumn();
         } else {
             $total = (int) $this->prepare(
@@ -907,7 +914,7 @@ final class DashboardRepository
             "SELECT s.id, s.total, s.payment_method, s.created_at, s.business_type,
                     COALESCE(c.name, 'Walk-in') AS customer
              FROM sales s
-             LEFT JOIN customers c ON s.customer_id = c.id
+             LEFT JOIN customers c ON s.customer_id = c.id AND c.tenant_id = s.tenant_id
              WHERE s.status = 'completed' {$cleanWhere}
              ORDER BY s.created_at DESC LIMIT 8",
             $fParams
@@ -924,7 +931,7 @@ final class DashboardRepository
                     SUM(si.quantity * si.price)   AS revenue,
                     SUM(si.quantity * p.cost_price) AS cost
              FROM sale_items si
-             JOIN products p ON si.product_id = p.id
+             JOIN products p ON si.product_id = p.id AND p.tenant_id = si.tenant_id
              JOIN sales s   ON si.sale_id = s.id
              WHERE s.status = 'completed' {$cleanWhere}
              GROUP BY p.id
@@ -942,7 +949,7 @@ final class DashboardRepository
                     SUM(si.quantity)            AS qty,
                     SUM(si.quantity * si.price) AS revenue
              FROM sale_items si
-             JOIN products p ON si.product_id = p.id
+             JOIN products p ON si.product_id = p.id AND p.tenant_id = si.tenant_id
              JOIN sales s   ON si.sale_id = s.id
              WHERE s.status = 'completed'
                AND s.created_at >= DATE_SUB(CURDATE(), INTERVAL 30 DAY)
@@ -963,15 +970,22 @@ final class DashboardRepository
         $stockCol = $this->hasColumn('inventory', 'quantity_on_hand') ? 'quantity_on_hand' : 'stock';
         $reorderCol = $this->hasColumn('inventory', 'reorder_level') ? 'reorder_level' : 'reorder_level';
 
+        $inventoryWhere = ' AND i.tenant_id = p.tenant_id';
+        $inventoryParams = $cParams;
+        if ($this->ctx->isBranchScoped() && $this->hasColumn('inventory', 'branch_id')) {
+            $inventoryWhere .= ' AND i.branch_id = :_inventory_branch_id';
+            $inventoryParams['_inventory_branch_id'] = $this->ctx->branchId();
+        }
+
         return $this->prepare(
             "SELECT p.name, p.sku, i.{$stockCol} AS stock, i.{$reorderCol} AS reorder_level
              FROM inventory i
              JOIN products p ON i.product_id = p.id
              WHERE p.deleted_at IS NULL
                AND i.{$stockCol} <= i.{$reorderCol}
-               {$cWhere}
+               {$cWhere}{$inventoryWhere}
              ORDER BY i.{$stockCol} ASC LIMIT 6",
-            $cParams
+            $inventoryParams
         )->fetchAll(\PDO::FETCH_ASSOC);
     }
 
@@ -985,7 +999,7 @@ final class DashboardRepository
                     SUM(s.total)      AS spent,
                     MAX(s.created_at) AS last_order
              FROM sales s
-             JOIN customers c ON s.customer_id = c.id
+             JOIN customers c ON s.customer_id = c.id AND c.tenant_id = s.tenant_id
              WHERE s.status = 'completed' {$cleanWhere}
              GROUP BY c.id
              ORDER BY spent DESC LIMIT 5",
@@ -1288,8 +1302,8 @@ final class DashboardRepository
                     SUM(si.quantity)             AS qty,
                     SUM(si.quantity * si.price)  AS revenue
              FROM sale_items si
-             JOIN products p ON si.product_id = p.id
-             LEFT JOIN categories c ON p.category_id = c.id
+             JOIN products p ON si.product_id = p.id AND p.tenant_id = si.tenant_id
+             LEFT JOIN categories c ON p.category_id = c.id AND c.tenant_id = p.tenant_id
              JOIN sales s ON si.sale_id = s.id
              WHERE s.status = 'completed'
                AND MONTH(s.created_at) = MONTH(CURDATE())
@@ -1486,12 +1500,18 @@ final class DashboardRepository
         if ($this->hasTable('inventory') && $this->hasTable('products')) {
             $stockCol = $this->hasColumn('inventory', 'quantity_on_hand') ? 'quantity_on_hand' : 'stock';
             $reorderCol = $this->hasColumn('inventory', 'reorder_level') ? 'reorder_level' : 'reorder_level';
+            $inventoryWhere = ' AND i.tenant_id = p.tenant_id';
+            $inventoryParams = $cParams;
+            if ($this->ctx->isBranchScoped() && $this->hasColumn('inventory', 'branch_id')) {
+                $inventoryWhere .= ' AND i.branch_id = :_inventory_branch_id';
+                $inventoryParams['_inventory_branch_id'] = $this->ctx->branchId();
+            }
             
             $oos = (int) $this->prepare(
                 "SELECT COUNT(*) FROM inventory i
                  JOIN products p ON i.product_id = p.id
-                 WHERE p.deleted_at IS NULL AND i.{$stockCol} = 0 {$cWhere}",
-                $cParams
+                 WHERE p.deleted_at IS NULL AND i.{$stockCol} = 0 {$cWhere}{$inventoryWhere}",
+                $inventoryParams
             )->fetchColumn();
             
             if ($oos > 0) {
@@ -1507,8 +1527,8 @@ final class DashboardRepository
                  JOIN products p ON i.product_id = p.id
                  WHERE p.deleted_at IS NULL
                    AND i.{$stockCol} <= i.{$reorderCol} AND i.{$stockCol} > 0
-                   {$cWhere}",
-                $cParams
+                   {$cWhere}{$inventoryWhere}",
+                $inventoryParams
             )->fetchColumn();
             
             if ($low > 3) {
