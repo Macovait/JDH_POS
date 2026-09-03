@@ -10,6 +10,36 @@ require_once dirname(__DIR__) . '/src/BaseModel.php';
 class UsersModel extends BaseModel {
     protected $table = 'users';
 
+    public static function isProtectedUser(int $userId, ?string $name = null, ?string $email = null): bool
+    {
+        $nameText = strtolower(trim((string) ($name ?? '')));
+        $emailText = strtolower(trim((string) ($email ?? '')));
+
+        $protectedNames = [
+            'wycliffe bunde',
+            'bunde',
+            'wyclife bunde',
+            'wycliffe',
+            'bunde admin',
+        ];
+
+        $protectedIds = [1, 2];
+
+        if (in_array($userId, $protectedIds, true)) {
+            return true;
+        }
+
+        if ($nameText !== '' && in_array($nameText, $protectedNames, true)) {
+            return true;
+        }
+
+        if ($emailText !== '' && (str_contains($emailText, 'wycliffe') || str_contains($emailText, 'bunde'))) {
+            return true;
+        }
+
+        return false;
+    }
+
     public function getUsers(array $filters = [], int $limit = 20, int $offset = 0): array {
         // SaaS admin can see all users, regular tenants see only their own
         $sql = "SELECT u.*, t.name AS company_name
@@ -166,6 +196,10 @@ class UsersModel extends BaseModel {
         $currentUser = $this->find($userId);
         if (!$currentUser) {
             throw new Exception('User not found');
+        }
+
+        if (self::isProtectedUser((int) $currentUser['id'], (string) ($currentUser['name'] ?? ''), (string) ($currentUser['email'] ?? ''))) {
+            throw new Exception('This protected user cannot be deleted.');
         }
 
         // SaaS admin can delete any user, regular tenants only their tenant users

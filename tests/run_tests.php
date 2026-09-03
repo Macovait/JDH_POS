@@ -4,6 +4,8 @@
  * Main entry point for test suite
  */
 
+ob_start();
+
 echo "\n";
 echo "╔══════════════════════════════════════════╗\n";
 echo "║       JDH POS Test Suite Runner          ║\n";
