@@ -4,6 +4,7 @@
  * Routes API requests to appropriate controllers
  */
 
+require_once __DIR__ . '/../src/Security/CorsHandler.php';
 declare(strict_types=1);
 
 require_once __DIR__ . '/autoloader.php';
@@ -108,10 +109,8 @@ class ApiRouter
      */
     private function handleCors(): void
     {
-        header('Access-Control-Allow-Origin: *');
-        header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
-        header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
-        header('Access-Control-Max-Age: 86400');
+        \Jakababa\Security\apply_cors_headers();
+        // CorsHandler sets methods, headers, max-age, and exits on OPTIONS
         http_response_code(200);
         exit;
     }
@@ -123,7 +122,7 @@ class ApiRouter
     {
         http_response_code($code);
         header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: *');
+        \Jakababa\Security\apply_cors_headers();
 
         $response = [
             'success' => false,

@@ -409,9 +409,40 @@ class SaleRepository extends BaseRepository
             $stmt->execute($params);
             
             $this->commit();
+
+            // Submit credit note to KRA eTIMS (after commit, non-blocking)
+            try {
+                $etimsPath = __DIR__ . '/../Services/Integration/KRA/EtimsService.php';
+                if (file_exists($etimsPath) && $this->companyId) {
+                    require_once $etimsPath;
+                    $etimsService = new \Jakababa\Services\Integration\KRA\EtimsService($this->pdo, $this->companyId);
+                    if ($etimsService->isEnabled()) {
+                        $returnItems = [];
+                        foreach ($items as $item) {
+                            $itemDetail = $this->pdo->prepare("
+                                SELECT si.*, p.name, p.sku, p.barcode, p.tax_rate, p.etims_item_code, p.etims_class_code
+                                FROM sale_items si JOIN products p ON si.product_id = p.id
+                                WHERE si.sale_id = ? AND si.product_id = ?
+                            ");
+                            $itemDetail->execute([$saleId, $item['product_id']]);
+                            $detail = $itemDetail->fetch(\PDO::FETCH_ASSOC);
+                            if ($detail) {
+                                $detail['quantity'] = $item['quantity'];
+                                $returnItems[] = $detail;
+                            }
+                        }
+                        if (!empty($returnItems)) {
+                            $etimsService->submitCreditNote($saleId, $returnItems);
+                        }
+                    }
+                }
+            } catch (\Throwable $e) {
+                error_log("eTIMS credit note failed for voided sale {$saleId}: " . $e->getMessage());
+            }
+
             return $stmt->rowCount() > 0;
             
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             $this->rollback();
             throw $e;
         }

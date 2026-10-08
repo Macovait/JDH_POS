@@ -9,8 +9,9 @@
  * - Manager Mobile Dashboard
  */
 
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
 header('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
+\Jakababa\Security\apply_cors_headers();
 header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization, X-API-Key, X-Device-ID, X-App-Version');
 

@@ -12,6 +12,7 @@
  * - JSON response with proper headers
  */
 
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
 // ============================================
 // ERROR HANDLING
 // ============================================
@@ -42,7 +43,7 @@ $current_branch_id = get_current_branch_id();
 function sendJsonResponse($data, $statusCode = 200) {
     http_response_code($statusCode);
     header('Content-Type: application/json');
-    header('Access-Control-Allow-Origin: *');
+    \Jakababa\Security\apply_cors_headers();
     header('Access-Control-Allow-Methods: GET');
     header('Access-Control-Allow-Headers: Content-Type, X-CSRF-Token');
     echo json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);

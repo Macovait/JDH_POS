@@ -21,6 +21,13 @@ $username = $_POST['username'] ?? '';
 
 // Process login
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Enforce rate limiting on admin login (per IP)
+    $rateLimitMiddleware = __DIR__ . '/../src/Middleware/ApiRateLimitMiddleware.php';
+    if (file_exists($rateLimitMiddleware)) {
+        require_once $rateLimitMiddleware;
+        \Jakababa\Middleware\enforce_api_rate_limit('login_attempts');
+    }
+
     $password = $_POST['password'] ?? '';
     $csrf = $_POST['csrf_token'] ?? '';
 
@@ -78,6 +85,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $role = strtolower((string) ($admin['role'] ?? ''));
                 if (!in_array($role, ['owner', 'admin', 'superadmin', 'super admin', 'super_admin'], true)) {
                     throw new RuntimeException('This admin account does not have platform owner access.');
+                }
+
+                if (function_exists('\Jakababa\Middleware\reset_rate_limit')) {
+                    \Jakababa\Middleware\reset_rate_limit('login_attempts');
                 }
 
                 session_regenerate_id(true);

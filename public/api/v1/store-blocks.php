@@ -6,12 +6,10 @@
 
 header('Content-Type: application/json; charset=utf-8');
 
-$allowedOrigins = getenv('API_ALLOWED_ORIGINS') ?: '*';
-header('Access-Control-Allow-Origin: ' . $allowedOrigins);
-header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
-header('Access-Control-Allow-Headers: Content-Type, X-Tenant-ID');
+require_once __DIR__ . '/../../../src/Security/CorsHandler.php';
+\Jakababa\Security\apply_cors_headers();
 
-if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+if (false) { // Preflight handled by CorsHandler
     http_response_code(204);
     exit;
 }
